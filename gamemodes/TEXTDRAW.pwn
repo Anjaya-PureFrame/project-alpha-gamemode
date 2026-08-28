@@ -617,7 +617,7 @@ CreatePlayerTextDraws(playerid)
 	TextDrawFont(Text_Locksreen[22], 1);
 	TextDrawSetProportional(Text_Locksreen[22], 1);
 
-	Text_Locksreen[23] = TextDrawCreate(544.000, 248.000, "Nephone Smart");
+	Text_Locksreen[23] = TextDrawCreate(544.000, 248.000, "C-Phone");
 	TextDrawLetterSize(Text_Locksreen[23], 0.159, 0.999);
 	TextDrawAlignment(Text_Locksreen[23], 1);
 	TextDrawColor(Text_Locksreen[23], -1);

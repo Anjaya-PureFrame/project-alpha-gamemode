@@ -1,1 +1,4 @@
-[08/28/26 14:55:04] [plugins/mysql] cache_get_value_name_int: no active cache (UCP.pwn:8 -> DIALOG.pwn:62 -> E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\nex-ac.inc:4298)
+[08/28/26 17:42:21] [plugins/mysql] cache_get_value_name_int: no active cache (UCP.pwn:8 -> DIALOG.pwn:62 -> E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\nex-ac.inc:4298)
+ateway: The I/O operation has been aborted because of either a thread exit or an application request (995)
+[08/28/26 17:40:16] [plugins/discord-connector] Can't resolve Discord gateway URL 'gateway.discord.gg': No such host is known (11001)
+[08/28/26 17:42:23] [plugins/discord-connector] Error while sending HTTP POST request to '/api/v8/channels/1359880027163852891/messages': An existing connection was forcibly closed by the remote host

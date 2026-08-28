@@ -6650,3 +6650,10 @@
 [08/28/26 13:50:06] [ERROR] Can't write to Discord websocket gateway: The I/O operation has been aborted because of either a thread exit or an application request (995)
 [08/28/26 13:50:08] [ERROR] Discord terminated websocket connection; reason: Authentication failed. (4004)
 [08/28/26 13:50:08] [ERROR] Can't write to Discord websocket gateway: The I/O operation has been aborted because of either a thread exit or an application request (995)
+[08/28/26 17:40:06] [WARNING] Unknown gateway event 'GUILD_AUDIT_LOG_ENTRY_CREATE'
+[08/28/26 17:40:07] [WARNING] Unknown gateway event 'GUILD_AUDIT_LOG_ENTRY_CREATE'
+[08/28/26 17:40:16] [ERROR] Can't read from Discord websocket gateway: The network connection was aborted by the local system (1236)
+[08/28/26 17:40:16] [ERROR] Can't write to Discord websocket gateway: The I/O operation has been aborted because of either a thread exit or an application request (995)
+[08/28/26 17:40:16] [ERROR] Can't resolve Discord gateway URL 'gateway.discord.gg': No such host is known (11001)
+[08/28/26 17:42:23] [ERROR] Error while sending HTTP POST request to '/api/v8/channels/1359880027163852891/messages': An existing connection was forcibly closed by the remote host
+[08/28/26 17:42:23] [WARNING] Error while shutting down SSL on HTTP connection: An existing connection was forcibly closed by the remote host (10054)
