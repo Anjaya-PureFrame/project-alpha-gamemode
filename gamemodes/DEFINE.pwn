@@ -1,6 +1,6 @@
 // Server Define
-#define TEXT_GAMEMODE	"NRP v.1.0"
-#define TEXT_WEBURL		"ns-rp.fun"
+#define TEXT_GAMEMODE	"Cerita Kita Roleplay v.1.0"
+#define TEXT_WEBURL		"ck-rp.fun"
 #define TEXT_LANGUAGE	"Indonesia"
 #define SERVER_BOT      "Cerita Kita Assistance"
 #define SERVER_NAME     "Cerita Kita Roleplay"
