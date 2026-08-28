@@ -6657,3 +6657,6 @@
 [08/28/26 17:40:16] [ERROR] Can't resolve Discord gateway URL 'gateway.discord.gg': No such host is known (11001)
 [08/28/26 17:42:23] [ERROR] Error while sending HTTP POST request to '/api/v8/channels/1359880027163852891/messages': An existing connection was forcibly closed by the remote host
 [08/28/26 17:42:23] [WARNING] Error while shutting down SSL on HTTP connection: An existing connection was forcibly closed by the remote host (10054)
+[08/28/26 17:52:44] [WARNING] Unknown gateway event 'GUILD_AUDIT_LOG_ENTRY_CREATE'
+[08/28/26 19:01:12] [WARNING] Unknown gateway event 'GUILD_AUDIT_LOG_ENTRY_CREATE'
+[08/28/26 19:16:28] [WARNING] Unknown gateway event 'GUILD_AUDIT_LOG_ENTRY_CREATE'

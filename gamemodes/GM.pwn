@@ -1287,7 +1287,7 @@ public DCC_OnMessageCreate(DCC_Message:message)
     DCC_GetMessageContent(message, realMsg, 100);
     new bool:IsBot;
     new DCC_Channel:g_Discord_Chat;
-    g_Discord_Chat = DCC_FindChannelById("1028316848355295264");
+    g_Discord_Chat = DCC_FindChannelById("1541774064396406855");
     new DCC_Channel:channel;
  	DCC_GetMessageChannel(message, channel);
     new DCC_User:author;
@@ -6482,7 +6482,7 @@ stock SendDiscordMessage(channel, message[]) {
 		//==[ Log Command ]
 		case 1:
 		{
-			ChannelId = DCC_FindChannelById("1359120127110680577");
+			ChannelId = DCC_FindChannelById("1541774064396406855");
 			DCC_SendChannelMessage(ChannelId, message);
 			return 1;
 		}
@@ -6522,7 +6522,7 @@ stock SendDiscordMessage(channel, message[]) {
 		}
 		case 7://Register
 		{
-			ChannelId = DCC_FindChannelById("1028316848355295264");
+			ChannelId = DCC_FindChannelById("1541774064396406855");
 			DCC_SendChannelMessage(ChannelId, message);
 			return 1;
 		}
