@@ -1,0 +1,14 @@
+[29/05/2024 - 14:03:17] - [VEH]: Paul Richard menyewa kendaraan seharga $100 /one days model BMX(481)!
+[29/05/2024 - 14:29:00] - [VEH]: Paul Admint menyewa kendaraan seharga $1,500 /one days model Faggio(462)!
+[09/06/2024 - 07:53:04] - [BIZ]: Paul Coba membeli bisnis id 0 seharga $1!
+[04/12/2024 - 17:47:31] - [BIZ]: Sugiono Arti membeli bisnis id 0 seharga $1!
+[04/12/2024 - 18:39:00] - [VEH]: Alim Basugeng menyewa kendaraan seharga $100 /one days model BMX(481)!
+[07/12/2024 - 07:45:15] - [BIZ]: Sugiono Arti membeli bisnis id 1 seharga $1!
+[04/01/2025 - 14:04:30] - [BIZ]: Sugiono Arti membeli bisnis id 0 seharga $1!
+[05/01/2025 - 09:13:25] - [BIZ]: Sugiono Arti membeli bisnis id 0 seharga $2!
+[31/03/2025 - 12:32:18] - [BIZ]: Sugiono Arti membeli bisnis id 1 seharga $1!
+[31/03/2025 - 15:02:57] - [BIZ]: Sugiono Arti membeli bisnis id 2 seharga $1!
+[06/04/2025 - 12:19:19] - [VEH]: Rahmat Anjaya menyewa kendaraan seharga $100 /one days model BMX(481)!
+[09/04/2025 - 17:13:43] - [VEH]: Rahmat Anjaya membeli kendaraan seharga $13,000 model Uranus(558)!
+[09/04/2025 - 17:24:14] - [VEHICLE]: Rahmat Anjaya membeli kendaraan seharga $3,000 model Yosemite(554)!
+[09/04/2025 - 19:58:10] - [VEHICLE]: Rahmat Anjaya membeli kendaraan seharga $4,000 model Tornado(576)!

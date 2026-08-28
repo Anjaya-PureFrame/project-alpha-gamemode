@@ -1,0 +1,395 @@
+[09/06/2024 - 07:39:22] - Admin: Pauulll menyetel ketua faction id 2 ke Pauulll!
+[09/06/2024 - 07:42:48] - Admin: Pauulll menyetel ketua faction id 3 ke Pauulll!
+[09/06/2024 - 07:42:54] - Admin: Pauulll memberikan senjata Desert Eagle(250) ke Pauulll!
+[09/06/2024 - 07:43:04] - Admin: Pauulll memberikan senjata Brass Knuckles(250) ke Pauulll!
+[09/06/2024 - 07:43:07] - Admin: Pauulll memberikan senjata Golf Club(250) ke Pauulll!
+[09/06/2024 - 07:43:09] - Admin: Pauulll memberikan senjata Knife(250) ke Pauulll!
+[09/06/2024 - 07:52:04] - [Biz]: Pauulll membuat business id 0!
+[09/06/2024 - 07:56:48] - [Actor]: Pauulll membuat actor id 0!
+[09/06/2024 - 10:17:25] - Admin: Paul Admint menyetel uang $10,000 ke Paul Admint!
+[09/06/2024 - 10:20:45] - Admin: Paul Admint menyetel ketua faction id 1 ke Paul Admint!
+[09/06/2024 - 10:31:26] - Admin: Paul Admint menyetel hp Paul Admint!
+[09/06/2024 - 12:55:40] - Admin: Paul Admint menyetel ketua faction id 1 ke Paul Admint!
+[09/06/2024 - 13:02:21] - Admin: Paul Admint menyetel ketua faction id 2 ke Paul Admint!
+[09/06/2024 - 13:02:26] - Admin: Paul Admint menyetel ketua faction id 3 ke Paul Admint!
+[09/06/2024 - 14:13:31] - Admin: Paul Admint menyetel ketua faction id 3 ke Paul Admint!
+[09/06/2024 - 14:25:29] - Admin: Paul Admint menyetel ketua faction id 3 ke Paul Admint!
+[09/06/2024 - 14:26:03] - Admin: Paul Admint menyetel ketua faction id 3 ke Paul Coba!
+[09/06/2024 - 14:26:21] - Admin: Paul Admint memberikan senjata Desert Eagle(250) ke Paul Coba!
+[09/06/2024 - 14:29:17] - Admin: Paul Admint menyetel ketua faction id 3 ke Paul Admint!
+[09/06/2024 - 19:05:11] - Admin: Paul Admint menyetel ketua faction id 3 ke Paul Admint!
+[10/06/2024 - 13:55:31] - Admin: Paul Admint menyetel ketua faction id 3 ke Paul Admint!
+[10/06/2024 - 13:58:38] - Admin: Paul Admint memberikan senjata Desert Eagle(100) ke Paul Admint!
+[10/06/2024 - 14:06:18] - Admin: Paul Admint menyetel uang $100,000 ke Paul Coba!
+[10/06/2024 - 14:38:32] - Admin: Paul Admint memberikan senjata Sniper Rifle(100) ke Paul Admint!
+[10/06/2024 - 14:38:37] - Admin: Paul Admint memberikan senjata Heat Seaker(100) ke Paul Admint!
+[10/06/2024 - 14:38:43] - Admin: Paul Admint memberikan senjata TEC9(100) ke Paul Admint!
+[10/06/2024 - 14:42:18] - Admin: Paul Admint menyetel ketua faction id 2 ke Paul Admint!
+[10/06/2024 - 14:42:21] - Admin: Paul Admint menyetel ketua faction id 3 ke Paul Admint!
+[10/06/2024 - 15:32:55] - Admin: Paul Admint menyetel ketua faction id 2 ke Paul Admint!
+[10/06/2024 - 15:33:09] - Admin: Paul Admint menyetel ketua faction id 3 ke Paul Admint!
+[10/06/2024 - 15:41:33] - Admin: Paul Admint menyetel ketua faction id 3 ke Paul Admint!
+[10/06/2024 - 19:14:28] - Admin: Paul Admint memberikan senjata AK47(100) ke Paul Admint!
+[11/06/2024 - 11:20:30] - Admin: Pauulll menyetel uang $1,000,000 ke Pauulll!
+[11/06/2024 - 11:47:18] - Admin: Paul Admint memberikan senjata MP5(100) ke Paul Admint!
+[11/06/2024 - 11:48:04] - Admin: Pauulll merevive kesemua player
+[11/06/2024 - 11:48:04] - Admin: Pauulll merevive kesemua player
+[11/06/2024 - 11:48:49] - Admin: Pauulll merevive kesemua player
+[11/06/2024 - 11:48:49] - Admin: Pauulll merevive kesemua player
+[11/06/2024 - 12:28:47] - Admin: Paul Admint memberikan senjata Combat Shotgun(100) ke Paul Admint!
+[11/06/2024 - 14:41:27] - Admin: Pauulll memberikan uang kesemua player sejumlah $500,000
+[11/06/2024 - 14:41:38] - Admin: Pauulll memberikan uang kesemua player sejumlah $5,000
+[11/06/2024 - 14:41:38] - Admin: Pauulll memberikan uang kesemua player sejumlah $5,000
+[11/06/2024 - 14:41:45] - Admin: Pauulll menyetel uang $0 ke Pauulll!
+[11/06/2024 - 14:41:59] - Admin: Pauulll memberikan uang kesemua player sejumlah $5,000
+[11/06/2024 - 14:41:59] - Admin: Pauulll memberikan uang kesemua player sejumlah $5,000
+[11/06/2024 - 14:42:08] - Admin: Pauulll memberikan uang kesemua player sejumlah $500,000
+[11/06/2024 - 14:42:08] - Admin: Pauulll memberikan uang kesemua player sejumlah $500,000
+[11/06/2024 - 14:43:58] - Admin: Pauulll memberikan senjata Golf Club(250) ke Pauulll!
+[11/06/2024 - 14:44:49] - Admin: Pauulll memberikan senjata Sniper Rifle(250) ke Pauulll!
+[12/06/2024 - 09:10:36] - Admin: Paul Admint mengeluarkan Paul Admint dari ketu fraksi!
+[12/06/2024 - 09:11:57] - [Garkot]: Paul Admint membuat garkot id 5!
+[12/06/2024 - 09:16:22] - Admin: Paul Admint memberi Paul Admint jail selama 15 menit!
+[12/06/2024 - 09:16:41] - Admin: Paul Admint merilis Paul Admint dari penjara
+[12/06/2024 - 09:35:49] - Admin: Paul Admint menyetel food jumlah 49!
+[12/06/2024 - 09:39:50] - Admin: Paul Admint merevive kesemua player
+[12/06/2024 - 11:32:55] - Admin: Paul Admint merevive kesemua player
+[12/06/2024 - 11:36:12] - Admin: Paul Admint merevive kesemua player
+[12/06/2024 - 11:36:40] - Admin: Paul Admint menyetel food jumlah 49!
+[12/06/2024 - 12:30:02] - [Gate]: Paul Admint membuat gate id 9!
+[12/06/2024 - 13:13:40] - Admin: Paul Admint menyetel ketua faction id 3 ke Paul Admint!
+[12/06/2024 - 13:22:42] - Admin: Paul Admint memberikan senjata Combat Shotgun(100) ke Paul Admint!
+[12/06/2024 - 13:23:36] - Admin: Paul Admint merevive kesemua player
+[12/06/2024 - 13:23:36] - Admin: Paul Admint merevive kesemua player
+[12/06/2024 - 13:25:32] - Admin: Paul Admint menyetel uang $100,000 ke Paul Coba!
+[12/06/2024 - 13:29:10] - Admin: Paul Admint menyetel food jumlah 48!
+[12/06/2024 - 13:53:32] - Admin: Paul Admint merevive kesemua player
+[12/06/2024 - 13:53:32] - Admin: Paul Admint merevive kesemua player
+[12/06/2024 - 13:54:17] - Admin: Paul Admint menyetel ketua faction id 3 ke Paul Coba!
+[13/06/2024 - 11:59:13] - Admin: Paul Admint menyetel VIP ke Paul Admint, permanen jenis {5A00FF}Diamond!
+[13/06/2024 - 12:00:07] - Admin: Paul Admint menyetel food jumlah 49!
+[13/06/2024 - 12:00:25] - Admin: Paul Admint memberikan senjata Brass Knuckles(250) ke Paul Admint!
+[13/06/2024 - 12:00:28] - Admin: Paul Admint memberikan senjata Knife(250) ke Paul Admint!
+[13/06/2024 - 13:23:26] - [Gate]: Paul Admint membuat gate id 10!
+[13/06/2024 - 13:27:30] - [Gate]: Paul Admint membuat gate id 11!
+[04/12/2024 - 17:47:27] - [Biz]: Sugiono Arti membuat business id 0!
+[05/12/2024 - 16:10:59] - Admin: Sugiono Arti menyetel uang $100,000 ke Sugiono Arti!
+[07/12/2024 - 07:44:06] - [Biz]: Sugiono Arti membuat business id 1!
+[07/12/2024 - 07:45:10] - Admin: Sugiono Arti menyetel VIP ke Sugiono Arti, permanen jenis {5A00FF}Diamond!
+[07/12/2024 - 08:07:58] - Admin: Sugiono Arti memberikan senjata Rocket Launcher(100) ke Sugiono Arti!
+[16/12/2024 - 11:31:12] - Admin: Sugiono Arti menyetel faction id 1 & rank 13 ke Sugiono Arti!
+[16/12/2024 - 13:49:40] - Admin: Sugiono Arti menyetel ketua faction id 2 ke Sugiono Arti!
+[16/12/2024 - 20:06:01] - Admin: Sugiono Arti memberikan senjata UZI(10) ke Sugiono Arti!
+[16/12/2024 - 20:06:05] - Admin: Sugiono Arti memberikan senjata MP5(10) ke Sugiono Arti!
+[16/12/2024 - 20:06:09] - Admin: Sugiono Arti memberikan senjata Combat Shotgun(10) ke Sugiono Arti!
+[16/12/2024 - 20:06:13] - Admin: Sugiono Arti memberikan senjata Sawn-off Shotgun(10) ke Sugiono Arti!
+[16/12/2024 - 20:06:16] - Admin: Sugiono Arti memberikan senjata Shotgun(10) ke Sugiono Arti!
+[16/12/2024 - 20:06:20] - Admin: Sugiono Arti memberikan senjata Silenced Pistol(1) ke Sugiono Arti!
+[16/12/2024 - 20:06:25] - Admin: Sugiono Arti memberikan senjata Silenced Pistol(1) ke Sugiono Arti!
+[16/12/2024 - 20:06:29] - Admin: Sugiono Arti memberikan senjata Silenced Pistol(100) ke Sugiono Arti!
+[16/12/2024 - 20:06:45] - Admin: Sugiono Arti menyetel ketua faction id 1 ke Sugiono Arti!
+[16/12/2024 - 20:08:04] - [Vehicle]: Sugiono Arti membuat kendaraan id 560 ke Sugiono Arti!
+[17/12/2024 - 19:43:46] - Admin: Sugiono Arti menyetel ketua faction id 2 ke Rahmat Anjaya!
+[17/12/2024 - 19:44:21] - Admin: Sugiono Arti menyetel ketua faction id 2 ke Rahmat Anjaya!
+[17/12/2024 - 19:44:28] - Admin: Sugiono Arti menyetel ketua faction id 1 ke Rahmat Anjaya!
+[17/12/2024 - 19:44:36] - Admin: Sugiono Arti menyetel ketua faction id 4 ke Rahmat Anjaya!
+[17/12/2024 - 19:47:13] - Admin: Sugiono Arti menyetel ketua faction id 2 ke Sugiono Arti!
+[17/12/2024 - 19:47:19] - Admin: Sugiono Arti menyetel ketua faction id 4 ke Sugiono Arti!
+[17/12/2024 - 19:57:07] - Admin: Sugiono Arti menyetel ketua faction id 2 ke Sugiono Arti!
+[18/12/2024 - 08:48:03] - Admin: Sugiono Arti menyetel hp Sugiono Arti!
+[18/12/2024 - 08:48:58] - Admin: Sugiono Arti menyetel ketua faction id 1 ke Sugiono Arti!
+[18/12/2024 - 10:03:54] - Admin: Sugiono Arti memberikan senjata Desert Eagle(100) ke Rahmat Anjaya!
+[18/12/2024 - 10:07:43] - Admin: Sugiono Arti menyetel ketua faction id 4 ke Sugiono Arti!
+[18/12/2024 - 10:07:46] - Admin: Sugiono Arti menyetel ketua faction id 3 ke Sugiono Arti!
+[18/12/2024 - 10:09:25] - Admin: Sugiono Arti menyetel ketua faction id 1 ke Sugiono Arti!
+[21/12/2024 - 09:55:06] - Admin: Sugiono Arti menyetel hp Sugiono Arti!
+[21/12/2024 - 10:32:13] - Admin: Sugiono Arti menyetel hp Sugiono Arti!
+[21/12/2024 - 10:40:08] - Admin: Sugiono Arti menyetel hp Sugiono Arti!
+[21/12/2024 - 15:08:49] - Admin: Sugiono Arti menyetel hp Sugiono Arti!
+[23/12/2024 - 21:29:03] - Admin: Sugiono Arti memberikan senjata Sniper Rifle(100) ke Sugiono Arti!
+[23/12/2024 - 21:29:10] - Admin: Sugiono Arti memberikan senjata Flamethrower(100) ke Sugiono Arti!
+[23/12/2024 - 22:44:43] - Admin: Sugiono Arti menyetel faction id 3 & rank 13 ke Sugiono Arti!
+[24/12/2024 - 10:45:05] - Admin: Sugiono Arti memberikan senjata Flamethrower(100) ke Sugiono Arti!
+[24/12/2024 - 10:45:11] - Admin: Sugiono Arti memberikan senjata Flamethrower(500) ke Sugiono Arti!
+[24/12/2024 - 10:48:23] - Admin: Sugiono Arti menyetel faction id 1 & rank 13 ke Sugiono Arti!
+[24/12/2024 - 11:16:34] - Admin: Sugiono Arti menyetel faction id 3 & rank 13 ke Sugiono Arti!
+[24/12/2024 - 11:27:03] - [Atm]: Sugiono Arti membuat atm id 15!
+[24/12/2024 - 11:30:43] - Admin: Sugiono Arti menyetel level admin 5 ke Rahmat Anjaya!
+[24/12/2024 - 11:31:53] - Admin: Rahmat Anjaya menyetel ketua faction id 3 ke Rahmat Anjaya!
+[24/12/2024 - 11:57:28] - Admin: Sugiono Arti menyetel ketua faction id 3 ke Rahmat Anjaya!
+[24/12/2024 - 11:57:37] - Admin: Sugiono Arti mengeluarkan Sugiono Arti dari ketu fraksi!
+[24/12/2024 - 11:57:42] - Admin: Sugiono Arti menyetel hp Sugiono Arti!
+[24/12/2024 - 12:02:21] - Admin: Sugiono Arti memberikan senjata Flamethrower(100) ke Rahmat Anjaya!
+[24/12/2024 - 16:03:06] - Admin: Sugiono Arti menyetel ketua faction id 1 ke Sugiono Arti!
+[24/12/2024 - 16:06:00] - Admin: Sugiono Arti memberikan senjata Flamethrower(100) ke Sugiono Arti!
+[24/12/2024 - 16:09:19] - Admin: Sugiono Arti memberikan senjata Desert Eagle(100) ke Rahmat Anjaya!
+[24/12/2024 - 16:10:14] - Admin: Sugiono Arti menyetel hp Sugiono Arti!
+[24/12/2024 - 16:36:15] - Admin: Sugiono Arti memberikan senjata Heat Seaker(100) ke Sugiono Arti!
+[24/12/2024 - 16:36:20] - Admin: Sugiono Arti memberikan senjata Rocket Launcher(100) ke Sugiono Arti!
+[24/12/2024 - 16:36:25] - Admin: Sugiono Arti memberikan senjata TEC9(100) ke Sugiono Arti!
+[24/12/2024 - 16:36:34] - Admin: Sugiono Arti memberikan senjata Minigun(10) ke Sugiono Arti!
+[24/12/2024 - 16:43:41] - Admin: Sugiono Arti memberikan senjata Heat Seaker(1) ke Sugiono Arti!
+[24/12/2024 - 16:43:48] - Admin: Sugiono Arti memberi Sugiono Arti jail selama 15 menit!
+[24/12/2024 - 16:44:12] - Admin: Sugiono Arti merilis Sugiono Arti dari penjara
+[24/12/2024 - 17:13:47] - Admin: Sugiono Arti memberikan senjata Heat Seaker(1) ke Sugiono Arti!
+[31/12/2024 - 14:02:36] - Admin: Sugiono Arti menyetel armor Sugiono Arti!
+[31/12/2024 - 14:02:42] - Admin: Sugiono Arti menyetel hp Sugiono Arti!
+[01/01/2025 - 15:21:04] - [Atm]: Sugiono Arti membuat atm id 17!
+[01/01/2025 - 15:24:24] - Admin: Sugiono Arti memberi Alim Basugeng jail selama 15 menit!
+[01/01/2025 - 15:24:32] - Admin: Sugiono Arti merilis Alim Basugeng dari penjara
+[01/01/2025 - 15:30:36] - [Door]: Sugiono Arti menghapus door id 33!
+[01/01/2025 - 15:33:13] - Admin: Sugiono Arti memberi Alim Basugeng jail selama 15 menit!
+[01/01/2025 - 15:33:42] - Admin: Sugiono Arti merilis Alim Basugeng dari penjara
+[01/01/2025 - 15:33:45] - Admin: Sugiono Arti memberi Alim Basugeng jail selama 15 menit. Alasan: KOCAK!
+[01/01/2025 - 15:33:53] - Admin: Sugiono Arti merilis Alim Basugeng dari penjara
+[01/01/2025 - 16:05:05] - [Atm]: Sugiono Arti membuat atm id 18!
+[01/01/2025 - 22:48:41] - [Atm]: Sugiono Arti membuat atm id 17!
+[01/01/2025 - 22:53:11] - [Atm]: Sugiono Arti membuat atm id 18!
+[01/01/2025 - 22:55:14] - [Atm]: Sugiono Arti membuat atm id 19!
+[01/01/2025 - 22:57:30] - [Atm]: Sugiono Arti membuat atm id 21!
+[01/01/2025 - 23:00:35] - [Atm]: Sugiono Arti membuat atm id 22!
+[01/01/2025 - 23:02:53] - [Atm]: Sugiono Arti membuat atm id 23!
+[02/01/2025 - 13:50:28] - Admin: Sugiono Arti menyetel hp Sugiono Arti!
+[02/01/2025 - 17:36:20] - [Garkot]: Sugiono Arti membuat garkot id 5!
+[02/01/2025 - 17:43:49] - [Door]: Sugiono Arti menghapus door id 5!
+[02/01/2025 - 17:46:01] - [Door]: Sugiono Arti menghapus door id 8!
+[02/01/2025 - 17:46:34] - [Door]: Sugiono Arti menghapus door id 8!
+[02/01/2025 - 17:49:44] - [Door]: Sugiono Arti menghapus door id 5!
+[02/01/2025 - 17:52:00] - [Door]: Sugiono Arti menghapus door id 5!
+[04/01/2025 - 08:48:49] - Admin: Sugiono Arti memberikan uang $1,000 ke Sugiono Arti!
+[04/01/2025 - 08:49:41] - Admin: Sugiono Arti memberikan uang $1,000 ke Sugiono Arti!
+[04/01/2025 - 09:40:41] - Admin: Sugiono Arti banned Rahmat Anjaya selama 1 hari Alasan: crasher!
+[04/01/2025 - 09:41:21] - Admin: Sugiono Arti unban Rahmat_Anjaya dari server!
+[04/01/2025 - 10:07:01] - Admin: Sugiono Arti banned Rahmat Anjaya selama 1 hari Alasan: troll!
+[04/01/2025 - 14:00:10] - [Biz]: Sugiono Arti membuat business id 0!
+[04/01/2025 - 14:04:27] - Admin: Sugiono Arti menyetel uang $1,000,000 ke Sugiono Arti!
+[04/01/2025 - 17:51:14] - Admin: Sugiono Arti unban Rahmat_Anjaya dari server!
+[04/01/2025 - 17:53:04] - Admin: Sugiono Arti banned Rahmat Anjaya selama 2 hari Alasan: Liburan dulu ya!!
+[04/01/2025 - 18:11:19] - Admin: Sugiono Arti unban RAHMAT_ANJAYA dari server!
+[04/01/2025 - 18:13:18] - Admin: Sugiono Arti banned Rahmat Anjaya selama 15 hari Alasan: UDAH YAPPING NYA?!
+[04/01/2025 - 18:24:47] - Admin: Sugiono Arti unban rahmat_anjaya dari server!
+[04/01/2025 - 18:26:11] - Admin: Sugiono Arti banned ucp Alok selama 6 hari Alasan: Masih magang?!
+[05/01/2025 - 09:11:35] - [Biz]: Sugiono Arti menghapus business id 0!
+[05/01/2025 - 09:13:19] - [Biz]: Sugiono Arti membuat business id 0!
+[05/01/2025 - 09:19:59] - Admin: Sugiono Arti unban ucp Alok dari server!
+[05/01/2025 - 09:42:42] - Admin: paul banned ucp Alok selama 5 hari Alasan: LAWAK!
+[05/01/2025 - 09:50:47] - Admin: Sugiono Arti unban ucp Alok dari server!
+[05/01/2025 - 10:43:33] - Admin: paul unban Alok dari server!
+[05/01/2025 - 10:48:07] - Admin: paul memberi paul jail selama 15 menit!
+[05/01/2025 - 10:48:11] - Admin: paul memberi Jancok Puki jail selama 15 menit!
+[05/01/2025 - 10:48:58] - Admin: paul merilis Jancok Puki dari penjara
+[05/01/2025 - 10:49:18] - Admin: paul merilis paul dari penjara
+[05/01/2025 - 11:08:32] - Admin: Sugiono Arti banned ucp permanen Alok Alasan: udah terbang terbang nya??!
+[05/01/2025 - 13:28:29] - Admcmd: Sugiono Arti merevive semua player
+[05/01/2025 - 14:12:02] - Admin: Sugiono Arti menyetel ketua faction id 4 ke Sugiono Arti!
+[05/01/2025 - 14:13:56] - [Door]: Sugiono Arti menghapus door id 16!
+[05/01/2025 - 14:14:41] - [Door]: Sugiono Arti menghapus door id 17!
+[07/01/2025 - 17:07:52] - Admin: Sugiono Arti unban alok dari server!
+[07/01/2025 - 17:13:23] - Admin: Sugiono Arti memberikan uang kesemua player sejumlah $1,000
+[07/01/2025 - 17:13:23] - Admin: Sugiono Arti memberikan uang kesemua player sejumlah $1,000
+[07/01/2025 - 17:34:21] - {FF5000} Admin paul merevive semua player
+[07/01/2025 - 17:34:21] - {FF5000} Admin paul merevive semua player
+[07/01/2025 - 18:36:34] - {FF5000} Admin Sugiono Arti merevive semua player
+[11/01/2025 - 13:16:09] - Admin Sugiono Arti menyetel hp Sugiono Arti!
+[11/01/2025 - 13:22:39] - Admin Sugiono Arti menyetel armor Sugiono Arti!
+[11/01/2025 - 13:22:57] - Admin: Sugiono Arti menyetel ketua faction id 1 ke Sugiono Arti!
+[11/01/2025 - 15:00:50] - Admin Sugiono Arti menyetel hp Sugiono Arti!
+[11/01/2025 - 15:01:15] - Admin: Sugiono Arti memberikan senjata Desert Eagle(100) ke Sugiono Arti!
+[11/01/2025 - 15:03:35] - Admin: Sugiono Arti memberikan senjata Flamethrower(100) ke Sugiono Arti!
+[18/01/2025 - 14:35:43] - Admin: Sugiono Arti menyetel ketua faction id 3 ke Sugiono Arti!
+[18/01/2025 - 15:41:15] - Admin Sugiono Arti menyetel hp Sugiono Arti!
+[18/01/2025 - 15:57:44] - Admin: Sugiono Arti memberikan senjata UZI(250) ke Sugiono Arti!
+[18/01/2025 - 15:57:49] - Admin: Sugiono Arti memberikan senjata MP5(250) ke Sugiono Arti!
+[18/01/2025 - 15:57:52] - Admin: Sugiono Arti memberikan senjata AK47(250) ke Sugiono Arti!
+[18/01/2025 - 15:57:55] - Admin: Sugiono Arti memberikan senjata Vibrator(250) ke Sugiono Arti!
+[18/01/2025 - 15:57:59] - Admin: Sugiono Arti memberikan senjata Flowers(250) ke Sugiono Arti!
+[18/01/2025 - 15:58:02] - Admin: Sugiono Arti memberikan senjata Cane(250) ke Sugiono Arti!
+[18/01/2025 - 15:58:04] - Admin: Sugiono Arti memberikan senjata Grenade(250) ke Sugiono Arti!
+[18/01/2025 - 15:58:07] - Admin: Sugiono Arti memberikan senjata Teargas(250) ke Sugiono Arti!
+[18/01/2025 - 15:58:10] - Admin: Sugiono Arti memberikan senjata Molotov Cocktail(250) ke Sugiono Arti!
+[18/01/2025 - 16:00:21] - Admin: Sugiono Arti memberikan senjata Dildo(250) ke Sugiono Arti!
+[18/01/2025 - 16:00:24] - Admin: Sugiono Arti memberikan senjata Chainsaw(250) ke Sugiono Arti!
+[18/01/2025 - 16:00:27] - Admin: Sugiono Arti memberikan senjata Katana(250) ke Sugiono Arti!
+[18/01/2025 - 16:00:30] - Admin: Sugiono Arti memberikan senjata Pool Cue(250) ke Sugiono Arti!
+[18/01/2025 - 16:00:32] - Admin: Sugiono Arti memberikan senjata Shovel(250) ke Sugiono Arti!
+[18/01/2025 - 16:00:39] - Admin: Sugiono Arti memberikan senjata Bomb(250) ke Sugiono Arti!
+[18/01/2025 - 16:00:42] - Admin: Sugiono Arti memberikan senjata Fire Extinguisher(250) ke Sugiono Arti!
+[18/01/2025 - 16:00:44] - Admin: Sugiono Arti memberikan senjata Camera(250) ke Sugiono Arti!
+[18/01/2025 - 16:00:47] - Admin: Sugiono Arti memberikan senjata Night Vision Goggles(250) ke Sugiono Arti!
+[18/01/2025 - 16:06:06] - Admin: Sugiono Arti memberikan senjata Fire Extinguisher(250) ke Sugiono Arti!
+[18/01/2025 - 16:06:09] - Admin: Sugiono Arti memberikan senjata Camera(250) ke Sugiono Arti!
+[18/01/2025 - 16:06:11] - Admin: Sugiono Arti memberikan senjata Night Vision Goggles(250) ke Sugiono Arti!
+[18/01/2025 - 16:06:14] - Admin: Sugiono Arti memberikan senjata Thermal Goggles(250) ke Sugiono Arti!
+[18/01/2025 - 16:06:17] - Admin: Sugiono Arti memberikan senjata Thermal Goggles(250) ke Sugiono Arti!
+[18/01/2025 - 16:06:24] - Admin: Sugiono Arti memberikan senjata Nite Stick(250) ke Sugiono Arti!
+[18/01/2025 - 16:06:27] - Admin: Sugiono Arti memberikan senjata Knife(250) ke Sugiono Arti!
+[18/01/2025 - 16:06:29] - Admin: Sugiono Arti memberikan senjata Shovel(250) ke Sugiono Arti!
+[18/01/2025 - 16:06:34] - Admin: Sugiono Arti memberikan senjata Vibrator(250) ke Sugiono Arti!
+[18/01/2025 - 16:06:40] - Admin: Sugiono Arti memberikan senjata Colt 45(250) ke Sugiono Arti!
+[18/01/2025 - 16:06:47] - Admin: Sugiono Arti memberikan senjata Knife(250) ke Sugiono Arti!
+[18/01/2025 - 16:06:50] - Admin: Sugiono Arti memberikan senjata Sawn-off Shotgun(250) ke Sugiono Arti!
+[18/01/2025 - 16:06:53] - Admin: Sugiono Arti memberikan senjata Shotgun(250) ke Sugiono Arti!
+[18/01/2025 - 16:06:56] - Admin: Sugiono Arti memberikan senjata AK47(250) ke Sugiono Arti!
+[18/01/2025 - 16:06:59] - Admin: Sugiono Arti memberikan senjata Rocket Launcher(250) ke Sugiono Arti!
+[18/01/2025 - 16:07:03] - Admin: Sugiono Arti memberikan senjata TEC9(250) ke Sugiono Arti!
+[18/01/2025 - 16:09:05] - Admin: Sugiono Arti memberikan senjata Night Vision Goggles(250) ke Sugiono Arti!
+[18/01/2025 - 16:09:39] - Admin: Sugiono Arti memberikan senjata Teargas(250) ke Sugiono Arti!
+[18/01/2025 - 16:09:42] - Admin: Sugiono Arti memberikan senjata Teargas(250) ke Sugiono Arti!
+[18/01/2025 - 16:12:02] - Admin: Sugiono Arti memberikan senjata Parachute(250) ke Sugiono Arti!
+[18/01/2025 - 16:14:41] - Admin: Sugiono Arti memberikan senjata Night Vision Goggles(250) ke Sugiono Arti!
+[18/01/2025 - 16:15:46] - Admin: Sugiono Arti memberikan senjata Thermal Goggles(250) ke Sugiono Arti!
+[18/01/2025 - 16:16:04] - Admin: Sugiono Arti memberikan senjata Night Vision Goggles(250) ke Sugiono Arti!
+[18/01/2025 - 16:16:53] - Admin: Sugiono Arti memberikan senjata Thermal Goggles(250) ke Alim Basugeng!
+[18/01/2025 - 16:16:57] - Admin: Sugiono Arti memberikan senjata Thermal Goggles(250) ke Sugiono Arti!
+[18/01/2025 - 16:19:31] - Admin: Sugiono Arti menyetel ketua faction id 3 ke Sugiono Arti!
+[18/01/2025 - 16:20:56] - {FF5000} Admin Sugiono Arti merevive semua player
+[18/01/2025 - 16:20:56] - {FF5000} Admin Sugiono Arti merevive semua player
+[18/01/2025 - 18:48:16] - Admin Sugiono Arti menyetel armor Sugiono Arti!
+[19/01/2025 - 10:40:58] - Admin Sugiono Arti menyetel hp Sugiono Arti!
+[19/01/2025 - 15:33:55] - Admin: paul menyetel ketua faction id 2 ke paul!
+[20/01/2025 - 19:20:53] - Admin Sugiono Arti menyetel hp Sugiono Arti!
+[24/01/2025 - 19:35:20] - Admin: Sugiono Arti menyetel ketua faction id 1 ke Sugiono Arti!
+[26/01/2025 - 12:14:11] - Admin Sugiono Arti menyetel armor Alim Basugeng!
+[26/01/2025 - 12:14:34] - Admin Sugiono Arti menyetel armor Alim Basugeng!
+[26/01/2025 - 12:15:22] - Admin: Sugiono Arti menyetel ketua faction id 3 ke Alim Basugeng!
+[26/01/2025 - 12:15:33] - Admin: Sugiono Arti menyetel ketua faction id 3 ke Alim Basugeng!
+[26/01/2025 - 12:15:53] - Admin: Sugiono Arti menyetel ketua faction id 3 ke Sugiono Arti!
+[26/01/2025 - 12:18:25] - Admin: Sugiono Arti menyetel ketua faction id 1 ke Sugiono Arti!
+[26/01/2025 - 12:54:40] - Admin: Sugiono Arti menyetel ketua faction id 1 ke Sugiono Arti!
+[26/01/2025 - 14:42:48] - [Vehicle]: Sugiono Arti membuat kendaraan id 570 ke Sugiono Arti!
+[26/01/2025 - 14:43:08] - [Vehicle]: Sugiono Arti membuat kendaraan id 575 ke Sugiono Arti!
+[26/01/2025 - 17:29:05] - {FF5000} Admin Sugiono Arti merevive semua player
+[26/01/2025 - 17:29:05] - {FF5000} Admin Sugiono Arti merevive semua player
+[26/01/2025 - 22:05:46] - [Vehicle]: Sugiono Arti membuat kendaraan id 455 ke Sugiono Arti!
+[26/01/2025 - 22:08:29] - Admin: Sugiono Arti memberikan senjata Shovel(250) ke Sugiono Arti!
+[27/01/2025 - 11:11:35] - [Gate]: Sugiono Arti membuat gate id 9!
+[27/01/2025 - 11:12:41] - [Gate]: Sugiono Arti menghapus gate id 9!
+[27/01/2025 - 11:13:48] - [Gate]: Sugiono Arti membuat gate id 9!
+[27/01/2025 - 11:14:38] - [Gate]: Sugiono Arti menghapus gate id 9!
+[27/01/2025 - 11:14:45] - [Gate]: Sugiono Arti membuat gate id 9!
+[27/01/2025 - 11:15:13] - [Gate]: Sugiono Arti menghapus gate id 9!
+[27/01/2025 - 11:15:18] - [Gate]: Sugiono Arti membuat gate id 9!
+[27/01/2025 - 11:15:28] - [Gate]: Sugiono Arti menghapus gate id 9!
+[27/01/2025 - 11:15:38] - [Gate]: Sugiono Arti membuat gate id 9!
+[27/01/2025 - 11:15:46] - [Gate]: Sugiono Arti menghapus gate id 9!
+[27/01/2025 - 11:15:52] - [Gate]: Sugiono Arti membuat gate id 9!
+[27/01/2025 - 11:16:03] - [Gate]: Sugiono Arti menghapus gate id 9!
+[27/01/2025 - 11:16:14] - [Gate]: Sugiono Arti membuat gate id 9!
+[27/01/2025 - 11:17:33] - [Gate]: Sugiono Arti menghapus gate id 9!
+[27/01/2025 - 11:17:44] - [Gate]: Sugiono Arti membuat gate id 9!
+[27/01/2025 - 11:18:00] - [Gate]: Sugiono Arti menghapus gate id 9!
+[27/01/2025 - 11:18:06] - [Gate]: Sugiono Arti membuat gate id 9!
+[27/01/2025 - 11:19:42] - [Gate]: Sugiono Arti menghapus gate id 9!
+[27/01/2025 - 11:20:27] - [Gate]: Sugiono Arti membuat gate id 9!
+[27/01/2025 - 21:11:50] - Admin: Sugiono Arti memberikan senjata Shovel(250) ke Sugiono Arti!
+[27/01/2025 - 23:34:58] - Admin: Sugiono Arti memberikan senjata Flamethrower(100) ke Sugiono Arti!
+[28/01/2025 - 09:54:46] - [Workshop] Sugiono Arti membuat workshop id 0!
+[28/01/2025 - 10:39:53] - [Workshop] Sugiono Arti menghapus workshop id 0!
+[28/01/2025 - 11:55:51] - Admin: Sugiono Arti memberikan senjata Sniper Rifle(100) ke Sugiono Arti!
+[28/01/2025 - 11:55:56] - Admin: Sugiono Arti memberikan senjata TEC9(100) ke Sugiono Arti!
+[28/01/2025 - 11:56:04] - Admin: Sugiono Arti memberikan senjata AK47(100) ke Sugiono Arti!
+[28/01/2025 - 11:56:09] - Admin: Sugiono Arti memberikan senjata MP5(100) ke Sugiono Arti!
+[28/01/2025 - 11:56:14] - Admin: Sugiono Arti memberikan senjata UZI(100) ke Sugiono Arti!
+[28/01/2025 - 11:56:18] - Admin: Sugiono Arti memberikan senjata Combat Shotgun(100) ke Sugiono Arti!
+[28/01/2025 - 11:56:23] - Admin: Sugiono Arti memberikan senjata Sawn-off Shotgun(100) ke Sugiono Arti!
+[28/01/2025 - 11:56:29] - Admin: Sugiono Arti memberikan senjata M4(100) ke Sugiono Arti!
+[28/01/2025 - 12:55:24] - Admin Sugiono Arti menyetel armor Sugiono Arti!
+[28/01/2025 - 13:27:11] - Admin Sugiono Arti menyetel hp Sugiono Arti!
+[28/01/2025 - 13:30:08] - Admin Sugiono Arti menyetel hp Sugiono Arti!
+[28/01/2025 - 15:28:31] - Admin Sugiono Arti menyetel hp Sugiono Arti!
+[29/01/2025 - 12:39:09] - {FF5000} Admin Sugiono Arti merevive semua player
+[29/01/2025 - 12:39:36] - {FF5000} Admin Sugiono Arti merevive semua player
+[29/01/2025 - 12:39:36] - {FF5000} Admin Sugiono Arti merevive semua player
+[29/01/2025 - 12:40:38] - {FF5000} Admin Sugiono Arti merevive semua player
+[29/01/2025 - 12:40:38] - {FF5000} Admin Sugiono Arti merevive semua player
+[30/01/2025 - 16:57:35] - Admin paul menyetel armor paul!
+[30/01/2025 - 17:00:30] - Admin Sugiono Arti menyetel level Mujahidin Abdullah ke level 5!
+[30/01/2025 - 17:00:37] - {FF5000} Admin Sugiono Arti menyetel level admin 6 ke Mujahidin Abdullah!
+[31/01/2025 - 19:11:49] - [Actor]: Sugiono Arti membuat actor id 0!
+[31/01/2025 - 19:14:55] - [Gate]: Sugiono Arti membuat gate id 10!
+[31/01/2025 - 19:18:05] - [Gate]: Sugiono Arti membuat gate id 11!
+[01/02/2025 - 08:37:40] - [Actor]: paul membuat actor id 1!
+[01/02/2025 - 10:34:57] - [Gate]: Sugiono Arti membuat gate id 12!
+[01/02/2025 - 10:35:29] - [Gate]: Sugiono Arti menghapus gate id 12!
+[01/02/2025 - 10:36:11] - [Gate]: Sugiono Arti membuat gate id 12!
+[01/02/2025 - 10:36:15] - [Gate]: Sugiono Arti menghapus gate id 12!
+[01/02/2025 - 10:36:18] - [Gate]: Sugiono Arti membuat gate id 12!
+[01/02/2025 - 10:37:41] - [Gate]: Sugiono Arti menghapus gate id 12!
+[01/02/2025 - 10:37:49] - [Gate]: Sugiono Arti membuat gate id 12!
+[01/02/2025 - 10:39:40] - Admin: Sugiono Arti menyetel ketua faction id 3 ke Sugiono Arti!
+[01/02/2025 - 10:39:50] - Admin: Sugiono Arti menyetel ketua faction id 1 ke Sugiono Arti!
+[01/02/2025 - 16:09:32] - [Gate]: Sugiono Arti membuat gate id 13!
+[01/02/2025 - 16:12:21] - [Gate]: Sugiono Arti membuat gate id 14!
+[01/02/2025 - 16:15:14] - [Gate]: Sugiono Arti membuat gate id 15!
+[01/02/2025 - 16:16:51] - [Gate]: Sugiono Arti menghapus gate id 15!
+[02/02/2025 - 00:28:42] - [Actor]: Sugiono Arti membuat actor id 2!
+[27/03/2025 - 12:14:15] - {FF5000} Admin Sugiono Arti merevive semua player
+[28/03/2025 - 12:58:14] - [Door]: Sugiono Arti menghapus door id 16!
+[28/03/2025 - 13:14:08] - [Door]: Sugiono Arti menghapus door id 5!
+[28/03/2025 - 14:35:28] - [Atm]: Sugiono Arti membuat atm id 24!
+[28/03/2025 - 14:37:28] - [Atm]: Sugiono Arti menghapus atm id 24!
+[28/03/2025 - 22:41:18] - Admin: Sugiono Arti menyetel ketua faction id 2 ke Sugiono Arti!
+[28/03/2025 - 22:41:20] - Admin: Sugiono Arti menyetel ketua faction id 2 ke Sugiono Arti!
+[30/03/2025 - 21:32:01] - Admin Sugiono Arti menyetel hp Sugiono Arti!
+[31/03/2025 - 12:32:14] - [Biz]: Sugiono Arti membuat business id 1!
+[31/03/2025 - 15:02:54] - [Biz]: Sugiono Arti membuat business id 2!
+[31/03/2025 - 15:52:42] - Admin: Sugiono Arti menyetel ketua faction id 1 ke Sugiono Arti!
+[31/03/2025 - 15:53:20] - Admin: Sugiono Arti memberikan senjata Flamethrower(250) ke Sugiono Arti!
+[31/03/2025 - 15:53:58] - Admin: Sugiono Arti memberikan senjata Heat Seaker(250) ke Sugiono Arti!
+[31/03/2025 - 15:54:05] - Admin: Sugiono Arti memberikan senjata Minigun(250) ke Sugiono Arti!
+[31/03/2025 - 15:54:08] - Admin: Sugiono Arti memberikan senjata Satchel Explosives(250) ke Sugiono Arti!
+[31/03/2025 - 15:54:13] - Admin: Sugiono Arti memberikan senjata Bomb(250) ke Sugiono Arti!
+[31/03/2025 - 15:54:15] - Admin: Sugiono Arti memberikan senjata Spray Can(250) ke Sugiono Arti!
+[31/03/2025 - 15:54:18] - Admin: Sugiono Arti memberikan senjata Fire Extinguisher(250) ke Sugiono Arti!
+[31/03/2025 - 15:54:44] - Admin: Sugiono Arti memberikan senjata Fire Extinguisher(500) ke Sugiono Arti!
+[31/03/2025 - 15:56:26] - Admin: Sugiono Arti memberikan senjata Flamethrower(100) ke Sugiono Arti!
+[31/03/2025 - 21:04:47] - Admin: Sugiono Arti memberikan senjata Colt 45(10) ke Sugiono Arti!
+[31/03/2025 - 21:04:58] - Admin: Sugiono Arti memberikan senjata Silenced Pistol(10) ke Sugiono Arti!
+[31/03/2025 - 21:05:05] - Admin: Sugiono Arti memberikan senjata Desert Eagle(10) ke Sugiono Arti!
+[31/03/2025 - 21:06:28] - Admin Sugiono Arti menyetel armor Sugiono Arti!
+[01/04/2025 - 15:27:22] - Admin: Sugiono Arti memberikan senjata Golf Club(250) ke Sugiono Arti!
+[01/04/2025 - 15:27:26] - Admin: Sugiono Arti memberikan senjata Nite Stick(250) ke Sugiono Arti!
+[01/04/2025 - 15:28:12] - Admin: Sugiono Arti memberikan senjata Shovel(250) ke Sugiono Arti!
+[01/04/2025 - 21:09:48] - [Vehicle]: Alim Basugeng membuat kendaraan id 499 ke Alim Basugeng!
+[05/04/2025 - 12:28:15] - [Door]: Rahmat Anjaya menghapus door id 0!
+[05/04/2025 - 12:29:41] - {FF5000} Admin Rahmat Anjaya merevive semua player
+[05/04/2025 - 12:50:43] - Admin Rahmat Anjaya menyetel armor Jancok Puki!
+[05/04/2025 - 12:50:49] - Admin Rahmat Anjaya menyetel armor Rahmat Anjaya!
+[05/04/2025 - 15:13:23] - [Door]: Rahmat Anjaya menghapus door id 5!
+[05/04/2025 - 18:08:53] - Admin: Rahmat Anjaya menyetel uang $10,000 ke Rahmat Anjaya!
+[05/04/2025 - 18:08:56] - Admin: Rahmat Anjaya menyetel uang $10,000 ke Rahmat Anjaya!
+[05/04/2025 - 18:09:01] - Admin: Rahmat Anjaya menyetel uang $10,000 ke Rahmat Anjaya!
+[05/04/2025 - 18:09:07] - Admin: Rahmat Anjaya menyetel uang $10,000,000 ke Rahmat Anjaya!
+[05/04/2025 - 18:10:51] - [Biz]: Rahmat Anjaya menghapus business id 1!
+[05/04/2025 - 18:11:01] - [Biz]: Rahmat Anjaya menghapus business id 2!
+[06/04/2025 - 11:29:36] - [Vehicle]: Rahmat Anjaya membuat kendaraan id 438 ke Rahmat Anjaya!
+[06/04/2025 - 11:36:41] - [Vehicle]: Rahmat Anjaya membuat kendaraan id 438 ke Rahmat Anjaya!
+[06/04/2025 - 11:37:19] - Admin: Rahmat Anjaya menyetel uang $100,000 ke Jancok Puki!
+[06/04/2025 - 13:01:42] - Admin: Rahmat Anjaya menyetel ketua faction id 3 ke Rahmat Anjaya!
+[06/04/2025 - 13:24:42] - Admin: Rahmat Anjaya menyetel ketua faction id 1 ke Rahmat Anjaya!
+[06/04/2025 - 13:25:27] - Admin: Rahmat Anjaya menyetel ketua faction id 3 ke Rahmat Anjaya!
+[07/04/2025 - 15:04:26] - [Gate]: Rahmat Anjaya membuat gate id 15!
+[09/04/2025 - 15:55:25] - Admin Rahmat Anjaya kicked Jancok Puki Alasan: rusuh!
+[09/04/2025 - 16:43:00] - [Vehicle]: Rahmat Anjaya membuat kendaraan id 451 ke Rahmat Anjaya!
+[09/04/2025 - 17:13:15] - [VEH]: Rahmat Anjaya menghapus kendaraan id 25 (database id: 10)!
+[09/04/2025 - 17:13:26] - [VEH]: Rahmat Anjaya menghapus kendaraan id 24 (database id: 9)!
+[09/04/2025 - 19:56:54] - [VEH]: Rahmat Anjaya menghapus kendaraan id 25 (database id: 14)!
+[09/04/2025 - 19:59:14] - Admin: Rahmat Anjaya memberikan senjata Desert Eagle(100) ke Rahmat Anjaya!
+[09/04/2025 - 20:21:16] - [VEH]: Rahmat Anjaya menghapus kendaraan id 26 (database id: 12)!
+[09/04/2025 - 20:21:21] - [Vehicle]: Rahmat Anjaya membuat kendaraan id 523 ke Rahmat Anjaya!
+[10/04/2025 - 20:35:32] - Admin: Rahmat Anjaya memberikan senjata Desert Eagle(100) ke Rahmat Anjaya!
+[10/04/2025 - 20:50:18] - Admin: Rahmat Anjaya memberikan senjata Bomb(200) ke Rahmat Anjaya!
+[10/04/2025 - 20:50:26] - Admin: Rahmat Anjaya memberikan senjata Flamethrower(100) ke Rahmat Anjaya!
+[10/04/2025 - 20:50:51] - Admin: Rahmat Anjaya memberikan senjata Minigun(100) ke Rahmat Anjaya!
+[10/04/2025 - 20:50:57] - Admin: Rahmat Anjaya memberikan senjata Rocket Launcher(100) ke Rahmat Anjaya!
+[10/04/2025 - 20:58:31] - {FF5000} Admin Rahmat Anjaya merevive semua player
+[10/04/2025 - 20:58:31] - {FF5000} Admin Rahmat Anjaya merevive semua player
+[10/04/2025 - 20:59:48] - {FF5000} Admin Rahmat Anjaya merevive semua player
+[10/04/2025 - 20:59:48] - {FF5000} Admin Rahmat Anjaya merevive semua player
+[10/04/2025 - 21:15:35] - Admin: Rahmat Anjaya memberikan senjata Rocket Launcher(100) ke Rahmat Anjaya!
+[11/04/2025 - 18:49:16] - Admin: Rahmat Anjaya memberikan senjata Rocket Launcher(100) ke Rahmat Anjaya!
+[11/04/2025 - 20:04:14] - Admin: Rahmat Anjaya menyetel ketua faction id 3 ke Rahmat Anjaya!
+[11/04/2025 - 20:06:57] - Admin: Rahmat Anjaya memberikan senjata Heat Seaker(100) ke Rahmat Anjaya!
+[11/04/2025 - 20:20:12] - {FF5000} Admin Rahmat Anjaya merevive semua player
+[11/04/2025 - 22:31:18] - Admin Rahmat Anjaya memenjarakan Rahmat Anjaya selama 15 menit!
+[11/04/2025 - 22:37:38] - Admin Rahmat Anjaya merilis Rahmat Anjaya dari penjara
