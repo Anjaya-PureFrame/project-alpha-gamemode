@@ -113,7 +113,7 @@ CreatePlayerTextDraws(playerid)
 	TextDrawSetProportional(PublicTD[2], 1);
 	TextDrawSetSelectable(PublicTD[2], 0);*/
 
-	PublicTD[0] = TextDrawCreate(486.000000, 5.000000, "Cerita Kita");
+	PublicTD[0] = TextDrawCreate(486.000000, 5.000000, "CeritaKita");
 	TextDrawFont(PublicTD[0], 2);
 	TextDrawLetterSize(PublicTD[0], 0.170833, 1.000000);
 	TextDrawTextSize(PublicTD[0], 394.500000, 12.000000);
