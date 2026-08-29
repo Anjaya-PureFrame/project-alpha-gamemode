@@ -462,7 +462,7 @@ new up_days,
 //-------[pesan bot]----------
 #define INVALID_TIMER -1
 new RandomMessages[][] = {
-    "{FF0000}Asisten Kota : {FFFF00}Gunakan /starterpack Jika anda warga baru,itu akan sangat membantu anda.",
+    "{FF0000}Asisten Kota : {FFFF00}Gunakan /starterpack Jika anda warga baru,itu akan sangat menolong anda.",
     "{FF0000}Asisten Kota : {FFFF00}Kota ini di desain mengikuti gaya klasik dengan sedikit textdraw.",
     "{FF0000}Asisten Kota : {FFFF00}Nganggur? Ayo Kunjungi Pusnaker Kota Cerita Kita untuk mencari sesuatu yang bisa kamu kerjakan.",
     "{FF0000}Asisten Kota : {FFFF00}Terkadang Pekerjaan dengan gaji besar biasanya menawarkan resiko yang besar juga, jangan terlena dengan kekayaan.",
@@ -2468,6 +2468,16 @@ if(g_vehicle_params[vehicleid][V_BLINKING] == 1)
 	}
 }
 
+forward EndLoginCameraZoom(playerid);
+public EndLoginCameraZoom(playerid)
+{
+    if(!IsPlayerConnected(playerid)) return 0;
+
+    SetCameraBehindPlayer(playerid);
+    TogglePlayerControllable(playerid, true); // kalau tadinya di-freeze pas loading
+    return 1;
+}
+
 public OnPlayerDisconnect(playerid, reason)
 {
 	pemainic--;
@@ -2720,10 +2730,32 @@ public OnPlayerSpawn(playerid)
 	SetPlayerVirtualWorld(playerid, pData[playerid][pWorld]);
 	SetPlayerPos(playerid, pData[playerid][pPosX], pData[playerid][pPosY], pData[playerid][pPosZ]);
 	SetPlayerFacingAngle(playerid, pData[playerid][pPosA]);
-	SetCameraBehindPlayer(playerid);
 	TogglePlayerControllable(playerid, 0);
 	SetPlayerSpawn(playerid);
 	LoadAnims(playerid);
+	//SISTEM ZOOM IN ANIMASI
+	new Float:x, Float:y, Float:z, Float:a;
+    GetPlayerPos(playerid, x, y, z);
+    GetPlayerFacingAngle(playerid, a);
+
+    // Posisi kamera awal: tinggi di atas player, agak jauh
+    new Float:startX = x + (25 * floatsin(-a, degrees));
+    new Float:startY = y + (25 * floatcos(-a, degrees));
+    new Float:startZ = z + 80.0;
+
+    // Posisi kamera akhir: belakang player, sejajar mata
+    new Float:endX = x + (5 * floatsin(-a, degrees));
+    new Float:endY = y + (5 * floatcos(-a, degrees));
+    new Float:endZ = z + 1.5;
+
+    SetPlayerCameraPos(playerid, startX, startY, startZ);
+    SetPlayerCameraLookAt(playerid, x, y, z);
+
+    // Interpolasi posisi kamera dari atas turun ke belakang player
+    InterpolateCameraPos(playerid, startX, startY, startZ, endX, endY, endZ, 4000, CAMERA_CUT);
+    // Interpolasi arah pandang kamera (tetap fokus ke player, sedikit naik ke muka)
+    InterpolateCameraLookAt(playerid, x, y, z, x, y, z + 1.0, 4000, CAMERA_CUT);
+    SetTimerEx("EndLoginCameraZoom", 25100, false, "i", playerid);
 	
 	SetPlayerSkillLevel(playerid, WEAPON_COLT45, 1);
 	SetPlayerSkillLevel(playerid, WEAPON_SILENCED, 1);

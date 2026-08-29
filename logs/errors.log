@@ -1,2 +1,5 @@
-[08/29/26 21:20:07] [plugins/mysql] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (UCP.pwn:8)
-[08/29/26 21:22:25] [plugins/mysql] cache_get_value_name_int: no active cache (UCP.pwn:8 -> DIALOG.pwn:61)
+[08/29/26 23:10:18] [plugins/mysql] cache_get_value_name_int: no active cache (UCP.pwn:8 -> DIALOG.pwn:61)
+[08/29/26 23:11:29] [plugins/mysql] cache_get_value_name_int: no active cache (UCP.pwn:8 -> DIALOG.pwn:61)
+[08/29/26 23:12:17] [plugins/mysql] cache_get_value_name_int: no active cache (UCP.pwn:8 -> DIALOG.pwn:61)
+[08/29/26 23:15:37] [plugins/mysql] cache_get_value_name_int: no active cache (UCP.pwn:8 -> DIALOG.pwn:61)
+[08/29/26 23:16:22] [plugins/mysql] cache_get_value_name_int: no active cache (UCP.pwn:8 -> DIALOG.pwn:61)

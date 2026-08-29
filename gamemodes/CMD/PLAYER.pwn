@@ -3154,7 +3154,7 @@ CMD:starterpack(playerid, params)
 		new Float:x,Float:y,Float:z, Float:a;
 		GetPlayerPos(playerid, x ,y , z);
 		GetPlayerFacingAngle(playerid, a);
-		new model = 586, color1 = 1, color2 = 1;
+		new model = 509, color1 = 1, color2 = 1;
 		mysql_format(g_SQL, cQuery, sizeof(cQuery), "INSERT INTO `vehicle` (`owner`, `model`, `color1`, `color2`, `x`, `y`, `z`, `a`) VALUES (%d, %d, %d, %d, '%f', '%f', '%f', '%f')", pData[playerid][pID], model, color1, color2, x, y, z, a);
 		mysql_tquery(g_SQL, cQuery, "OnVehStarterpack", "dddddffff", playerid, pData[playerid][pID], model, color1, color2, x, y, z, a);
 	}

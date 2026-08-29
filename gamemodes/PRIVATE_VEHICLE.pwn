@@ -874,7 +874,7 @@ function OnVehStarterpack(playerid, pid, model, color1, color2, Float:x, Float:y
 		pvData[i][cMod][j] = 0;
 	Iter_Add(PVehicles, i);
 	OnPlayerVehicleRespawn(i);
-	Servers(playerid, "Kamu telah mengambil Startepack kota, 1 Faggio & $500");
+	Servers(playerid, "Kamu telah mendapat bantuan kota, 1 Sepeda & uang tunai senilai $500");
 	return 1;
 }
 

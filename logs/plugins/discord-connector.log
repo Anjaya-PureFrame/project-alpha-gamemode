@@ -6732,3 +6732,14 @@
 [08/29/26 21:02:38] [ERROR] Error while sending HTTP POST request to '/api/v8/channels/1542187539194978374/messages': An existing connection was forcibly closed by the remote host
 [08/29/26 21:02:38] [WARNING] Error while shutting down SSL on HTTP connection: An existing connection was forcibly closed by the remote host (10054)
 [08/29/26 21:12:28] [ERROR] Error while retrieving HTTP POST response from '/api/v8/channels/1542187539194978374/messages': end of stream
+[08/29/26 21:25:51] [ERROR] DCC_IsUserBot: invalid user id '0'
+[08/29/26 21:54:56] [WARNING] Unknown gateway event 'VOICE_CHANNEL_START_TIME_UPDATE'
+[08/29/26 21:54:56] [WARNING] Unknown gateway event 'VOICE_CHANNEL_STATUS_UPDATE'
+[08/29/26 21:57:06] [WARNING] Unknown gateway event 'VOICE_CHANNEL_START_TIME_UPDATE'
+[08/29/26 21:57:17] [WARNING] Unknown gateway event 'VOICE_CHANNEL_START_TIME_UPDATE'
+[08/29/26 21:57:17] [WARNING] Unknown gateway event 'VOICE_CHANNEL_STATUS_UPDATE'
+[08/29/26 21:59:44] [WARNING] Unknown gateway event 'GUILD_AUDIT_LOG_ENTRY_CREATE'
+[08/29/26 22:04:51] [WARNING] Unknown gateway event 'VOICE_CHANNEL_START_TIME_UPDATE'
+[08/29/26 22:36:46] [WARNING] Unknown gateway event 'GUILD_AUDIT_LOG_ENTRY_CREATE'
+[08/29/26 22:36:51] [WARNING] Unknown gateway event 'GUILD_AUDIT_LOG_ENTRY_CREATE'
+[08/29/26 23:06:36] [ERROR] Error while retrieving HTTP POST response from '/api/v8/channels/1542187539194978374/messages': end of stream

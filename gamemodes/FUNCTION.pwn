@@ -86,7 +86,6 @@ function CheckBanUCP(playerid)
 			{
 				new lstr[512];
 				format(lstr, sizeof(lstr), "{FF0000}Ucp Anda telah diblokir dari server!\n\n"LB2_E"Detail Informasi:\n{FF0000}Nama UCP: {778899}%s\n{FF0000}Ip Addres: {778899}%s\n{FF0000}Admin Penindak: {778899}%s\n{FF0000}Tanggal Banned: {778899}%s\n{FF0000}Alasan: {778899}%s\n{FF0000}Durasi banned: Permanen\n\n{FFFFFF}Merasa tidak bersalah? Voice di Discord resmi kami.", BannedName, PlayerIP, PlayerName, ReturnDate(banDate), Reason, datez);
-				gettime() + (datez * 86400);
 				ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "{ff0000}/ {ffffff}Cerita Kita Roleplay{ffffff} - Informasi Blokir", lstr, "Keluar", "");
 			}
 			else
@@ -142,12 +141,12 @@ function CheckBanAccount(playerid, namachar[])
 			GetPlayerIp(playerid, PlayerIP, sizeof(PlayerIP));
 			
 			new datez, tmp;
+			#pragma unused datez, tmp
 			SendClientMessage(playerid, COLOR_RED, "Kamu telah di banned dari server!");
 			if(datez != 0)
 			{
 				new lstr[512];
 				format(lstr, sizeof(lstr), "{FF0000}Ucp Anda telah diblokir dari server!\n\n"LB2_E"Detail Informasi:\n{FF0000}Nama UCP: {778899}%s\n{FF0000}Ip Addres: {778899}%s\n{FF0000}Admin Penindak: {778899}%s\n{FF0000}Tanggal Banned: {778899}%s\n{FF0000}Alasan: {778899}%s\n{FF0000}Durasi banned: Permanen\n\n{FFFFFF}Merasa tidak bersalah? Voice di Discord resmi kami.", BannedName, PlayerIP, PlayerName, ReturnDate(banDate), Reason, datez);
-				gettime() + (datez * 86400);
 				ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "{ff0000}/ {ffffff}Cerita Kita Roleplay{ffffff} - Informasi Blokir", lstr, "Keluar", "");
 			}
 			else
@@ -499,8 +498,8 @@ function PhoneNumber(playerid, phone)
 	{
 		//Rekening Exist
 		new query[128], rand = RandomEx(111111, 999999);
-		new phone = rand+pData[playerid][pID];
-		mysql_format(g_SQL, query, sizeof(query), "SELECT phone FROM players WHERE phone='%s'", phone);
+		new phone = _:rand + pData[playerid][pID];
+		mysql_format(g_SQL, query, sizeof(query), "SELECT phone FROM players WHERE phone='%d'", phone);
 		mysql_tquery(g_SQL, query, "PhoneNumber", "is", playerid, phone);
 		Info(playerid, "Your Phone number is same with someone. We will research new.");
 	}

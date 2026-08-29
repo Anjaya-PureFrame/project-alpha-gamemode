@@ -198,13 +198,13 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 			{
 				case 0: 
 				{
-					Info(playerid, "{ffffff} Selamat Memulai kehidupan gunakan {FFFF00}'N'{'FFFFFF} untuk radial menu dan{FFFF00} '/help' untuk bantuan!");
+					Info(playerid, "Selamat memulai cerita gunakan {FFFF00}'N'{'FFFFFF} untuk radial menu dan{FFFF00} '/help' untuk bantuan! Gunakan '/starterpack' untuk mendapat bansos.");
 					ShowPlayerDialog(playerid, DIALOG_SPAWN_1, DIALOG_STYLE_LIST, "Pilih Lokasi Mendarat", "Stasiun Market\nDermaga Santa Maria", "Pilih", "Batal");
 					
 				}
 				case 1: 
 				{
-					Info(playerid, "{ffffff} Selamat Memulai kehidupan gunakan {FFFF00}'N'{FFFFFF} untuk radial menu dan{FFFF00} '/help' untuk bantuan!");
+					Info(playerid, "Selamat memulai cerita gunakan {FFFF00}'N'{FFFFFF} untuk radial menu dan{FFFF00} '/help' untuk bantuan! Gunakan '/starterpack' untuk mendapat bansos.");
 					ShowPlayerDialog(playerid, DIALOG_SPAWN_1, DIALOG_STYLE_LIST, "Pilih Lokasi Mendarat", "Stasiun Market\nDermaga Santa Maria", "Pilih", "Batal");
 					
 				}
