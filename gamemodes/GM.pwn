@@ -6475,35 +6475,35 @@ stock SendDiscordMessage(channel, message[]) {
 		//==[ Log Join & Leave ]
 		case 0:
 		{
-			ChannelId = DCC_FindChannelById("1359880027163852891");
+			ChannelId = DCC_FindChannelById("1542187539194978374");
 			DCC_SendChannelMessage(ChannelId, message);
 			return 1;
 		}
 		//==[ Log Command ]
 		case 1:
 		{
-			ChannelId = DCC_FindChannelById("1541774064396406855");
+			ChannelId = DCC_FindChannelById("1543133401681240135");
 			DCC_SendChannelMessage(ChannelId, message);
 			return 1;
 		}
 		//==[ Log Chat IC ]
 		case 2:
 		{
-			ChannelId = DCC_FindChannelById("1359876860443496681");
+			ChannelId = DCC_FindChannelById("1543132867914375178");
 			DCC_SendChannelMessage(ChannelId, message);
 			return 1;
 		}
 		//==[ Warning & Banned ]
 		case 3:
 		{
-			ChannelId = DCC_FindChannelById("1359876688456060958");
+			ChannelId = DCC_FindChannelById("1541771522304122920");
 			DCC_SendChannelMessage(ChannelId, message);
 			return 1;
 		}
 		//==[ Log Death ]
 		case 4:
 		{
-			ChannelId = DCC_FindChannelById("1359120178729844759");
+			ChannelId = DCC_FindChannelById("1541771152198729758");
 			DCC_SendChannelMessage(ChannelId, message);
 			return 1;
 		}
@@ -6516,7 +6516,7 @@ stock SendDiscordMessage(channel, message[]) {
 		}
 		case 6://Korup
 		{
-			ChannelId = DCC_FindChannelById("909028255867240449");
+			ChannelId = DCC_FindChannelById("1541771413973901312");
 			DCC_SendChannelMessage(ChannelId, message);
 			return 1;
 		}
@@ -6528,13 +6528,13 @@ stock SendDiscordMessage(channel, message[]) {
 		}
 		case 8://Bot Admin
 		{
-			ChannelId = DCC_FindChannelById("1028316848355295264");
+			ChannelId = DCC_FindChannelById("1543133068347449365");
 			DCC_SendChannelMessage(ChannelId, message);
 			return 1;
 		}
 		case 9://==[ Log CMD Admin ]
 		{
-			ChannelId = DCC_FindChannelById("987326112227016786");
+			ChannelId = DCC_FindChannelById("1543133188984021042");
 			DCC_SendChannelMessage(ChannelId, message);
 			return 1;
 		}
