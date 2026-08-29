@@ -42,8 +42,8 @@ DETAIL INFORMASI
 #include <discord-connector>
 #include <discord-cmd>
 #define NO_NEX_AC_DEBUG
-#include <nex-ac_id.lang>
-#include <nex-ac>
+//#include <nex-ac_id.lang>
+//#include <nex-ac>
 #include <AC_Black_Diamond>
 //#include <mobile-checker>
 

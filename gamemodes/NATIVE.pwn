@@ -1805,7 +1805,7 @@ BanPlayerMSG(playerid, adminid, reason[], bool:serverBan = false)
 	SendClientMessage(playerid, COLOR_GREY, ""RED_E"[Banned] : "GREY_E"Merasa tidak bersalah? Silahkan Kunjungi discord kami dan lampirkan screenshot beserta bukti!");
 	GameTextForPlayer(playerid, "~r~~h~Banned!", 4000, 5);
 
-	format(lstr, sizeof(lstr), ""RED_E"Kamu telah di banned dari server!\n\n"LB2_E"Detail Informasi:\n"RED_E"Nama IC : "GREY2_E"%s\n"RED_E"Ip Addres: "GREY2_E"%s\n"RED_E"Admin Penindak: "GREY2_E"%s\n"RED_E"Alasan: "GREY2_E"%s\n"RED_E"Tanggal Banned: "GREY2_E"%02d:%02d (%02d/%02d/%d)\n\n{FFFFFF}Merasa tidak bersalah di banned? Voice di Discord resmi kami", pData[playerid][pName], pData[playerid][pIP], pData[adminid][pAdminname], reason, hours, minutes, months, days, years);
+	format(lstr, sizeof(lstr), ""RED_E"Kamu telah di banned dari server!\n\n"LB2_E"Detail Informasi:\n"RED_E"Nama IC : "GREY2_E"%s\n"RED_E"Ip Addres: "GREY2_E"%s\n"RED_E"Admin Penindak: "GREY2_E"%s\n"RED_E"Alasan: "GREY2_E"%s\n"RED_E"Tanggal Banned: "GREY2_E"%02d:%02d (%02d/%02d/%d)\n\n{FFFFFF}Merasa tidak bersalah? Voice di Discord resmi kami", pData[playerid][pName], pData[playerid][pIP], pData[adminid][pAdminname], reason, hours, minutes, months, days, years);
 	ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, ""RED_E"BANNED", lstr, "Exit", "");
 }
 

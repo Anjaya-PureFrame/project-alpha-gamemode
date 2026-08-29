@@ -15,20 +15,19 @@ function OnPlayerDataLoaded(playerid, race_check)
 	new query[248], PlayerIP[16];
 	if(cache_num_rows() > 0)
 	{		
-			if(pData[playerid][pPassword] < 1)
-			{
-				new str[400];
-				format(str, sizeof(str), "Verifikasi Kecocokan Data Ucp Yang Anda Daftarkan\nNama: {ff0000}%s\n{ffffff}Masukkan Pin Dari Dm Bot kami !", pData[playerid][pUCP]);
-				ShowPlayerDialog(playerid, DIALOG_VERIFYCODE, DIALOG_STYLE_INPUT, "Verifikasi Data", str, "Benar", "Batal");
-			}
-			if(pData[playerid][pPassword] > 10)
-			{
-				//pData[playerid][Cache_ID] = cache_save();
-				new lstring[512];
-				format(lstring, sizeof lstring, "{ffffff}Selamat Datang Kembali di {ff0000}"SERVER_NAME"\n{ffffff}Nama Ucp: {ff0000}%s\n{ffffff}Kesalahan: {FF0000}0/3{ffffff}\nPassword: {3BBD44}(Masukan Disini)", pData[playerid][pUCP]);
-				ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "{ff0000}/{ffffff} Cerita Kita Roleplay - Login", lstring, "Masuk", "Keluar");
-			}
-			pData[playerid][LoginTimer] = SetTimerEx("OnLoginTimeout", SECONDS_TO_LOGIN * 1000, false, "i", playerid);
+		if(strlen(pData[playerid][pPassword]) < 1)
+		{
+			new str[400];
+			format(str, sizeof(str), "Verifikasi Kecocokan Data Ucp Yang Anda Daftarkan\nNama: {ff0000}%s\n{ffffff}Masukkan Pin Dari Dm Bot kami !", pData[playerid][pUCP]);
+			ShowPlayerDialog(playerid, DIALOG_VERIFYCODE, DIALOG_STYLE_INPUT, "Verifikasi Data", str, "Benar", "Batal");
+		}
+		else
+		{
+			new lstring[512];
+			format(lstring, sizeof lstring, "{ffffff}Selamat Datang Kembali di {ff0000}"SERVER_NAME"\n{ffffff}Nama Ucp: {ff0000}%s\n{ffffff}Kesalahan: {FF0000}0/3{ffffff}\nPassword: {3BBD44}(Masukan Disini)", pData[playerid][pUCP]);
+			ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "{ff0000}/{ffffff} Cerita Kita Roleplay - Login", lstring, "Masuk", "Keluar");
+		}
+		pData[playerid][LoginTimer] = SetTimerEx("OnLoginTimeout", SECONDS_TO_LOGIN * 1000, false, "i", playerid);	
 	}
 	else
 	{
@@ -86,14 +85,14 @@ function CheckBanUCP(playerid)
 			if(datez != 0)
 			{
 				new lstr[512];
-				format(lstr, sizeof(lstr), "{FF0000}Ucp Anda telah diblokir dari server!\n\n"LB2_E"Detail Informasi:\n{FF0000}Nama UCP: {778899}%s\n{FF0000}Ip Addres: {778899}%s\n{FF0000}Admin Penindak: {778899}%s\n{FF0000}Tanggal Banned: {778899}%s\n{FF0000}Alasan: {778899}%s\n{FF0000}Durasi banned: Permanen\n\n{FFFFFF}Merasa tidak bersalah di banned? Voice di Discord resmi kami.", BannedName, PlayerIP, PlayerName, ReturnDate(banDate), Reason, datez);
+				format(lstr, sizeof(lstr), "{FF0000}Ucp Anda telah diblokir dari server!\n\n"LB2_E"Detail Informasi:\n{FF0000}Nama UCP: {778899}%s\n{FF0000}Ip Addres: {778899}%s\n{FF0000}Admin Penindak: {778899}%s\n{FF0000}Tanggal Banned: {778899}%s\n{FF0000}Alasan: {778899}%s\n{FF0000}Durasi banned: Permanen\n\n{FFFFFF}Merasa tidak bersalah? Voice di Discord resmi kami.", BannedName, PlayerIP, PlayerName, ReturnDate(banDate), Reason, datez);
 				gettime() + (datez * 86400);
 				ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "{ff0000}/ {ffffff}Cerita Kita Roleplay{ffffff} - Informasi Blokir", lstr, "Keluar", "");
 			}
 			else
 			{
 				new lstr[512];
-				format(lstr, sizeof(lstr), "{FF0000}Ucp Anda telah diblokir dari server!\n\n"LB2_E"Detail Informasi:\n{FF0000}Nama UCP: {778899}%s\n{FF0000}Ip Addres: {778899}%s\n{FF0000}Admin Penindak: {778899}%s\n{FF0000}Tanggal Banned: {778899}%s\n{FF0000}Alasan: {778899}%s\n{FF0000}Durasi banned: Permanen\n\n{FFFFFF}Merasa tidak bersalah di banned? Voice di Discord resmi kami.", BannedName, PlayerIP, PlayerName, ReturnDate(banDate), Reason);
+				format(lstr, sizeof(lstr), "{FF0000}Ucp Anda telah diblokir dari server!\n\n"LB2_E"Detail Informasi:\n{FF0000}Nama UCP: {778899}%s\n{FF0000}Ip Addres: {778899}%s\n{FF0000}Admin Penindak: {778899}%s\n{FF0000}Tanggal Banned: {778899}%s\n{FF0000}Alasan: {778899}%s\n{FF0000}Durasi banned: Permanen\n\n{FFFFFF}Merasa tidak bersalah? Voice di Discord resmi kami.", BannedName, PlayerIP, PlayerName, ReturnDate(banDate), Reason);
 				ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "{ff0000}/ {ffffff}Cerita Kita Roleplay{ffffff} - Informasi Blokir", lstr, "Keluar", "");
 			}
 			KickEx(playerid);
@@ -147,14 +146,14 @@ function CheckBanAccount(playerid, namachar[])
 			if(datez != 0)
 			{
 				new lstr[512];
-				format(lstr, sizeof(lstr), "{FF0000}Ucp Anda telah diblokir dari server!\n\n"LB2_E"Detail Informasi:\n{FF0000}Nama UCP: {778899}%s\n{FF0000}Ip Addres: {778899}%s\n{FF0000}Admin Penindak: {778899}%s\n{FF0000}Tanggal Banned: {778899}%s\n{FF0000}Alasan: {778899}%s\n{FF0000}Durasi banned: Permanen\n\n{FFFFFF}Merasa tidak bersalah di banned? Voice di Discord resmi kami.", BannedName, PlayerIP, PlayerName, ReturnDate(banDate), Reason, datez);
+				format(lstr, sizeof(lstr), "{FF0000}Ucp Anda telah diblokir dari server!\n\n"LB2_E"Detail Informasi:\n{FF0000}Nama UCP: {778899}%s\n{FF0000}Ip Addres: {778899}%s\n{FF0000}Admin Penindak: {778899}%s\n{FF0000}Tanggal Banned: {778899}%s\n{FF0000}Alasan: {778899}%s\n{FF0000}Durasi banned: Permanen\n\n{FFFFFF}Merasa tidak bersalah? Voice di Discord resmi kami.", BannedName, PlayerIP, PlayerName, ReturnDate(banDate), Reason, datez);
 				gettime() + (datez * 86400);
 				ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "{ff0000}/ {ffffff}Cerita Kita Roleplay{ffffff} - Informasi Blokir", lstr, "Keluar", "");
 			}
 			else
 			{
 				new lstr[512];
-				format(lstr, sizeof(lstr), "{FF0000}Ucp Anda telah diblokir dari server!\n\n"LB2_E"Detail Informasi:\n{FF0000}Nama UCP: {778899}%s\n{FF0000}Ip Addres: {778899}%s\n{FF0000}Admin Penindak: {778899}%s\n{FF0000}Tanggal Banned: {778899}%s\n{FF0000}Alasan: {778899}%s\n{FF0000}Durasi banned: Permanen\n\n{FFFFFF}Merasa tidak bersalah di banned? Voice di Discord resmi kami.", BannedName, PlayerIP, PlayerName, ReturnDate(banDate), Reason);
+				format(lstr, sizeof(lstr), "{FF0000}Ucp Anda telah diblokir dari server!\n\n"LB2_E"Detail Informasi:\n{FF0000}Nama UCP: {778899}%s\n{FF0000}Ip Addres: {778899}%s\n{FF0000}Admin Penindak: {778899}%s\n{FF0000}Tanggal Banned: {778899}%s\n{FF0000}Alasan: {778899}%s\n{FF0000}Durasi banned: Permanen\n\n{FFFFFF}Merasa tidak bersalah? Voice di Discord resmi kami.", BannedName, PlayerIP, PlayerName, ReturnDate(banDate), Reason);
 				ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "{ff0000}/ {ffffff}Cerita Kita Roleplay{ffffff} - Informasi Blokir", lstr, "Keluar", "");
 			}
 			KickEx(playerid);
