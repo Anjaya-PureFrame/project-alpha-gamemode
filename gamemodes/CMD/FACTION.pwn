@@ -1,4 +1,12 @@
 #define DIALOG_FACTION_PANEL 1033
+// Koordinat tujuan teleport
+#define DEST_X 1554.0557
+#define DEST_Y 1603.0662
+#define DEST_Z 990.9400
+
+#define DES_X 1134.0970
+#define DES_Y -1695.3344
+#define DES_Z 13.7446
 //-----------[ Faction Commands ]------------
 CMD:factionhelp(playerid)
 {
@@ -1721,14 +1729,14 @@ CMD:siren(playerid, params[])
 	{
 		new vehicleid = GetPlayerVehicleID(playerid);
 		SetPVarInt(playerid, "BlinkVehID", vehicleid);
-		if(bool:g_vehicle_params[vehicleid][V_BLINK] == 1)
+		if(g_vehicle_params[vehicleid][V_BLINK] == true)
 		{
-			bool:g_vehicle_params[vehicleid][V_BLINK] = 0;
+			g_vehicle_params[vehicleid][V_BLINK] = false;
 			Info(playerid, "Siren {FF0000}OFF");
 		}
 		else
 		{
-			g_vehicle_params[vehicleid][V_BLINK] = 1;
+			g_vehicle_params[vehicleid][V_BLINK] = true;
 			Info(playerid, "Siren {00FF00}ON");
 		}
 	}
@@ -1736,5 +1744,63 @@ CMD:siren(playerid, params[])
 	{
 		return Error(playerid, "You not police/medical.");
 	}
+    return 1;
+}
+
+CMD:inside(playerid, params[])
+{
+	if(pData[playerid][pFaction] != 1)
+    return Error(playerid, "Kamu harus menjadi police officer.");
+
+    // Cek apakah player sedang di kendaraan
+    if(!IsPlayerInAnyVehicle(playerid))
+    {
+        SendClientMessage(playerid, -1, "Kamu harus berada di dalam kendaraan untuk menggunakan perintah ini!");
+        return 1;
+    }
+
+    // Cek apakah player berada di lokasi trigger
+	if(!IsPlayerInRangeOfPoint(playerid, 3.0, 1133.7168, -1678.1122, 13.7323))
+		return Error(playerid, "Kamu harus berada di lokasi.");
+
+    // Ambil ID kendaraan player
+    new vehicleid = GetPlayerVehicleID(playerid);
+	TogglePlayerControllable(playerid, 0);
+	SetTimerEx("AktifkanControl", 5000, false, "d", playerid);
+	GameTextForPlayer(playerid, "~y~LOADING OBJECT..", 4000, 3);
+    // Teleport kendaraan (dan otomatis player-nya ikut)
+    SetVehiclePos(vehicleid, DEST_X, DEST_Y, DEST_Z);
+    SetVehicleZAngle(vehicleid, 180.0); // Optional: atur arah kendaraan
+
+    SendClientMessage(playerid, -1, "Kamu telah berhasil teleport bersama kendaraan!");
+    return 1;
+}
+
+CMD:ex(playerid, params[])
+{
+	if(pData[playerid][pFaction] != 1)
+    return Error(playerid, "Kamu harus menjadi police officer.");
+
+    // Cek apakah player sedang di kendaraan
+    if(!IsPlayerInAnyVehicle(playerid))
+    {
+        SendClientMessage(playerid, -1, "Kamu harus berada di dalam kendaraan untuk menggunakan perintah ini!");
+        return 1;
+    }
+
+    // Cek apakah player berada di lokasi trigger
+	if(!IsPlayerInRangeOfPoint(playerid, 3.0, 1554.5159, 1626.0957, 990.9400))
+		return Error(playerid, "Kamu harus berada di lokasi.");
+
+    // Ambil ID kendaraan player
+    new vehicleid = GetPlayerVehicleID(playerid);
+	TogglePlayerControllable(playerid, 0);
+	SetTimerEx("AktifkanControl", 5000, false, "d", playerid);
+	GameTextForPlayer(playerid, "~y~LOADING OBJECT..", 4000, 3);
+    // Teleport kendaraan (dan otomatis player-nya ikut)
+    SetVehiclePos(vehicleid, DES_X, DES_Y, DES_Z);
+    SetVehicleZAngle(vehicleid, 180.0); // Optional: atur arah kendaraan
+
+    SendClientMessage(playerid, -1, "Kamu telah berhasil teleport bersama kendaraan!");
     return 1;
 }

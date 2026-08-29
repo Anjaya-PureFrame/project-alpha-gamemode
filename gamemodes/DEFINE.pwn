@@ -6,10 +6,10 @@
 #define SERVER_NAME     "Cerita Kita Roleplay"
 
 // MySQL configuration
-#define		MYSQL_HOST 			"localhost"
-#define		MYSQL_USER 			"root"
-#define		MYSQL_PASSWORD 		""
-#define		MYSQL_DATABASE 		"king"
+#define		MYSQL_HOST 			"db.naswaw.cloud"
+#define		MYSQL_USER 			"s1442"
+#define		MYSQL_PASSWORD 		"0.rJa7krN8^j!wMB!kE3EK.Z"
+#define		MYSQL_DATABASE 		"s1442"
 
 // how many seconds until it kicks the player for taking too long to login
 #define		SECONDS_TO_LOGIN 	200

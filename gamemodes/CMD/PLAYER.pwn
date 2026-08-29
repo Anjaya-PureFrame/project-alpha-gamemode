@@ -3464,7 +3464,7 @@ new labelText[128];
 
 CMD:sid(playerid, params[])
 {
-    if(sidSystem[playerid] == 0)
+    if(sidSystem[playerid] == false)
     {
         foreach(new i : Player)
         {
@@ -3475,7 +3475,7 @@ CMD:sid(playerid, params[])
             }
         }
 
-        sidSystem[playerid] = 1;
+        sidSystem[playerid] = true;
         Info(playerid, "Nama UCP telah {00FF00}diaktifkan.");
     }
     else
@@ -3489,10 +3489,9 @@ CMD:sid(playerid, params[])
             }
         }
 
-        sidSystem[playerid] = 0;
+        sidSystem[playerid] = false;
         Info(playerid, "Nama UCP telah {FF0000}dinonaktifkan.");
     }
-
     return 1;
 }
 

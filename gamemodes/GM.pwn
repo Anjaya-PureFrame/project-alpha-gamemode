@@ -1525,6 +1525,16 @@ public OnGameModeInit()
 	format(strings, sizeof(strings), "[Cari Kerja]\n{FFFFFF}Gunakan {3BBD44}'ALT'{FFFFFF} - Untuk mengambil pekerjaan ");
 	CreateDynamic3DTextLabel(strings, COLOR_ORANGE2, 2461.3101, 2270.4976, 91.6744, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1);
 
+	//------[Tempat masuk garasi kanpol]------------
+	CreateDynamicPickup(1239, 23, 1133.7168, -1678.1122, 13.7323, -1, -1, -1, 50);
+	format(strings, sizeof(strings), "[Garasi Kanpol]\n{FFFFFF}Gunakan {3BBD44}'/inside'{FFFFFF} - Untuk masuk ke garasi");
+	CreateDynamic3DTextLabel(strings, COLOR_ORANGE2, 1133.7168, -1678.1122, 13.7323, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1);
+
+	//------[Tempat masuk garasi kanpol]------------
+	CreateDynamicPickup(1239, 23, 1554.5159, 1626.0957, 990.9400, -1, -1, -1, 50);
+	format(strings, sizeof(strings), "[Garasi Kanpol]\n{FFFFFF}Gunakan {3BBD44}'/ex'{FFFFFF} - Untuk keluar ke garasi");
+	CreateDynamic3DTextLabel(strings, COLOR_ORANGE2, 1554.5159, 1626.0957, 990.9400, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1);
+	
 	//-----[Penyetoran Job Pabrik]------------
 	CreateDynamicPickup(1239, 23, 2574.8228, -1282.5386, 1044.1250, -1, -1, -1, 50);
 	format(strings, sizeof(strings), "[Gudang Produk]\n{FFFFFF}Gunakan {3BBD44}'/store'{FFFFFF} - Untuk menaruh barang produksi ");

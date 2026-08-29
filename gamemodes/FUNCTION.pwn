@@ -426,6 +426,8 @@ function CekNamaDobelJing(playerid, name[])
 
 function OnPlayerRegister(playerid)
 {
+	// di CekNamaDobelJing, sebelum insert
+	printf("DEBUG: mau insert nama=%s ucp=%s", GetName(playerid));
 	if(pData[playerid][IsLoggedIn] == true)
 		return Error(playerid, "You already logged in!");
 		
