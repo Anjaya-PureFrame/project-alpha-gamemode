@@ -6750,3 +6750,5 @@
 [08/30/26 00:03:31] [WARNING] Unhandled payload opcode '1'
 [08/30/26 00:03:38] [ERROR] Discord terminated websocket connection; reason:  (1000)
 [08/30/26 00:03:38] [ERROR] Can't write to Discord websocket gateway: The I/O operation has been aborted because of either a thread exit or an application request (995)
+[09/01/26 13:16:05] [ERROR] Can't write to Discord websocket gateway: The I/O operation has been aborted because of either a thread exit or an application request (995)
+[09/01/26 13:16:32] [ERROR] Can't write to Discord websocket gateway: The I/O operation has been aborted because of either a thread exit or an application request (995)

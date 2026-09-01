@@ -2445,6 +2445,12 @@ public OnPlayerConnect(playerid)
     SetTimerEx("BlinkingLight", 300, true, "i", playerid);
     SetTimerEx("ChangeServerEverySecond", 1000, true, "i", playerid);
     SetTimerEx("GantiWarna",  5000, true, "i", playerid);
+
+	//-------MENGECEK KONDISI APAKAH PLAYER INJURED--------//
+	if(pData[playerid][pInjured] == 1)
+	{
+		Info(playerid, "Kamu dalam kondisi pingsan, Gunakan otot 'Y' untuk koma, atau tunggu petugas medis datang.");
+	}
 	return 1;
 }
 
@@ -2881,6 +2887,7 @@ public OnPlayerDeath(playerid, killerid, reason)
 	Player_RemoveLumber(playerid);
 	Player_ResetMining(playerid);
 	Player_ResetHarvest(playerid);
+	Info(playerid, "Kamu pingsan, kamu akan kehilangan darah dalam 5 menit, Gunakan otot 'Y' untuk koma.");
 	
 	pData[playerid][CarryProduct] = 0;
 	pData[playerid][pProductingStatus] = 0;
@@ -6280,7 +6287,6 @@ ptask PlayerUpdate[999](playerid)
 			pData[playerid][pWeapon] = 0;
 			pData[playerid][pMarijuana] = 0;
 			GivePlayerMoneyEx(playerid, -1500);
-			SetPlayerDrunkLevel(playerid, 0);
 			SetPlayerHealthEx(playerid, 100);
 
             for (new i; i < 20; i++)
@@ -6325,7 +6331,6 @@ ptask PlayerUpdate[999](playerid)
             }
         }
       	ApplyAnimation(playerid, "WUZI", "CS_DEAD_GUY", 4.1, 0, 1, 1, 1, 0, 1);
-		SetPlayerDrunkLevel(playerid, 99999);
         SetPlayerHealthEx(playerid, 99999);
     }
 	if(pData[playerid][pInjured] == 0 && pData[playerid][pGender] != 0) //Pengurangan Data
