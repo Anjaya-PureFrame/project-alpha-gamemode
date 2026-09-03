@@ -6,11 +6,11 @@
 
 CreateJoinMechPoint()
 {
-	//JOBS
+	/*//JOBS
 	new strings[128];
 	CreateDynamicPickup(1239, 23, 1867.0510, -1815.1311, 14.2783, -1, -1, -1, 50);
 	format(strings, sizeof(strings), "[MECH JOBS]\n{ffffff}Jadilah Pekerja Mekanik disini\n{7fff00}/getjob /accept job");
-	CreateDynamic3DTextLabel(strings, COLOR_YELLOW, 1867.0510, -1815.1311, 14.2783, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1); // Taxi
+	CreateDynamic3DTextLabel(strings, COLOR_YELLOW, 1867.0510, -1815.1311, 14.2783, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1); // Taxi*/
 }
 
 IsAtMech(playerid)

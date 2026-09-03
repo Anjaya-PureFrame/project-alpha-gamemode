@@ -1526,7 +1526,7 @@ DisplayStats(playerid, p2)
 
 	new string[1200];
 	new mstr[512];
-	format(mstr, sizeof(mstr), "{FF0000}Cerita Nusantara {ffffff}- %s(%d) - (%s)", pData[p2][pName], p2, pData[p2][pUCP]);
+	format(mstr, sizeof(mstr), "{FF0000}Garudaku Roleplay {ffffff}- %s(%d) - (%s)", pData[p2][pName], p2, pData[p2][pUCP]);
 	format(string, sizeof(string),
 	"Category\t\t\t\t- Detail(s)\n\
 	Character ID\t\t\t\t: %d\n\

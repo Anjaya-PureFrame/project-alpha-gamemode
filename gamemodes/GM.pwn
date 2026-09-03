@@ -1476,9 +1476,9 @@ public OnGameModeInit()
 	format(strings, sizeof(strings), "[Plate]\n{FFFFFF}/buyplate - Buat plate baru kendaraan");
 	CreateDynamic3DTextLabel(strings, COLOR_BLUE, 1571.3992,1593.5789,1003.5399, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1); // Plate Kota Dilimore
 	
-	CreateDynamicPickup(1239, 23, 1574.5521,1597.4587,1003.5000, -1, -1, -1, 50);
+	/*CreateDynamicPickup(1239, 23, 1574.5521,1597.4587,1003.5000, -1, -1, -1, 50);
 	format(strings, sizeof(strings), "[Pengurusan]\n{FFFFFF}/payticket - Membayar tiket tilang anda");
-	CreateDynamic3DTextLabel(strings, COLOR_BLUE, 1574.5521,1597.4587,1003.5000, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1); // Ticket Kota Ls
+	CreateDynamic3DTextLabel(strings, COLOR_BLUE, 1574.5521,1597.4587,1003.5000, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1); // Ticket Kota Ls*/
 	
 	CreateDynamicPickup(1239, 23, 1570.1456,1602.3759,991.9402, -1, -1, -1, 50);
 	format(strings, sizeof(strings), "[Penjara Kepolisian]\n{FFFFFF}/arrest - untuk penjarakan tahanan");
@@ -2327,7 +2327,7 @@ public OnPlayerCommandPerformed(playerid, cmd[], params[], result, flags)
 {
     if (result == -1)
     {
-        Error(playerid, "Unknown Command! Gunakan /help untuk info lanjut.");
+        Error(playerid, "Perintah tidak diketahui! Gunakan /help untuk info lanjut.");
         return 0;
     }
 	new str[150];
@@ -2435,13 +2435,15 @@ public OnPlayerConnect(playerid)
     if(pData[playerid][pLHand] < 0) return pData[playerid][pLHand] = 20;
    
     if(pData[playerid][pRHand] < 0) return pData[playerid][pRHand] = 20;
-	PlayAudioStreamForPlayer(playerid, "http://192.168.133.102/negrioris.mp3");
+	PlayAudioStreamForPlayer(playerid, "https://ambitious-blush-xsp9k9fj.edgeone.dev");
     if(IsPlayerNPC(playerid)) return 1; 
+	{
+
 
         pData[playerid][pSeconds] = 0;
         pData[playerid][pMinutes] = 0;
         pData[playerid][pHours] = 0;
-
+	}
     SetTimerEx("BlinkingLight", 300, true, "i", playerid);
     SetTimerEx("ChangeServerEverySecond", 1000, true, "i", playerid);
     SetTimerEx("GantiWarna",  5000, true, "i", playerid);
@@ -5702,7 +5704,7 @@ public OnPlayerStateChange(playerid, newstate, oldstate)
         }
 		if(pData[playerid][pHBEMode] == 1) //simple
 		{
-	        new Float:fDamage, fFuel, color1, color2;
+	        new Float:fDamage, Float:fFuel, color1, color2;
 
 			GetVehicleColor(vehicleid, color1, color2);
 
@@ -5719,7 +5721,7 @@ public OnPlayerStateChange(playerid, newstate, oldstate)
 
 			format(_string, sizeof(_string), "%.0f", GetVehicleSpeed(vehicleid));
 			PlayerTextDrawSetString(playerid, ASPEEDO[playerid], _string);
-			format(_string, sizeof(_string), "%d", GetVehicleFuel(vehicleid));
+			format(_string, sizeof(_string), "%.0f", GetVehicleFuel(vehicleid));
 			PlayerTextDrawSetString(playerid, AFUELS[playerid], _string);
 		    for(new i = 0; i < 2; i++)
 		    {

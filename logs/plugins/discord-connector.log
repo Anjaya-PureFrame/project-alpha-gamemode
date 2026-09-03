@@ -6772,3 +6772,13 @@
 [09/01/26 20:44:13] [WARNING] Unknown gateway event 'VOICE_CHANNEL_START_TIME_UPDATE'
 [09/01/26 20:44:13] [WARNING] Unknown gateway event 'VOICE_CHANNEL_STATUS_UPDATE'
 [09/01/26 20:51:49] [WARNING] Unknown gateway event 'GUILD_AUDIT_LOG_ENTRY_CREATE'
+[09/03/26 11:41:17] [ERROR] Error while retrieving HTTP POST response from '/api/v8/channels/1542187539194978374/messages': end of stream
+[09/03/26 11:55:55] [WARNING] Unknown gateway event 'GUILD_AUDIT_LOG_ENTRY_CREATE'
+[09/04/26 01:29:02] [ERROR] Error while retrieving HTTP POST response from '/api/v8/channels/1542187539194978374/messages': end of stream
+[09/04/26 01:41:35] [ERROR] Can't write to Discord websocket gateway: The I/O operation has been aborted because of either a thread exit or an application request (995)
+[09/04/26 01:43:07] [ERROR] Can't read from Discord websocket gateway: End of file (2)
+[09/04/26 01:43:07] [ERROR] Can't write to Discord websocket gateway: The I/O operation has been aborted because of either a thread exit or an application request (995)
+[09/04/26 01:48:44] [ERROR] Error while retrieving HTTP POST response from '/api/v8/channels/1542187539194978374/messages': end of stream
+[09/04/26 02:34:15] [ERROR] Error while retrieving HTTP POST response from '/api/v8/channels/1542187539194978374/messages': end of stream
+[09/04/26 03:06:58] [ERROR] Error while retrieving HTTP POST response from '/api/v8/channels/1542187539194978374/messages': end of stream
+[09/04/26 04:03:16] [ERROR] Error while retrieving HTTP POST response from '/api/v8/channels/1542187539194978374/messages': end of stream

@@ -399,3 +399,15 @@
 [01/09/2026 - 17:30:16] - Admin Rahmat Anjaya menyetel hp Rahmat Anjaya!
 [01/09/2026 - 17:36:26] - Admin Rahmat Anjaya menyetel hp Rahmat Anjaya!
 [03/09/2026 - 10:38:36] - Admin: Anjayaa menyetel ketua faction id 1 ke Anjayaa!
+[03/09/2026 - 11:38:09] - Admin: Javier Cooper menyetel ketua faction id 1 ke Javier Cooper!
+[04/09/2026 - 01:30:26] - [Biz]: Javier Cooper membuat business id 2!
+[04/09/2026 - 01:35:23] - Admin: Javier Cooper menyetel uang $10,000 ke Javier Cooper!
+[04/09/2026 - 02:16:38] - [Atm]: Javier Cooper menghapus atm id 4!
+[04/09/2026 - 02:24:14] - [Atm]: Anjayaa menghapus atm id 10!
+[04/09/2026 - 02:25:23] - [Atm]: Anjayaa membuat atm id 4!
+[04/09/2026 - 02:29:21] - [Atm]: Anjayaa membuat atm id 10!
+[04/09/2026 - 02:31:15] - [Actor]: Anjayaa membuat actor id 3!
+[04/09/2026 - 02:51:17] - [Gas]: Javier Cooper membuat gas station id 7!
+[04/09/2026 - 02:51:35] - [Biz]: Javier Cooper membuat business id 3!
+[04/09/2026 - 03:17:11] - [Vehicle]: Javier Cooper membuat kendaraan id 560 ke Javier Cooper!
+[04/09/2026 - 03:36:30] - [Vehicle]: Javier Cooper membuat kendaraan id 559 ke Javier Cooper!

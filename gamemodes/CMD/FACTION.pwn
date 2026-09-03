@@ -287,8 +287,8 @@ CMD:fa(playerid, params[])
 	else if(pData[playerid][pFaction] == 4)
 	{
 		new lstr[1024];
-		format(lstr, sizeof(lstr), "** LIPUTAN NUSANTARA: %s(%d) %s: %s **", GetFactionRank(playerid), pData[playerid][pFactionRank], pData[playerid][pName], params);
-		SendClientMessageToAll(COLOR_WHITE, "[=========== INFORMASI LIPUTAN NUSANTARA ===========]");
+		format(lstr, sizeof(lstr), "** LIPUTAN GARUDAKU: %s(%d) %s: %s **", GetFactionRank(playerid), pData[playerid][pFactionRank], pData[playerid][pName], params);
+		SendClientMessageToAll(COLOR_WHITE, "[=========== INFORMASI LIPUTAN GARUDAKU ===========]");
 		SendClientMessageToAll(COLOR_ORANGE2, lstr);
 	}
 	return 1;

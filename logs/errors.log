@@ -1,2 +1,2 @@
-[09/03/26 10:31:57] [plugins/mysql] cache_get_value_name_int: no active cache (UCP.pwn:8 -> DIALOG.pwn:61)
-[09/03/26 10:33:45] [plugins/mysql] cache_get_value_name_int: no active cache (UCP.pwn:8 -> DIALOG.pwn:61)
+[09/04/26 03:35:53] [plugins/mysql] cache_get_value_name_int: no active cache (UCP.pwn:8 -> DIALOG.pwn:61)
+[09/04/26 04:03:16] [plugins/discord-connector] Error while retrieving HTTP POST response from '/api/v8/channels/1542187539194978374/messages': end of stream

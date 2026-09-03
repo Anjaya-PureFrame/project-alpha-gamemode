@@ -4519,7 +4519,7 @@ CMD:dynamic(playerid, params[])
 		strcat(string, "{ffffff}==========> {ff0000}Family Moderator.\n\n");
 	    strcat(string, "{87CEFA}[FAMILY]: {ffffff}/fcreate, /fedit, /fdelete, /flist, /famint\n\n");
 	}
-	ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "{FF0000}Moderator Cmd | Nusantara", string, "Tutup","");
+	ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "{FF0000}Moderator Cmd | Garudaku", string, "Tutup","");
 	return 1;
 }
 

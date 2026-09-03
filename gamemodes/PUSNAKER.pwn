@@ -5,7 +5,7 @@ new PlayerJobLeaveTime[MAX_PLAYERS];
 //---------------[Pusat Tenaga Kerja]---------------
 stock OpenPusnakerMenu(playerid)
 {
-    ShowPlayerDialog(playerid, DIALOG_PUSNAKER, DIALOG_STYLE_LIST, "{15D4ED}/{ffffff} Pusat Tenaga Kerja - Nusantara", 
+    ShowPlayerDialog(playerid, DIALOG_PUSNAKER, DIALOG_STYLE_LIST, "{15D4ED}/{ffffff} Pusat Tenaga Kerja - Kota", 
                      "Pekerja Taxi\nPekerja Mekanik\nPenebang Pohon\nSopir Truk\nPekerja Tambang\nBuruh Pabrik\nPekerja Tani\nPekerja Kurir\nPekerja Bandara\n{FF0000}Keluar Pekerjaan", 
                      "Pilih", "Tutup");
     return 1;

@@ -192,20 +192,20 @@ CMD:fill(playerid, params[])
 {
 	if(!IsPlayerInAnyVehicle(playerid) && GetPlayerState(playerid) != PLAYER_STATE_DRIVER)
 		return Error(playerid, "Kamu harus menjadi sopir.");
-	
+
 	new vehid = GetPlayerVehicleID(playerid);
 	if(!IsEngineVehicle(vehid))
-            return Error(playerid, "You are not in engine vehicle.");
-	
+		return Error(playerid, "You are not in engine vehicle.");
+
 	if(GetEngineStatus(vehid))
-					return Error(playerid, "Matikan mesin terlebih dahulu.");
-			
-	if(GetVehicleFuel(vehid) >= 100.0)
+		return Error(playerid, "Matikan mesin terlebih dahulu.");
+
+	if(GetVehicleFuel(vehid) >= 100)
 		return Error(playerid, "Bensin Kendaraan ini penuh.");
-	
+
 	if(pData[playerid][pFill] != -1)
 		return Error(playerid, "Kamu sedang mengisi bensin kendaraan ini tolong tunggu!");
-		
+
 	foreach(new gsid : GStation)
 	{
 		if(IsPlayerInRangeOfPoint(playerid, 4.0, gsData[gsid][gsPosX], gsData[gsid][gsPosY], gsData[gsid][gsPosZ]))
@@ -215,12 +215,14 @@ CMD:fill(playerid, params[])
 
 			pData[playerid][pFill] = gsid;
 			pData[playerid][pFillStatus] = 1;
-			pData[playerid][pFillTime] = SetTimerEx("Filling", 500, true, "i", playerid); // per 1 detik
+			pData[playerid][pFillTime] = SetTimerEx("Filling", 500, true, "i", playerid);
 			pData[playerid][pActivityTime] = 0;
 			pData[playerid][pFillPrice] = 0;
 			PlayerTextDrawSetString(playerid, ActiveTD[playerid], "Mengisi...");
 			PlayerTextDrawShow(playerid, ActiveTD[playerid]);
+			SetPlayerProgressBarValue(playerid, pData[playerid][activitybar], 0.0);
 			ShowPlayerProgressBar(playerid, pData[playerid][activitybar]);
+			break; // jangan lupa ini, biar nggak double timer
 		}
 	}
 	return 1;
@@ -229,42 +231,48 @@ CMD:fill(playerid, params[])
 function Filling(playerid)
 {
 	if(pData[playerid][pFillStatus] != 1) return 0;
-	foreach(new gsid : GStation)
-	{
-		// Stop kondisi
-		if(!IsPlayerInRangeOfPoint(playerid, 4.0, gsData[gsid][gsPosX], gsData[gsid][gsPosY], gsData[gsid][gsPosZ]) && !IsPlayerInAnyVehicle(playerid) || GetVehicleFuel(GetPlayerVehicleID(playerid)) >= 999.0 || GetPlayerMoney(playerid) < GStationPrice)
-		{
-			return StopFilling(playerid);
-		}
-		// Tambah fuel
-		if(GetEngineStatus(GetPlayerVehicleID(playerid)))
-		return StopFilling(playerid);
-		new old = GetVehicleFuel(GetPlayerVehicleID(playerid));
-		SetVehicleFuel(GetPlayerVehicleID(playerid), old + 200);
-		pData[playerid][pFillPrice] += GStationPrice;
-		gsData[pData[playerid][pFill]][gsStock] -= 10;
-				
-		pData[playerid][pActivityTime] += 50;
-		SetPlayerProgressBarValue(playerid, pData[playerid][activitybar], float(pData[playerid][pActivityTime]));
 
-		// Jika sudah penuh
-		if(GetVehicleFuel(GetPlayerVehicleID(playerid)) >= 100.0)
-		{
-			SetVehicleFuel(GetPlayerVehicleID(playerid), 100);
-			HidePlayerProgressBar(playerid, pData[playerid][activitybar]);
-			PlayerTextDrawHide(playerid, ActiveTD[playerid]);
-		}
+	new vehid = GetPlayerVehicleID(playerid);
+	new gsid = pData[playerid][pFill];
+
+	if(!IsPlayerInAnyVehicle(playerid)
+	|| !IsPlayerInRangeOfPoint(playerid, 4.0, gsData[gsid][gsPosX], gsData[gsid][gsPosY], gsData[gsid][gsPosZ])
+	|| GetEngineStatus(vehid)
+	|| GetPlayerMoney(playerid) < GStationPrice)
+	{
+		return StopFilling(playerid);
+	}
+
+	new old = GetVehicleFuel(vehid);      // INTEGER, bukan Float
+	new increment = 1;                     // integer juga, atur sesuai selera durasi
+
+	new newFuel = old + increment;
+	if(newFuel > 100) newFuel = 100;
+
+	new actualAdded = newFuel - old;       // biasanya = increment, kecuali tick terakhir
+
+	SetVehicleFuel(vehid, newFuel);
+	pData[playerid][pFillPrice] += (actualAdded * GStationPrice);
+	gsData[gsid][gsStock] -= 1;
+
+	SetPlayerProgressBarValue(playerid, pData[playerid][activitybar], float(newFuel)); // cast ke float DI SINI aja, khusus buat progressbar
+
+	if(newFuel >= 100)
+	{
+		HidePlayerProgressBar(playerid, pData[playerid][activitybar]);
+		PlayerTextDrawHide(playerid, ActiveTD[playerid]);
+		return StopFilling(playerid);
 	}
 	return 1;
 }
-	
+
 StopFilling(playerid)
 {
 	new gsid = pData[playerid][pFill];
 
 	GivePlayerMoneyEx(playerid, -pData[playerid][pFillPrice]);
 	GStation_Refresh(gsid);
-	Info(playerid,"Tangki kendaraan anda sudah terisi seharga "RED_E"%s.", FormatMoney(pData[playerid][pFillPrice]));
+	Info(playerid, "Tangki kendaraan anda sudah terisi seharga "RED_E"%s.", FormatMoney(pData[playerid][pFillPrice]));
 	KillTimer(pData[playerid][pFillTime]);
 	pData[playerid][pFillTime] = -1;
 	pData[playerid][pFillStatus] = 0;

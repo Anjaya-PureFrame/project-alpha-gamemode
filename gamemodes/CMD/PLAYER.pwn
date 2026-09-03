@@ -14,7 +14,7 @@ CMD:help(playerid, params[])
 		format(str, sizeof(str), "Pencurian Kendaraan");
 		strcat(info, str);	
 	}
-	ShowPlayerDialog(playerid, DIALOG_HELP, DIALOG_STYLE_LIST, "{FF0000}/{ffffff} Nusantara Roleplay - Menu Bantuan", info, "Pilih", "Batal");
+	ShowPlayerDialog(playerid, DIALOG_HELP, DIALOG_STYLE_LIST, "{FF0000}/{ffffff} Garudaku Roleplay - Menu Bantuan", info, "Pilih", "Batal");
 	return 1;
 }
 
@@ -364,7 +364,7 @@ CMD:ktp(playerid, params[])
 	if (pData[playerid][pIDCard] == 0) return Error(playerid, "Anda tidak memiliki KTP!");
 	new sext[40], mstr[256];
     if(pData[playerid][pGender] == 1) { sext = "Laki-Laki"; } else { sext = "Perempuan"; }
-	format(mstr, sizeof(mstr), "{FFFF00}Nama: {FFFFFF}%s\n{FFFF00}No: {FFFFFF}%d\n{FFFF00}Alamat: {FFFFFF}Kota Nusantara\n{FFFF00}Jenis Kelamin: {FFFFFF}%s\n{FFFF00}Tanggal Lahir: {FFFFFF}%s\n{FFFF00}Kewarganegaraan: {FFFFFF}Indonesia\n{FFFF00}Berlaku: %s", pData[playerid][pName], pData[playerid][pPhone], sext, pData[playerid][pAge], ReturnTimelapse(gettime(), pData[playerid][pIDCardTime]));
+	format(mstr, sizeof(mstr), "{FFFF00}Nama: {FFFFFF}%s\n{FFFF00}No: {FFFFFF}%d\n{FFFF00}Alamat: {FFFFFF}Kota Garudaku\n{FFFF00}Jenis Kelamin: {FFFFFF}%s\n{FFFF00}Tanggal Lahir: {FFFFFF}%s\n{FFFF00}Kewarganegaraan: {FFFFFF}Indonesia\n{FFFF00}Berlaku: %s", pData[playerid][pName], pData[playerid][pPhone], sext, pData[playerid][pAge], ReturnTimelapse(gettime(), pData[playerid][pIDCardTime]));
 	ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "Kartu Tanda Penduduk", mstr, "Tutup", "");
 	return 1;
 }
@@ -482,7 +482,7 @@ CMD:payticket(playerid, params[])
 
 CMD:buyplate(playerid, params[])
 {
-	if(!IsPlayerInRangeOfPoint(playerid, 3.0, 1571.3992,1593.5789,1003.5399) && !IsPlayerInRangeOfPoint(playerid, 3.0, 1571.3992,1593.5789,1003.5399)) return Error(playerid, "Anda harus berada di kantor kepolisian Nusantara!");
+	if(!IsPlayerInRangeOfPoint(playerid, 3.0, 1571.3992,1593.5789,1003.5399) && !IsPlayerInRangeOfPoint(playerid, 3.0, 1571.3992,1593.5789,1003.5399)) return Error(playerid, "Anda harus berada di kantor kepolisian Garudaku!");
 		
 	new vehid;
 	if(sscanf(params, "d", vehid)) return Usage(playerid, "/buyplate [vehid] | /mypv - untuk cek id");
@@ -3432,7 +3432,7 @@ CMD:givedoc(playerid, params[])
         return Error(playerid, "Anda tidak memiliki KTP!");
 		new sext[40], mstr[256];
 		if(pData[playerid][pGender] == 1) { sext = "Laki-Laki"; } else { sext = "Perempuan"; }
-		format(mstr, sizeof(mstr), "{FFFF00}Nama: {FFFFFF}%s\n{FFFF00}NO HP: {FFFFFF}%d\n{FFFF00}Alamat: {FFFFFF}Kota Nusantara\n{FFFF00}Jenis Kelamin: {FFFFFF}%s\n{FFFF00}Tanggal Lahir: {FFFFFF}%s\n{FFFF00}Kewarganegaraan: {FFFFFF}Indonesia\n{FFFF00}Berlaku Hingga: %s Di mata hukum dan negara", pData[playerid][pName], pData[playerid][pPhone], sext, pData[playerid][pAge], ReturnTimelapse(gettime(), pData[playerid][pIDCardTime]));
+		format(mstr, sizeof(mstr), "{FFFF00}Nama: {FFFFFF}%s\n{FFFF00}NO HP: {FFFFFF}%d\n{FFFF00}Alamat: {FFFFFF}Kota Garudaku\n{FFFF00}Jenis Kelamin: {FFFFFF}%s\n{FFFF00}Tanggal Lahir: {FFFFFF}%s\n{FFFF00}Kewarganegaraan: {FFFFFF}Indonesia\n{FFFF00}Berlaku Hingga: %s Di mata hukum dan negara", pData[playerid][pName], pData[playerid][pPhone], sext, pData[playerid][pAge], ReturnTimelapse(gettime(), pData[playerid][pIDCardTime]));
 
 		//validasi pemain
        	ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "Kartu Tanda Penduduk", mstr, "Tutup", "");

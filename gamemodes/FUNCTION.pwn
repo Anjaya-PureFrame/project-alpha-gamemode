@@ -25,7 +25,7 @@ function OnPlayerDataLoaded(playerid, race_check)
 		{
 			new lstring[512];
 			format(lstring, sizeof lstring, "{ffffff}Selamat Datang Kembali di {ff0000}"SERVER_NAME"\n{ffffff}Nama Ucp: {ff0000}%s\n{ffffff}Kesalahan: {FF0000}0/3{ffffff}\nPassword: {3BBD44}(Masukan Disini)", pData[playerid][pUCP]);
-			ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "{ff0000}/{ffffff} Cerita Kita Roleplay - Login", lstring, "Masuk", "Keluar");
+			ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "{ff0000}/{ffffff} Garudaku Roleplay - Login", lstring, "Masuk", "Keluar");
 		}
 		pData[playerid][LoginTimer] = SetTimerEx("OnLoginTimeout", SECONDS_TO_LOGIN * 1000, false, "i", playerid);	
 	}
@@ -86,13 +86,13 @@ function CheckBanUCP(playerid)
 			{
 				new lstr[512];
 				format(lstr, sizeof(lstr), "{FF0000}Ucp Anda telah diblokir dari server!\n\n"LB2_E"Detail Informasi:\n{FF0000}Nama UCP: {778899}%s\n{FF0000}Ip Addres: {778899}%s\n{FF0000}Admin Penindak: {778899}%s\n{FF0000}Tanggal Banned: {778899}%s\n{FF0000}Alasan: {778899}%s\n{FF0000}Durasi banned: Permanen\n\n{FFFFFF}Merasa tidak bersalah? Voice di Discord resmi kami.", BannedName, PlayerIP, PlayerName, ReturnDate(banDate), Reason, datez);
-				ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "{ff0000}/ {ffffff}Cerita Kita Roleplay{ffffff} - Informasi Blokir", lstr, "Keluar", "");
+				ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "{ff0000}/ {ffffff}Garudaku Roleplay{ffffff} - Informasi Blokir", lstr, "Keluar", "");
 			}
 			else
 			{
 				new lstr[512];
 				format(lstr, sizeof(lstr), "{FF0000}Ucp Anda telah diblokir dari server!\n\n"LB2_E"Detail Informasi:\n{FF0000}Nama UCP: {778899}%s\n{FF0000}Ip Addres: {778899}%s\n{FF0000}Admin Penindak: {778899}%s\n{FF0000}Tanggal Banned: {778899}%s\n{FF0000}Alasan: {778899}%s\n{FF0000}Durasi banned: Permanen\n\n{FFFFFF}Merasa tidak bersalah? Voice di Discord resmi kami.", BannedName, PlayerIP, PlayerName, ReturnDate(banDate), Reason);
-				ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "{ff0000}/ {ffffff}Cerita Kita Roleplay{ffffff} - Informasi Blokir", lstr, "Keluar", "");
+				ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "{ff0000}/ {ffffff}Garudaku Roleplay{ffffff} - Informasi Blokir", lstr, "Keluar", "");
 			}
 			KickEx(playerid);
 			return 1;
@@ -147,13 +147,13 @@ function CheckBanAccount(playerid, namachar[])
 			{
 				new lstr[512];
 				format(lstr, sizeof(lstr), "{FF0000}Ucp Anda telah diblokir dari server!\n\n"LB2_E"Detail Informasi:\n{FF0000}Nama UCP: {778899}%s\n{FF0000}Ip Addres: {778899}%s\n{FF0000}Admin Penindak: {778899}%s\n{FF0000}Tanggal Banned: {778899}%s\n{FF0000}Alasan: {778899}%s\n{FF0000}Durasi banned: Permanen\n\n{FFFFFF}Merasa tidak bersalah? Voice di Discord resmi kami.", BannedName, PlayerIP, PlayerName, ReturnDate(banDate), Reason, datez);
-				ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "{ff0000}/ {ffffff}Cerita Kita Roleplay{ffffff} - Informasi Blokir", lstr, "Keluar", "");
+				ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "{ff0000}/ {ffffff}Garudaku Roleplay{ffffff} - Informasi Blokir", lstr, "Keluar", "");
 			}
 			else
 			{
 				new lstr[512];
 				format(lstr, sizeof(lstr), "{FF0000}Ucp Anda telah diblokir dari server!\n\n"LB2_E"Detail Informasi:\n{FF0000}Nama UCP: {778899}%s\n{FF0000}Ip Addres: {778899}%s\n{FF0000}Admin Penindak: {778899}%s\n{FF0000}Tanggal Banned: {778899}%s\n{FF0000}Alasan: {778899}%s\n{FF0000}Durasi banned: Permanen\n\n{FFFFFF}Merasa tidak bersalah? Voice di Discord resmi kami.", BannedName, PlayerIP, PlayerName, ReturnDate(banDate), Reason);
-				ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "{ff0000}/ {ffffff}Cerita Kita Roleplay{ffffff} - Informasi Blokir", lstr, "Keluar", "");
+				ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "{ff0000}/ {ffffff}Garudaku Roleplay{ffffff} - Informasi Blokir", lstr, "Keluar", "");
 			}
 			KickEx(playerid);
 			return 1;
@@ -395,7 +395,7 @@ function AssignPlayerData(playerid)
 	{
 		if(pData[ii][pTogLog] == 0)
 		{
-			SendClientMessageEx(ii, COLOR_RED, "{ff0000}( ! ) :"WHITE_E" %s Baru Saja Tiba di Kota Cerita Kita Tercinta.", pData[playerid][pName]);
+			SendClientMessageEx(ii, COLOR_RED, "{ff0000}( ! ) :"WHITE_E" %s Baru Saja Tiba di Kota Garudaku Tercinta.", pData[playerid][pName]);
 		}
 	}
 	
@@ -665,7 +665,7 @@ function LoadStats(playerid, PlayersName[])
 		}
 		else if(faction == 4)
 		{
-			fac = "Liputan Cerita Kita";
+			fac = "Liputan Garudaku";
 		}
 		else
 		{

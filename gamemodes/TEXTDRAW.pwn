@@ -449,7 +449,7 @@ CreatePlayerTextDraws(playerid)
 	Text_Locksreen[6] = TextDrawCreate(507.000, 169.000, "LD_BEAT:chit");
 	TextDrawTextSize(Text_Locksreen[6], 46.000, 56.000);
 	TextDrawAlignment(Text_Locksreen[6], 1);
-	TextDrawColor(Text_Locksreen[6], 2147472639);
+	TextDrawColor(Text_Locksreen[6], -1306385665);
 	TextDrawSetShadow(Text_Locksreen[6], 0);
 	TextDrawSetOutline(Text_Locksreen[6], 0);
 	TextDrawBackgroundColor(Text_Locksreen[6], 255);
@@ -459,7 +459,7 @@ CreatePlayerTextDraws(playerid)
 	Text_Locksreen[7] = TextDrawCreate(575.000, 169.000, "LD_BEAT:chit");
 	TextDrawTextSize(Text_Locksreen[7], 46.000, 56.000);
 	TextDrawAlignment(Text_Locksreen[7], 1);
-	TextDrawColor(Text_Locksreen[7], 2147472639);
+	TextDrawColor(Text_Locksreen[7], -1306385665);
 	TextDrawSetShadow(Text_Locksreen[7], 0);
 	TextDrawSetOutline(Text_Locksreen[7], 0);
 	TextDrawBackgroundColor(Text_Locksreen[7], 255);
@@ -469,7 +469,7 @@ CreatePlayerTextDraws(playerid)
 	Text_Locksreen[8] = TextDrawCreate(575.000, 377.000, "LD_BEAT:chit");
 	TextDrawTextSize(Text_Locksreen[8], 46.000, 56.000);
 	TextDrawAlignment(Text_Locksreen[8], 1);
-	TextDrawColor(Text_Locksreen[8], 2147472639);
+	TextDrawColor(Text_Locksreen[8], -1306385665);
 	TextDrawSetShadow(Text_Locksreen[8], 0);
 	TextDrawSetOutline(Text_Locksreen[8], 0);
 	TextDrawBackgroundColor(Text_Locksreen[8], 255);
@@ -479,7 +479,7 @@ CreatePlayerTextDraws(playerid)
 	Text_Locksreen[9] = TextDrawCreate(507.000, 377.000, "LD_BEAT:chit");
 	TextDrawTextSize(Text_Locksreen[9], 46.000, 56.000);
 	TextDrawAlignment(Text_Locksreen[9], 1);
-	TextDrawColor(Text_Locksreen[9], 2147472639);
+	TextDrawColor(Text_Locksreen[9], -1306385665);
 	TextDrawSetShadow(Text_Locksreen[9], 0);
 	TextDrawSetOutline(Text_Locksreen[9], 0);
 	TextDrawBackgroundColor(Text_Locksreen[9], 255);
@@ -489,7 +489,7 @@ CreatePlayerTextDraws(playerid)
 	Text_Locksreen[10] = TextDrawCreate(514.700, 196.000, "LD_SPAC:white");
 	TextDrawTextSize(Text_Locksreen[10], 98.500, 209.000);
 	TextDrawAlignment(Text_Locksreen[10], 1);
-	TextDrawColor(Text_Locksreen[10], 2147472639);
+	TextDrawColor(Text_Locksreen[10], -1306385665);
 	TextDrawSetShadow(Text_Locksreen[10], 0);
 	TextDrawSetOutline(Text_Locksreen[10], 0);
 	TextDrawBackgroundColor(Text_Locksreen[10], 255);
@@ -499,7 +499,7 @@ CreatePlayerTextDraws(playerid)
 	Text_Locksreen[11] = TextDrawCreate(528.000, 178.399, "LD_SPAC:white");
 	TextDrawTextSize(Text_Locksreen[11], 72.000, 244.800);
 	TextDrawAlignment(Text_Locksreen[11], 1);
-	TextDrawColor(Text_Locksreen[11], 2147472639);
+	TextDrawColor(Text_Locksreen[11], -1306385665);
 	TextDrawSetShadow(Text_Locksreen[11], 0);
 	TextDrawSetOutline(Text_Locksreen[11], 0);
 	TextDrawBackgroundColor(Text_Locksreen[11], 255);
@@ -539,7 +539,7 @@ CreatePlayerTextDraws(playerid)
 	Text_Locksreen[15] = TextDrawCreate(528.000, 303.398, "LD_SPAC:white");
 	TextDrawTextSize(Text_Locksreen[15], 72.000, 119.800);
 	TextDrawAlignment(Text_Locksreen[15], 1);
-	TextDrawColor(Text_Locksreen[15], 2147472639);
+	TextDrawColor(Text_Locksreen[15], -1306385665);
 	TextDrawSetShadow(Text_Locksreen[15], 0);
 	TextDrawSetOutline(Text_Locksreen[15], 0);
 	TextDrawBackgroundColor(Text_Locksreen[15], 255);
@@ -733,7 +733,7 @@ CreatePlayerTextDraws(playerid)
 	Text_Global[6] = TextDrawCreate(507.000, 169.000, "LD_BEAT:chit");
 	TextDrawTextSize(Text_Global[6], 46.000, 56.000);
 	TextDrawAlignment(Text_Global[6], 1);
-	TextDrawColor(Text_Global[6], 2147472639);
+	TextDrawColor(Text_Global[6], -1306385665);
 	TextDrawSetShadow(Text_Global[6], 0);
 	TextDrawSetOutline(Text_Global[6], 0);
 	TextDrawBackgroundColor(Text_Global[6], 255);
@@ -743,7 +743,7 @@ CreatePlayerTextDraws(playerid)
 	Text_Global[7] = TextDrawCreate(575.000, 169.000, "LD_BEAT:chit");
 	TextDrawTextSize(Text_Global[7], 46.000, 56.000);
 	TextDrawAlignment(Text_Global[7], 1);
-	TextDrawColor(Text_Global[7], 2147472639);
+	TextDrawColor(Text_Global[7], -1306385665);
 	TextDrawSetShadow(Text_Global[7], 0);
 	TextDrawSetOutline(Text_Global[7], 0);
 	TextDrawBackgroundColor(Text_Global[7], 255);
@@ -753,7 +753,7 @@ CreatePlayerTextDraws(playerid)
 	Text_Global[8] = TextDrawCreate(575.000, 377.000, "LD_BEAT:chit");
 	TextDrawTextSize(Text_Global[8], 46.000, 56.000);
 	TextDrawAlignment(Text_Global[8], 1);
-	TextDrawColor(Text_Global[8], 2147472639);
+	TextDrawColor(Text_Global[8], -1306385665);
 	TextDrawSetShadow(Text_Global[8], 0);
 	TextDrawSetOutline(Text_Global[8], 0);
 	TextDrawBackgroundColor(Text_Global[8], 255);
@@ -763,7 +763,7 @@ CreatePlayerTextDraws(playerid)
 	Text_Global[9] = TextDrawCreate(507.000, 377.000, "LD_BEAT:chit");
 	TextDrawTextSize(Text_Global[9], 46.000, 56.000);
 	TextDrawAlignment(Text_Global[9], 1);
-	TextDrawColor(Text_Global[9], 2147472639);
+	TextDrawColor(Text_Global[9], -1306385665);
 	TextDrawSetShadow(Text_Global[9], 0);
 	TextDrawSetOutline(Text_Global[9], 0);
 	TextDrawBackgroundColor(Text_Global[9], 255);
@@ -773,7 +773,7 @@ CreatePlayerTextDraws(playerid)
 	Text_Global[10] = TextDrawCreate(514.700, 196.000, "LD_SPAC:white");
 	TextDrawTextSize(Text_Global[10], 98.500, 209.000);
 	TextDrawAlignment(Text_Global[10], 1);
-	TextDrawColor(Text_Global[10], 2147472639);
+	TextDrawColor(Text_Global[10], -1306385665);
 	TextDrawSetShadow(Text_Global[10], 0);
 	TextDrawSetOutline(Text_Global[10], 0);
 	TextDrawBackgroundColor(Text_Global[10], 255);
@@ -783,7 +783,7 @@ CreatePlayerTextDraws(playerid)
 	Text_Global[11] = TextDrawCreate(528.000, 178.399, "LD_SPAC:white");
 	TextDrawTextSize(Text_Global[11], 72.000, 244.800);
 	TextDrawAlignment(Text_Global[11], 1);
-	TextDrawColor(Text_Global[11], 2147472639);
+	TextDrawColor(Text_Global[11], -1306385665);
 	TextDrawSetShadow(Text_Global[11], 0);
 	TextDrawSetOutline(Text_Global[11], 0);
 	TextDrawBackgroundColor(Text_Global[11], 255);
@@ -823,7 +823,7 @@ CreatePlayerTextDraws(playerid)
 	Text_Global[15] = TextDrawCreate(528.000, 303.398, "LD_SPAC:white");
 	TextDrawTextSize(Text_Global[15], 72.000, 119.800);
 	TextDrawAlignment(Text_Global[15], 1);
-	TextDrawColor(Text_Global[15], 2147472639);
+	TextDrawColor(Text_Global[15], -1306385665);
 	TextDrawSetShadow(Text_Global[15], 0);
 	TextDrawSetOutline(Text_Global[15], 0);
 	TextDrawBackgroundColor(Text_Global[15], 255);
@@ -893,7 +893,7 @@ CreatePlayerTextDraws(playerid)
 	Text_Global[22] = TextDrawCreate(588.000, 191.000, "LD_SPAC:white");
 	TextDrawTextSize(Text_Global[22], 11.000, -5.000);
 	TextDrawAlignment(Text_Global[22], 1);
-	TextDrawColor(Text_Global[22], 2147472639);
+	TextDrawColor(Text_Global[22], -1306385665);
 	TextDrawSetShadow(Text_Global[22], 0);
 	TextDrawSetOutline(Text_Global[22], 0);
 	TextDrawBackgroundColor(Text_Global[22], 255);
@@ -1000,7 +1000,7 @@ CreatePlayerTextDraws(playerid)
 	TextDrawFont(Text_Global[32], 4);
 	TextDrawSetProportional(Text_Global[32], 1);
 
-	Text_Global[33] = TextDrawCreate(594.000, 244.000, "{000000}CAMERA");
+	Text_Global[33] = TextDrawCreate(594.000, 244.000, "CAMERA");
 	TextDrawLetterSize(Text_Global[33], 0.119, 0.998);
 	TextDrawAlignment(Text_Global[33], 2);
 	TextDrawColor(Text_Global[33], -1);
@@ -1050,7 +1050,7 @@ CreatePlayerTextDraws(playerid)
 	TextDrawFont(Text_Global[37], 1);
 	TextDrawSetProportional(Text_Global[37], 1);
 
-	Text_Global[38] = TextDrawCreate(584.000, 267.000, "LD_BEAT:chit");
+	/*Text_Global[38] = TextDrawCreate(584.000, 267.000, "LD_BEAT:chit");
 	TextDrawTextSize(Text_Global[38], 21.000, 25.000);
 	TextDrawAlignment(Text_Global[38], 1);
 	TextDrawColor(Text_Global[38], -1);
@@ -1058,9 +1058,9 @@ CreatePlayerTextDraws(playerid)
 	TextDrawSetOutline(Text_Global[38], 0);
 	TextDrawBackgroundColor(Text_Global[38], 255);
 	TextDrawFont(Text_Global[38], 4);
-	TextDrawSetProportional(Text_Global[38], 1);
+	TextDrawSetProportional(Text_Global[38], 1);*/
 
-	Text_Global[39] = TextDrawCreate(589.000, 279.000, " )) ");
+	Text_Global[39] = TextDrawCreate(589.000, 279.000, "HUD:radar_Sweet");
 	TextDrawLetterSize(Text_Global[39], 0.328, 1.098);
 	TextDrawAlignment(Text_Global[39], 2);
 	TextDrawColor(Text_Global[39], -1);
@@ -1197,7 +1197,7 @@ CreatePlayerTextDraws(playerid)
 	ClickGps = TextDrawCreate(551.000, 267.000, "G");
 	TextDrawTextSize(ClickGps, 25.000, 27.000);
 	TextDrawAlignment(ClickGps, 1);
-	TextDrawColor(ClickGps, 2147472639);
+	TextDrawColor(ClickGps, -1306385665);
 	TextDrawSetShadow(ClickGps, 0);
 	TextDrawSetOutline(ClickGps, 0);
 	TextDrawBackgroundColor(ClickGps, 255);
@@ -1241,7 +1241,7 @@ CreatePlayerTextDraws(playerid)
 	ClickSetting = TextDrawCreate(551.000, 318.000, "G");
 	TextDrawTextSize(ClickSetting, 25.000, 27.000);
 	TextDrawAlignment(ClickSetting, 1);
-	TextDrawColor(ClickSetting, 2147472639);
+	TextDrawColor(ClickSetting, -1306385665);
 	TextDrawSetShadow(ClickSetting, 0);
 	TextDrawSetOutline(ClickSetting, 0);
 	TextDrawBackgroundColor(ClickSetting, 255);
@@ -1528,7 +1528,7 @@ CreateTextDraw()
 	TextDrawSetOutline(PhoneTD[17], 1);
 	TextDrawSetShadow(PhoneTD[17], 0);
 	TextDrawAlignment(PhoneTD[17], 1);
-	TextDrawColor(PhoneTD[17], 2147472639);
+	TextDrawColor(PhoneTD[17], -1306385665);
 	TextDrawBackgroundColor(PhoneTD[17], 255);
 	TextDrawBoxColor(PhoneTD[17], -16777166);
 	TextDrawUseBox(PhoneTD[17], 1);
