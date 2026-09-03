@@ -149614,3 +149614,1978 @@ Progress Bar Editor loaded!
 [14:45:28] [OnDialogResponse]: Alok(0) has used dialog id: 3 Listitem: 0
 [14:45:30] [nick] Rahmat_Anjaya nick changed to Alok
 [14:45:30] [part] Alok has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:26:05] password = ""  (string)
+[17:26:05] 
+[17:26:05] Server Plugins
+[17:26:05] --------------
+[17:26:05]  Loading plugin: crashdetect
+[17:26:06]   CrashDetect plugin 4.19.4
+[17:26:06]   Loaded.
+[17:26:06]  Loading plugin: discord-connector
+[17:26:12]  >> plugin.dc-connector: v0.3.5 successfully loaded.
+[17:26:12]   Loaded.
+[17:26:12]  Loading plugin: sscanf
+[17:26:13] 
+
+[17:26:13]  ===============================
+
+[17:26:13]       sscanf plugin loaded.     
+
+[17:26:13]          Version:  2.8.3        
+
+[17:26:13]   (c) 2018 Alex "Y_Less" Cole  
+
+[17:26:13]  ===============================
+
+[17:26:13]   Loaded.
+[17:26:13]  Loading plugin: streamer
+[17:26:14] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[17:26:14]   Loaded.
+[17:26:14]  Loading plugin: CTime
+[17:26:15]   Failed.
+[17:26:15]  Loading plugin: pawncmd
+[17:26:16] [Pawn.CMD] plugin v3.3.3 by urShadow loaded
+[17:26:16]   Loaded.
+[17:26:16]  Loading plugin: pawn-memory
+[17:26:16] ========================
+[17:26:16] = Memory access plugin =
+[17:26:16] =       Made by BigETI =
+[17:26:16] = Loaded!              =
+[17:26:16] ========================
+[17:26:16]   Loaded.
+[17:26:16]  Loading plugin: mysql
+[17:26:17]  >> plugin.mysql: R41-4 successfully loaded.
+[17:26:17]   Loaded.
+[17:26:17]  Loading plugin: gvar
+[17:26:17] 
+
+*** GVar Plugin v1.3 by Incognito loaded ***
+
+[17:26:17]   Loaded.
+[17:26:17]  Loading plugin: samp-compat
+[17:26:18]   -- samp-compat for 0.3.7-R2 initialized
+[17:26:18]   Loaded.
+[17:26:18]  Loading plugin: native-checker
+[17:26:18]   Failed.
+[17:26:18]  Loaded 9 plugins.
+
+[17:26:18] 
+[17:26:18] Ban list
+[17:26:18] --------
+[17:26:18]  Loaded: samp.ban
+[17:26:18] 
+[17:26:18] 
+[17:26:18] Filterscripts
+[17:26:18] ---------------
+[17:26:18]   Loading filterscript 'Lift.amx'...
+[17:26:18]   Loading filterscript 'Buttons.amx'...
+[17:26:18]   Loading filterscript 'progressbar.amx'...
+[17:26:18]  
+[17:26:18]  
+[17:26:18]  
+[17:26:18]  ======================================= 
+[17:26:18]  |                                     | 
+[17:26:18]  |        YSI version 4.00.0001        | 
+[17:26:18]  |        By Alex "Y_Less" Cole        | 
+[17:26:18]  |                                     | 
+[17:26:18]  ======================================= 
+[17:26:18]  
+[17:26:18] 
+Progress Bar Editor loaded!
+[17:26:18] Use the /bar command to begin editing.
+
+[17:26:18]   Loading filterscript 'AC_Black_Diamond.amx'...
+[17:26:18] AC-Black Diamond v2.1.0 has been loaded! Anticheat callbacks will now work properly
+[17:26:18]   Loaded 4 filterscripts.
+
+[17:26:18]  
+[17:26:18]  
+[17:26:18]  
+[17:26:18]  ======================================= 
+[17:26:18]  |                                     | 
+[17:26:18]  |        YSI version 4.00.0001        | 
+[17:26:18]  |        By Alex "Y_Less" Cole        | 
+[17:26:18]  |                                     | 
+[17:26:18]  ======================================= 
+[17:26:18]  
+[17:26:21] [Pawn.CMD] PC_RegAlias: Command name 'ex' is occupied
+[17:26:21] [Pawn.CMD] PC_RegAlias: invalid unordered_map<K, T> key
+[17:26:21] [Pawn.CMD] PC_RegAlias: invalid unordered_map<K, T> key
+[17:26:21] [ADM] Info: Load 3DTryg v4.8.5 for SA:MP 0.3.7 by Abyss Morgan
+[17:26:21] [ADM] Info: Load EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[17:26:21] MySQL connection is successful.
+[17:26:21] EnableTirePopping() function is removed.
+[17:26:22] Debug: Bagian ini berhasil dijalankan.
+[17:26:22] [debug] Run time error 4: "Array index out of bounds"
+[17:26:22] [debug]  Attempted to read/write array element at index 1860208 in array of size 75
+[17:26:22] [debug] AMX backtrace:
+[17:26:22] [debug] #0 005f95e0 in public GEOLITE_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\gamemodes\GM.pwn:1623
+[17:26:22] [debug] #1 000665f8 in public SSCANF_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\geoiplite.inc:125
+[17:26:22] [debug] #2 0005f848 in public EVF_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\sscanf2.inc:211
+[17:26:22] [debug] #3 00058a04 in public T3DV4_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\EVF2.inc:3580
+[17:26:22] [debug] #4 00048664 in public SM_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\3DTryg.inc:4767
+[17:26:22] [debug] #5 00045928 in public PawnCmd_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\selection.inc:293
+[17:26:22] [debug] #6 000421f0 in public ScriptInit_OnGameModeInit ()  at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\Pawn.CMD.inc:127
+[17:26:22] [debug] #7 00000f08 in public OnPlayerDeath () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\YSI_Data\..\YSI_Internal\..\YSI_Core\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237
+[17:26:22] Number of vehicle models: 6
+[17:26:24] [Server] Loaded Data Server...
+[17:26:24] [Server] 1445237444 Server Money
+[17:26:24] [Doors]: 40 Loaded.
+[17:26:24] [Business]: 2 Loaded.
+[17:26:24] [Lockers]: 8 Loaded.
+[17:26:24] [Gas Station]: 7 Loaded.
+[17:26:24] [ATM]: 24 Loaded.
+[17:26:25] [Gate]: 16 Loaded.
+[17:26:25] [Trees]: 31 Loaded.
+[17:26:25] [Ore]: 49 Loaded.
+[17:26:25] [Farmer Plants]: 1 Loaded.
+[17:26:25] [Garkot]: 6 Loaded.
+[17:26:25] [SpeedCam]: 3 Loaded.
+[17:26:25] [Actor]: 3 Loaded.
+[17:28:59] [connection] 192.168.138.102:52702 requests connection cookie.
+[17:29:00] [connection] incoming connection: 192.168.138.102:52702 id: 0
+[17:29:01] [join] Alok has joined the server (0:192.168.138.102)
+[17:29:01] [DEBUG] Player 0 connected.
+[17:29:01] [DEBUG] OnPlayerDataLoaded dipanggil untuk Player 0
+[17:29:14] [OnDialogResponse]: Alok(0) has used dialog id: 4 Listitem: -1
+[17:29:14] [LOGIN] Alok(0) berhasil login dengan password(200814)
+[17:29:16] [OnDialogResponse]: Alok(0) has used dialog id: 1 Listitem: 0
+[17:29:16] [nick] Alok nick changed to Rahmat_Anjaya
+[17:29:16] Kendaraan Loaded: Rahmat_Anjaya(0)
+[17:29:31] [CMD] Rahmat Anjaya: [stats] []
+[17:30:11] [OnDialogResponse]: Alok(0) has used dialog id: 3 Listitem: 1
+[17:30:16] [CMD] Rahmat Anjaya: [sethp] [0 0]
+[17:30:16] [death] Rahmat_Anjaya died 255
+[17:31:00] [CMD] Rahmat Anjaya: [savestat] []
+[17:31:02] [nick] Rahmat_Anjaya nick changed to Alok
+[17:31:03] [part] Alok has left the server (0:1)
+[17:31:40] [connection] 192.168.138.102:59783 requests connection cookie.
+[17:31:41] [connection] incoming connection: 192.168.138.102:59783 id: 0
+[17:31:41] [join] Alok has joined the server (0:192.168.138.102)
+[17:31:41] [DEBUG] Player 0 connected.
+[17:31:41] [DEBUG] OnPlayerDataLoaded dipanggil untuk Player 0
+[17:31:53] [OnDialogResponse]: Alok(0) has used dialog id: 4 Listitem: -1
+[17:31:53] [LOGIN] Alok(0) berhasil login dengan password(200814)
+[17:31:54] [OnDialogResponse]: Alok(0) has used dialog id: 1 Listitem: 0
+[17:31:54] [nick] Alok nick changed to Rahmat_Anjaya
+[17:31:54] Kendaraan Loaded: Rahmat_Anjaya(0)
+[17:32:31] [CMD] Rahmat Anjaya: [arevive] [0 0]
+[17:32:33] [nick] Rahmat_Anjaya nick changed to Alok
+[17:32:33] [part] Alok has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:35:00] password = ""  (string)
+[17:35:00] 
+[17:35:00] Server Plugins
+[17:35:00] --------------
+[17:35:00]  Loading plugin: crashdetect
+[17:35:00]   CrashDetect plugin 4.19.4
+[17:35:00]   Loaded.
+[17:35:00]  Loading plugin: discord-connector
+[17:35:03]  >> plugin.dc-connector: v0.3.5 successfully loaded.
+[17:35:03]   Loaded.
+[17:35:03]  Loading plugin: sscanf
+[17:35:03] 
+
+[17:35:03]  ===============================
+
+[17:35:03]       sscanf plugin loaded.     
+
+[17:35:03]          Version:  2.8.3        
+
+[17:35:03]   (c) 2018 Alex "Y_Less" Cole  
+
+[17:35:03]  ===============================
+
+[17:35:03]   Loaded.
+[17:35:03]  Loading plugin: streamer
+[17:35:03] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[17:35:03]   Loaded.
+[17:35:03]  Loading plugin: CTime
+[17:35:03]   Failed.
+[17:35:03]  Loading plugin: pawncmd
+[17:35:03] [Pawn.CMD] plugin v3.3.3 by urShadow loaded
+[17:35:03]   Loaded.
+[17:35:03]  Loading plugin: pawn-memory
+[17:35:03] ========================
+[17:35:03] = Memory access plugin =
+[17:35:03] =       Made by BigETI =
+[17:35:03] = Loaded!              =
+[17:35:03] ========================
+[17:35:03]   Loaded.
+[17:35:03]  Loading plugin: mysql
+[17:35:03]  >> plugin.mysql: R41-4 successfully loaded.
+[17:35:03]   Loaded.
+[17:35:03]  Loading plugin: gvar
+[17:35:03] 
+
+*** GVar Plugin v1.3 by Incognito loaded ***
+
+[17:35:03]   Loaded.
+[17:35:03]  Loading plugin: samp-compat
+[17:35:03]   -- samp-compat for 0.3.7-R2 initialized
+[17:35:03]   Loaded.
+[17:35:03]  Loading plugin: native-checker
+[17:35:03]   Failed.
+[17:35:03]  Loaded 9 plugins.
+
+[17:35:03] 
+[17:35:03] Ban list
+[17:35:03] --------
+[17:35:03]  Loaded: samp.ban
+[17:35:03] 
+[17:35:03] 
+[17:35:03] Filterscripts
+[17:35:03] ---------------
+[17:35:03]   Loading filterscript 'Lift.amx'...
+[17:35:03]   Loading filterscript 'Buttons.amx'...
+[17:35:03]   Loading filterscript 'progressbar.amx'...
+[17:35:03]  
+[17:35:03]  
+[17:35:03]  
+[17:35:03]  ======================================= 
+[17:35:03]  |                                     | 
+[17:35:03]  |        YSI version 4.00.0001        | 
+[17:35:03]  |        By Alex "Y_Less" Cole        | 
+[17:35:03]  |                                     | 
+[17:35:03]  ======================================= 
+[17:35:03]  
+[17:35:03] 
+Progress Bar Editor loaded!
+[17:35:03] Use the /bar command to begin editing.
+
+[17:35:03]   Loading filterscript 'AC_Black_Diamond.amx'...
+[17:35:03] AC-Black Diamond v2.1.0 has been loaded! Anticheat callbacks will now work properly
+[17:35:03]   Loaded 4 filterscripts.
+
+[17:35:03]  
+[17:35:03]  
+[17:35:03]  
+[17:35:03]  ======================================= 
+[17:35:03]  |                                     | 
+[17:35:03]  |        YSI version 4.00.0001        | 
+[17:35:03]  |        By Alex "Y_Less" Cole        | 
+[17:35:03]  |                                     | 
+[17:35:03]  ======================================= 
+[17:35:03]  
+[17:35:06] [Pawn.CMD] PC_RegAlias: Command name 'ex' is occupied
+[17:35:06] [Pawn.CMD] PC_RegAlias: invalid unordered_map<K, T> key
+[17:35:06] [Pawn.CMD] PC_RegAlias: invalid unordered_map<K, T> key
+[17:35:06] [ADM] Info: Load 3DTryg v4.8.5 for SA:MP 0.3.7 by Abyss Morgan
+[17:35:06] [ADM] Info: Load EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[17:35:06] MySQL connection is successful.
+[17:35:06] EnableTirePopping() function is removed.
+[17:35:06] Debug: Bagian ini berhasil dijalankan.
+[17:35:06] [debug] Run time error 4: "Array index out of bounds"
+[17:35:06] [debug]  Attempted to read/write array element at index 1860208 in array of size 75
+[17:35:06] [debug] AMX backtrace:
+[17:35:06] [debug] #0 005f95e0 in public GEOLITE_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\gamemodes\GM.pwn:1623
+[17:35:06] [debug] #1 000665f8 in public SSCANF_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\geoiplite.inc:125
+[17:35:06] [debug] #2 0005f848 in public EVF_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\sscanf2.inc:211
+[17:35:06] [debug] #3 00058a04 in public T3DV4_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\EVF2.inc:3580
+[17:35:06] [debug] #4 00048664 in public SM_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\3DTryg.inc:4767
+[17:35:06] [debug] #5 00045928 in public PawnCmd_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\selection.inc:293
+[17:35:06] [debug] #6 000421f0 in public ScriptInit_OnGameModeInit ()  at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\Pawn.CMD.inc:127
+[17:35:06] [debug] #7 00000f08 in public OnPlayerDeath () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\YSI_Data\..\YSI_Internal\..\YSI_Core\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237
+[17:35:06] Number of vehicle models: 6
+[17:35:06] [Server] Loaded Data Server...
+[17:35:06] [Server] 1445237444 Server Money
+[17:35:06] [Doors]: 40 Loaded.
+[17:35:06] [Business]: 2 Loaded.
+[17:35:06] [Lockers]: 8 Loaded.
+[17:35:06] [Gas Station]: 7 Loaded.
+[17:35:06] [ATM]: 24 Loaded.
+[17:35:06] [Gate]: 16 Loaded.
+[17:35:06] [Trees]: 31 Loaded.
+[17:35:06] [Ore]: 49 Loaded.
+[17:35:06] [Farmer Plants]: 1 Loaded.
+[17:35:06] [Garkot]: 6 Loaded.
+[17:35:06] [SpeedCam]: 3 Loaded.
+[17:35:06] [Actor]: 3 Loaded.
+[17:35:44] [connection] 192.168.138.102:62269 requests connection cookie.
+[17:35:45] [connection] incoming connection: 192.168.138.102:62269 id: 0
+[17:35:46] [join] Alok has joined the server (0:192.168.138.102)
+[17:35:46] [DEBUG] Player 0 connected.
+[17:35:46] [DEBUG] OnPlayerDataLoaded dipanggil untuk Player 0
+[17:35:53] [OnDialogResponse]: Alok(0) has used dialog id: 4 Listitem: -1
+[17:35:53] [LOGIN] Alok(0) berhasil login dengan password(200814)
+[17:35:54] [OnDialogResponse]: Alok(0) has used dialog id: 1 Listitem: 0
+[17:35:54] [nick] Alok nick changed to Rahmat_Anjaya
+[17:35:54] Kendaraan Loaded: Rahmat_Anjaya(0)
+[17:36:26] [CMD] Rahmat Anjaya: [sethp] [0 0]
+[17:36:26] [death] Rahmat_Anjaya died 255
+[17:36:45] [nick] Rahmat_Anjaya nick changed to Alok
+[17:36:45] [part] Alok has left the server (0:0)
+[17:37:03] [connection] 192.168.138.102:62319 requests connection cookie.
+[17:37:04] [connection] incoming connection: 192.168.138.102:62319 id: 0
+[17:37:04] [join] Alok has joined the server (0:192.168.138.102)
+[17:37:04] [DEBUG] Player 0 connected.
+[17:37:04] [DEBUG] OnPlayerDataLoaded dipanggil untuk Player 0
+[17:37:11] [OnDialogResponse]: Alok(0) has used dialog id: 4 Listitem: -1
+[17:37:11] [LOGIN] Alok(0) berhasil login dengan password(200814)
+[17:37:11] [OnDialogResponse]: Alok(0) has used dialog id: 1 Listitem: 0
+[17:37:11] [nick] Alok nick changed to Rahmat_Anjaya
+[17:37:12] Kendaraan Loaded: Rahmat_Anjaya(0)
+[17:37:40] [debug] Run time error 6: "Invalid instruction"
+[17:37:40] [debug]  Unknown opcode 0x0 at address 0x00000004
+[17:37:40] [debug] AMX backtrace:
+[17:37:40] [debug] #0 00000004 in public PlayerUpdate () at <unknown file>:0
+[17:38:12] [CMD] Rahmat Anjaya: [ahelp] []
+[17:38:22] [OnDialogResponse]: Alok(0) has used dialog id: 3 Listitem: -1
+[17:39:18] [CMD] Rahmat Anjaya: [stats] []
+[17:39:19] [OnDialogResponse]: Alok(0) has used dialog id: 3 Listitem: 0
+[17:39:21] [OnDialogResponse]: Alok(0) has used dialog id: 1568 Listitem: 1
+[17:39:26] [OnDialogResponse]: Alok(0) has used dialog id: 3 Listitem: 0
+[17:39:28] [nick] Rahmat_Anjaya nick changed to Alok
+[17:39:28] [part] Alok has left the server (0:1)
+[17:55:03] [connection] 192.168.138.102:65210 requests connection cookie.
+[17:55:04] [connection] incoming connection: 192.168.138.102:65210 id: 0
+[17:55:05] [join] Alok has joined the server (0:192.168.138.102)
+[17:55:05] [DEBUG] Player 0 connected.
+[17:55:05] [DEBUG] OnPlayerDataLoaded dipanggil untuk Player 0
+[17:55:21] [OnDialogResponse]: Alok(0) has used dialog id: 4 Listitem: -1
+[17:55:21] [LOGIN] Alok(0) berhasil login dengan password(200814)
+[17:55:24] [OnDialogResponse]: Alok(0) has used dialog id: 1 Listitem: 0
+[17:55:24] [nick] Alok nick changed to Rahmat_Anjaya
+[17:55:24] Kendaraan Loaded: Rahmat_Anjaya(0)
+[17:56:16] [CMD] Rahmat Anjaya: [jetpack] []
+[17:59:14] [nick] Rahmat_Anjaya nick changed to Alok
+[17:59:14] [part] Alok has left the server (0:1)
+[18:03:37] [connection] 192.168.138.102:60227 requests connection cookie.
+[18:03:38] [connection] incoming connection: 192.168.138.102:60227 id: 0
+[18:03:38] [join] Alok has joined the server (0:192.168.138.102)
+[18:03:38] [DEBUG] Player 0 connected.
+[18:03:38] [DEBUG] OnPlayerDataLoaded dipanggil untuk Player 0
+[18:03:56] [OnDialogResponse]: Alok(0) has used dialog id: 4 Listitem: -1
+[18:03:56] [LOGIN] Alok(0) berhasil login dengan password(200814)
+[18:03:58] [OnDialogResponse]: Alok(0) has used dialog id: 1 Listitem: 0
+[18:03:58] [nick] Alok nick changed to Rahmat_Anjaya
+[18:03:58] Kendaraan Loaded: Rahmat_Anjaya(0)
+[18:04:27] [CMD] Rahmat Anjaya: [jetpack] []
+[18:12:24] [nick] Rahmat_Anjaya nick changed to Alok
+[18:12:26] [part] Alok has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:00:13] password = ""  (string)
+[19:00:13] 
+[19:00:13] Server Plugins
+[19:00:13] --------------
+[19:00:13]  Loading plugin: crashdetect
+[19:00:15]   CrashDetect plugin 4.19.4
+[19:00:15]   Loaded.
+[19:00:15]  Loading plugin: discord-connector
+[19:00:24]  >> plugin.dc-connector: v0.3.5 successfully loaded.
+[19:00:24]   Loaded.
+[19:00:24]  Loading plugin: sscanf
+[19:00:24] 
+
+[19:00:24]  ===============================
+
+[19:00:24]       sscanf plugin loaded.     
+
+[19:00:24]          Version:  2.8.3        
+
+[19:00:24]   (c) 2018 Alex "Y_Less" Cole  
+
+[19:00:24]  ===============================
+
+[19:00:24]   Loaded.
+[19:00:24]  Loading plugin: streamer
+[19:00:25] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[19:00:25]   Loaded.
+[19:00:25]  Loading plugin: CTime
+[19:00:26]   Failed.
+[19:00:26]  Loading plugin: pawncmd
+[19:00:29] [Pawn.CMD] plugin v3.3.3 by urShadow loaded
+[19:00:29]   Loaded.
+[19:00:29]  Loading plugin: pawn-memory
+[19:00:30] ========================
+[19:00:30] = Memory access plugin =
+[19:00:30] =       Made by BigETI =
+[19:00:30] = Loaded!              =
+[19:00:30] ========================
+[19:00:30]   Loaded.
+[19:00:30]  Loading plugin: mysql
+[19:00:32]  >> plugin.mysql: R41-4 successfully loaded.
+[19:00:32]   Loaded.
+[19:00:32]  Loading plugin: gvar
+[19:00:32] 
+
+*** GVar Plugin v1.3 by Incognito loaded ***
+
+[19:00:32]   Loaded.
+[19:00:32]  Loading plugin: samp-compat
+[19:00:32]   -- samp-compat for 0.3.7-R2 initialized
+[19:00:32]   Loaded.
+[19:00:32]  Loading plugin: native-checker
+[19:00:32]   Failed.
+[19:00:32]  Loaded 9 plugins.
+
+[19:00:33] 
+[19:00:33] Ban list
+[19:00:33] --------
+[19:00:33]  Loaded: samp.ban
+[19:00:33] 
+[19:00:33] 
+[19:00:33] Filterscripts
+[19:00:33] ---------------
+[19:00:33]   Loading filterscript 'Lift.amx'...
+[19:00:33]   Loading filterscript 'Buttons.amx'...
+[19:00:33]   Loading filterscript 'progressbar.amx'...
+[19:00:33]  
+[19:00:33]  
+[19:00:33]  
+[19:00:33]  ======================================= 
+[19:00:33]  |                                     | 
+[19:00:33]  |        YSI version 4.00.0001        | 
+[19:00:33]  |        By Alex "Y_Less" Cole        | 
+[19:00:33]  |                                     | 
+[19:00:33]  ======================================= 
+[19:00:33]  
+[19:00:33] 
+Progress Bar Editor loaded!
+[19:00:33] Use the /bar command to begin editing.
+
+[19:00:33]   Loading filterscript 'AC_Black_Diamond.amx'...
+[19:00:33] AC-Black Diamond v2.1.0 has been loaded! Anticheat callbacks will now work properly
+[19:00:33]   Loaded 4 filterscripts.
+
+[19:00:34]  
+[19:00:34]  
+[19:00:34]  
+[19:00:34]  ======================================= 
+[19:00:34]  |                                     | 
+[19:00:34]  |        YSI version 4.00.0001        | 
+[19:00:34]  |        By Alex "Y_Less" Cole        | 
+[19:00:34]  |                                     | 
+[19:00:34]  ======================================= 
+[19:00:34]  
+[19:00:36] [Pawn.CMD] PC_RegAlias: Command name 'ex' is occupied
+[19:00:36] [Pawn.CMD] PC_RegAlias: invalid unordered_map<K, T> key
+[19:00:36] [Pawn.CMD] PC_RegAlias: invalid unordered_map<K, T> key
+[19:00:36] [ADM] Info: Load 3DTryg v4.8.5 for SA:MP 0.3.7 by Abyss Morgan
+[19:00:36] [ADM] Info: Load EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[19:00:36] MySQL connection is successful.
+[19:00:36] EnableTirePopping() function is removed.
+[19:00:36] Debug: Bagian ini berhasil dijalankan.
+[19:00:37] [debug] Run time error 4: "Array index out of bounds"
+[19:00:37] [debug]  Attempted to read/write array element at index 1860208 in array of size 75
+[19:00:37] [debug] AMX backtrace:
+[19:00:37] [debug] #0 005f9698 in public GEOLITE_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\gamemodes\GM.pwn:1623
+[19:00:37] [debug] #1 000665f8 in public SSCANF_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\geoiplite.inc:125
+[19:00:37] [debug] #2 0005f848 in public EVF_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\sscanf2.inc:211
+[19:00:37] [debug] #3 00058a04 in public T3DV4_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\EVF2.inc:3580
+[19:00:37] [debug] #4 00048664 in public SM_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\3DTryg.inc:4767
+[19:00:37] [debug] #5 00045928 in public PawnCmd_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\selection.inc:293
+[19:00:37] [debug] #6 000421f0 in public ScriptInit_OnGameModeInit ()  at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\Pawn.CMD.inc:127
+[19:00:37] [debug] #7 00000f08 in public OnPlayerDeath () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\YSI_Data\..\YSI_Internal\..\YSI_Core\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237
+[19:00:37] Number of vehicle models: 6
+[19:00:44] [Server] Loaded Data Server...
+[19:00:44] [Server] 1445237444 Server Money
+[19:00:44] [Doors]: 40 Loaded.
+[19:00:44] [Business]: 2 Loaded.
+[19:00:44] [Lockers]: 8 Loaded.
+[19:00:44] [Gas Station]: 7 Loaded.
+[19:00:44] [ATM]: 24 Loaded.
+[19:00:44] [Gate]: 16 Loaded.
+[19:00:44] [Trees]: 31 Loaded.
+[19:00:44] [Ore]: 49 Loaded.
+[19:00:44] [Farmer Plants]: 1 Loaded.
+[19:00:44] [Garkot]: 6 Loaded.
+[19:00:44] [SpeedCam]: 3 Loaded.
+[19:00:44] [Actor]: 3 Loaded.
+[19:02:30] [connection] 192.168.138.102:55778 requests connection cookie.
+[19:02:31] [connection] incoming connection: 192.168.138.102:55778 id: 0
+[19:02:32] [join] Alok has joined the server (0:192.168.138.102)
+[19:02:32] [DEBUG] Player 0 connected.
+[19:02:32] [DEBUG] OnPlayerDataLoaded dipanggil untuk Player 0
+[19:02:40] [OnDialogResponse]: Alok(0) has used dialog id: 4 Listitem: -1
+[19:02:40] [LOGIN] Alok(0) berhasil login dengan password(200814)
+[19:02:44] [OnDialogResponse]: Alok(0) has used dialog id: 1 Listitem: 2
+[19:02:53] [OnDialogResponse]: Alok(0) has used dialog id: 0 Listitem: -1
+[19:02:53] [nick] Alok nick changed to Javier_Cooper
+[19:02:53] DEBUG: mau insert nama=Javier_Cooper ucp=
+[19:03:09] [OnDialogResponse]: Alok(0) has used dialog id: 6 Listitem: -1
+[19:03:12] [OnDialogResponse]: Alok(0) has used dialog id: 7 Listitem: 1
+[19:03:16] [OnDialogResponse]: Alok(0) has used dialog id: 268 Listitem: 1
+[19:05:11] [nick] Javier_Cooper nick changed to Alok
+[19:05:11] [part] Alok has left the server (0:1)
+[20:18:48] [connection] 192.168.138.102:64112 requests connection cookie.
+[20:18:49] [connection] incoming connection: 192.168.138.102:64112 id: 0
+[20:18:49] [join] Alok has joined the server (0:192.168.138.102)
+[20:18:50] [DEBUG] Player 0 connected.
+[20:18:50] [DEBUG] OnPlayerDataLoaded dipanggil untuk Player 0
+[20:19:16] [OnDialogResponse]: Alok(0) has used dialog id: 4 Listitem: -1
+[20:19:19] [OnDialogResponse]: Alok(0) has used dialog id: 4 Listitem: -1
+[20:19:19] [LOGIN] Alok(0) berhasil login dengan password(200814)
+[20:19:50] [OnDialogResponse]: Alok(0) has used dialog id: 1 Listitem: 0
+[20:19:50] [nick] Alok nick changed to Javier_Cooper
+[20:21:08] [CMD] Javier Cooper: [veh] [560 2 3]
+[20:22:27] [nick] Javier_Cooper nick changed to Alok
+[20:22:27] [part] Alok has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[09:55:46] password = ""  (string)
+[09:55:46] 
+[09:55:46] Server Plugins
+[09:55:46] --------------
+[09:55:46]  Loading plugin: crashdetect
+[09:55:48]   CrashDetect plugin 4.19.4
+[09:55:48]   Loaded.
+[09:55:48]  Loading plugin: discord-connector
+[09:55:55]  >> plugin.dc-connector: v0.3.5 successfully loaded.
+[09:55:55]   Loaded.
+[09:55:55]  Loading plugin: sscanf
+[09:55:56] 
+
+[09:55:56]  ===============================
+
+[09:55:56]       sscanf plugin loaded.     
+
+[09:55:56]          Version:  2.8.3        
+
+[09:55:56]   (c) 2018 Alex "Y_Less" Cole  
+
+[09:55:56]  ===============================
+
+[09:55:56]   Loaded.
+[09:55:56]  Loading plugin: streamer
+[09:55:56] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[09:55:56]   Loaded.
+[09:55:56]  Loading plugin: CTime
+[09:55:57]   Failed.
+[09:55:57]  Loading plugin: pawncmd
+[09:55:59] [Pawn.CMD] plugin v3.3.3 by urShadow loaded
+[09:55:59]   Loaded.
+[09:55:59]  Loading plugin: pawn-memory
+[09:55:59] ========================
+[09:55:59] = Memory access plugin =
+[09:55:59] =       Made by BigETI =
+[09:55:59] = Loaded!              =
+[09:55:59] ========================
+[09:55:59]   Loaded.
+[09:55:59]  Loading plugin: mysql
+[09:56:00]  >> plugin.mysql: R41-4 successfully loaded.
+[09:56:00]   Loaded.
+[09:56:00]  Loading plugin: gvar
+[09:56:01] 
+
+*** GVar Plugin v1.3 by Incognito loaded ***
+
+[09:56:01]   Loaded.
+[09:56:01]  Loading plugin: samp-compat
+[09:56:01]   -- samp-compat for 0.3.7-R2 initialized
+[09:56:01]   Loaded.
+[09:56:01]  Loading plugin: native-checker
+[09:56:01]   Failed.
+[09:56:01]  Loaded 9 plugins.
+
+[09:56:01] 
+[09:56:01] Ban list
+[09:56:01] --------
+[09:56:01]  Loaded: samp.ban
+[09:56:01] 
+[09:56:02] 
+[09:56:02] Filterscripts
+[09:56:02] ---------------
+[09:56:02]   Loading filterscript 'Lift.amx'...
+[09:56:03]   Loading filterscript 'Buttons.amx'...
+[09:56:03]   Loading filterscript 'progressbar.amx'...
+[09:56:03]  
+[09:56:03]  
+[09:56:03]  
+[09:56:03]  ======================================= 
+[09:56:03]  |                                     | 
+[09:56:03]  |        YSI version 4.00.0001        | 
+[09:56:03]  |        By Alex "Y_Less" Cole        | 
+[09:56:03]  |                                     | 
+[09:56:03]  ======================================= 
+[09:56:03]  
+[09:56:03] 
+Progress Bar Editor loaded!
+[09:56:03] Use the /bar command to begin editing.
+
+[09:56:03]   Loading filterscript 'AC_Black_Diamond.amx'...
+[09:56:03] AC-Black Diamond v2.1.0 has been loaded! Anticheat callbacks will now work properly
+[09:56:03]   Loaded 4 filterscripts.
+
+[09:56:03]  
+[09:56:03]  
+[09:56:03]  
+[09:56:03]  ======================================= 
+[09:56:03]  |                                     | 
+[09:56:03]  |        YSI version 4.00.0001        | 
+[09:56:03]  |        By Alex "Y_Less" Cole        | 
+[09:56:03]  |                                     | 
+[09:56:03]  ======================================= 
+[09:56:03]  
+[09:56:05] [Pawn.CMD] PC_RegAlias: Command name 'ex' is occupied
+[09:56:05] [Pawn.CMD] PC_RegAlias: invalid unordered_map<K, T> key
+[09:56:05] [Pawn.CMD] PC_RegAlias: invalid unordered_map<K, T> key
+[09:56:05] [ADM] Info: Load 3DTryg v4.8.5 for SA:MP 0.3.7 by Abyss Morgan
+[09:56:05] [ADM] Info: Load EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[09:56:06] MySQL connection is successful.
+[09:56:06] EnableTirePopping() function is removed.
+[09:56:06] Debug: Bagian ini berhasil dijalankan.
+[09:56:06] [debug] Run time error 4: "Array index out of bounds"
+[09:56:06] [debug]  Attempted to read/write array element at index 1860208 in array of size 75
+[09:56:06] [debug] AMX backtrace:
+[09:56:06] [debug] #0 005f9698 in public GEOLITE_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\gamemodes\GM.pwn:1623
+[09:56:06] [debug] #1 000665f8 in public SSCANF_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\geoiplite.inc:125
+[09:56:06] [debug] #2 0005f848 in public EVF_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\sscanf2.inc:211
+[09:56:06] [debug] #3 00058a04 in public T3DV4_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\EVF2.inc:3580
+[09:56:06] [debug] #4 00048664 in public SM_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\3DTryg.inc:4767
+[09:56:06] [debug] #5 00045928 in public PawnCmd_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\selection.inc:293
+[09:56:06] [debug] #6 000421f0 in public ScriptInit_OnGameModeInit ()  at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\Pawn.CMD.inc:127
+[09:56:06] [debug] #7 00000f08 in public OnPlayerDeath () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\YSI_Data\..\YSI_Internal\..\YSI_Core\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237
+[09:56:06] Number of vehicle models: 6
+[09:56:08] [Server] Loaded Data Server...
+[09:56:08] [Server] 1445237444 Server Money
+[09:56:08] [Doors]: 40 Loaded.
+[09:56:08] [Business]: 2 Loaded.
+[09:56:08] [Lockers]: 8 Loaded.
+[09:56:08] [Gas Station]: 7 Loaded.
+[09:56:08] [ATM]: 24 Loaded.
+[09:56:08] [Gate]: 16 Loaded.
+[09:56:08] [Trees]: 31 Loaded.
+[09:56:08] [Ore]: 49 Loaded.
+[09:56:08] [Farmer Plants]: 1 Loaded.
+[09:56:08] [Garkot]: 6 Loaded.
+[09:56:09] [SpeedCam]: 3 Loaded.
+[09:56:09] [Actor]: 3 Loaded.
+[09:58:16] [connection] 192.168.138.102:53108 requests connection cookie.
+[09:58:17] [connection] incoming connection: 192.168.138.102:53108 id: 0
+[09:58:17] [join] Alok has joined the server (0:192.168.138.102)
+[09:58:18] [DEBUG] Player 0 connected.
+[09:58:18] [DEBUG] OnPlayerDataLoaded dipanggil untuk Player 0
+[09:58:39] [OnDialogResponse]: Alok(0) has used dialog id: 4 Listitem: -1
+[09:58:39] [LOGIN] Alok(0) berhasil login dengan password(200814)
+[09:58:42] [OnDialogResponse]: Alok(0) has used dialog id: 1 Listitem: 0
+[09:58:42] [nick] Alok nick changed to Javier_Cooper
+[09:58:55] [CMD] Javier Cooper: [aduty] []
+[09:58:57] [nick] Javier_Cooper nick changed to Alok
+[09:58:57] [part] Alok has left the server (0:1)
+[09:59:36] [connection] 192.168.138.102:53109 requests connection cookie.
+[09:59:37] [connection] incoming connection: 192.168.138.102:53109 id: 0
+[09:59:37] [join] Alok has joined the server (0:192.168.138.102)
+[09:59:37] [DEBUG] Player 0 connected.
+[09:59:37] [DEBUG] OnPlayerDataLoaded dipanggil untuk Player 0
+[09:59:43] [OnDialogResponse]: Alok(0) has used dialog id: 4 Listitem: -1
+[09:59:43] [LOGIN] Alok(0) berhasil login dengan password(200814)
+[09:59:47] [OnDialogResponse]: Alok(0) has used dialog id: 1 Listitem: 1
+[09:59:47] [nick] Alok nick changed to Jancok_Puki
+[10:00:05] [CMD] Jancok Puki: [aduty] []
+[10:00:08] [nick] Jancok_Puki nick changed to Alok
+[10:00:08] [part] Alok has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:04:03] password = ""  (string)
+[10:04:03] 
+[10:04:03] Server Plugins
+[10:04:03] --------------
+[10:04:03]  Loading plugin: crashdetect
+[10:04:03]   CrashDetect plugin 4.19.4
+[10:04:03]   Loaded.
+[10:04:03]  Loading plugin: discord-connector
+[10:04:05]  >> plugin.dc-connector: v0.3.5 successfully loaded.
+[10:04:05]   Loaded.
+[10:04:05]  Loading plugin: sscanf
+[10:04:05] 
+
+[10:04:05]  ===============================
+
+[10:04:05]       sscanf plugin loaded.     
+
+[10:04:05]          Version:  2.8.3        
+
+[10:04:05]   (c) 2018 Alex "Y_Less" Cole  
+
+[10:04:05]  ===============================
+
+[10:04:05]   Loaded.
+[10:04:05]  Loading plugin: streamer
+[10:04:05] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[10:04:05]   Loaded.
+[10:04:05]  Loading plugin: CTime
+[10:04:05]   Failed.
+[10:04:05]  Loading plugin: pawncmd
+[10:04:05] [Pawn.CMD] plugin v3.3.3 by urShadow loaded
+[10:04:05]   Loaded.
+[10:04:05]  Loading plugin: pawn-memory
+[10:04:05] ========================
+[10:04:05] = Memory access plugin =
+[10:04:05] =       Made by BigETI =
+[10:04:05] = Loaded!              =
+[10:04:05] ========================
+[10:04:05]   Loaded.
+[10:04:05]  Loading plugin: mysql
+[10:04:05]  >> plugin.mysql: R41-4 successfully loaded.
+[10:04:05]   Loaded.
+[10:04:05]  Loading plugin: gvar
+[10:04:05] 
+
+*** GVar Plugin v1.3 by Incognito loaded ***
+
+[10:04:05]   Loaded.
+[10:04:05]  Loading plugin: samp-compat
+[10:04:05]   -- samp-compat for 0.3.7-R2 initialized
+[10:04:05]   Loaded.
+[10:04:05]  Loading plugin: native-checker
+[10:04:05]   Failed.
+[10:04:05]  Loaded 9 plugins.
+
+[10:04:05] 
+[10:04:05] Ban list
+[10:04:05] --------
+[10:04:05]  Loaded: samp.ban
+[10:04:05] 
+[10:04:05] 
+[10:04:05] Filterscripts
+[10:04:05] ---------------
+[10:04:05]   Loading filterscript 'Lift.amx'...
+[10:04:05]   Loading filterscript 'Buttons.amx'...
+[10:04:05]   Loading filterscript 'progressbar.amx'...
+[10:04:05]  
+[10:04:05]  
+[10:04:05]  
+[10:04:05]  ======================================= 
+[10:04:05]  |                                     | 
+[10:04:05]  |        YSI version 4.00.0001        | 
+[10:04:05]  |        By Alex "Y_Less" Cole        | 
+[10:04:05]  |                                     | 
+[10:04:05]  ======================================= 
+[10:04:05]  
+[10:04:05] 
+Progress Bar Editor loaded!
+[10:04:05] Use the /bar command to begin editing.
+
+[10:04:05]   Loading filterscript 'AC_Black_Diamond.amx'...
+[10:04:05] AC-Black Diamond v2.1.0 has been loaded! Anticheat callbacks will now work properly
+[10:04:05]   Loaded 4 filterscripts.
+
+[10:04:06]  
+[10:04:06]  
+[10:04:06]  
+[10:04:06]  ======================================= 
+[10:04:06]  |                                     | 
+[10:04:06]  |        YSI version 4.00.0001        | 
+[10:04:06]  |        By Alex "Y_Less" Cole        | 
+[10:04:06]  |                                     | 
+[10:04:06]  ======================================= 
+[10:04:06]  
+[10:04:08] [Pawn.CMD] PC_RegAlias: Command name 'ex' is occupied
+[10:04:08] [Pawn.CMD] PC_RegAlias: invalid unordered_map<K, T> key
+[10:04:08] [Pawn.CMD] PC_RegAlias: invalid unordered_map<K, T> key
+[10:04:08] [ADM] Info: Load 3DTryg v4.8.5 for SA:MP 0.3.7 by Abyss Morgan
+[10:04:08] [ADM] Info: Load EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[10:04:08] MySQL connection is successful.
+[10:04:08] EnableTirePopping() function is removed.
+[10:04:08] Debug: Bagian ini berhasil dijalankan.
+[10:04:08] [debug] Run time error 4: "Array index out of bounds"
+[10:04:08] [debug]  Attempted to read/write array element at index 1860184 in array of size 75
+[10:04:08] [debug] AMX backtrace:
+[10:04:08] [debug] #0 005f9698 in public GEOLITE_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\gamemodes\GM.pwn:1623
+[10:04:08] [debug] #1 000665f8 in public SSCANF_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\geoiplite.inc:125
+[10:04:08] [debug] #2 0005f848 in public EVF_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\sscanf2.inc:211
+[10:04:08] [debug] #3 00058a04 in public T3DV4_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\EVF2.inc:3580
+[10:04:08] [debug] #4 00048664 in public SM_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\3DTryg.inc:4767
+[10:04:08] [debug] #5 00045928 in public PawnCmd_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\selection.inc:293
+[10:04:08] [debug] #6 000421f0 in public ScriptInit_OnGameModeInit ()  at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\Pawn.CMD.inc:127
+[10:04:08] [debug] #7 00000f08 in public OnPlayerDeath () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\YSI_Data\..\YSI_Internal\..\YSI_Core\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237
+[10:04:08] Number of vehicle models: 6
+[10:04:08] [Server] Loaded Data Server...
+[10:04:08] [Server] 1445237444 Server Money
+[10:04:08] [Doors]: 40 Loaded.
+[10:04:08] [Business]: 2 Loaded.
+[10:04:08] [Lockers]: 8 Loaded.
+[10:04:08] [Gas Station]: 7 Loaded.
+[10:04:08] [ATM]: 24 Loaded.
+[10:04:08] [Gate]: 16 Loaded.
+[10:04:08] [Trees]: 31 Loaded.
+[10:04:08] [Ore]: 49 Loaded.
+[10:04:08] [Farmer Plants]: 1 Loaded.
+[10:04:08] [Garkot]: 6 Loaded.
+[10:04:08] [SpeedCam]: 3 Loaded.
+[10:04:08] [Actor]: 3 Loaded.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:04:54] password = ""  (string)
+[10:04:54] 
+[10:04:54] Server Plugins
+[10:04:54] --------------
+[10:04:54]  Loading plugin: crashdetect
+[10:04:54]   CrashDetect plugin 4.19.4
+[10:04:54]   Loaded.
+[10:04:54]  Loading plugin: discord-connector
+[10:04:56]  >> plugin.dc-connector: v0.3.5 successfully loaded.
+[10:04:56]   Loaded.
+[10:04:56]  Loading plugin: sscanf
+[10:04:56] 
+
+[10:04:56]  ===============================
+
+[10:04:56]       sscanf plugin loaded.     
+
+[10:04:56]          Version:  2.8.3        
+
+[10:04:56]   (c) 2018 Alex "Y_Less" Cole  
+
+[10:04:56]  ===============================
+
+[10:04:56]   Loaded.
+[10:04:56]  Loading plugin: streamer
+[10:04:56] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[10:04:56]   Loaded.
+[10:04:56]  Loading plugin: CTime
+[10:04:56]   Failed.
+[10:04:56]  Loading plugin: pawncmd
+[10:04:56] [Pawn.CMD] plugin v3.3.3 by urShadow loaded
+[10:04:56]   Loaded.
+[10:04:56]  Loading plugin: pawn-memory
+[10:04:56] ========================
+[10:04:56] = Memory access plugin =
+[10:04:56] =       Made by BigETI =
+[10:04:56] = Loaded!              =
+[10:04:56] ========================
+[10:04:56]   Loaded.
+[10:04:56]  Loading plugin: mysql
+[10:04:56]  >> plugin.mysql: R41-4 successfully loaded.
+[10:04:56]   Loaded.
+[10:04:56]  Loading plugin: gvar
+[10:04:56] 
+
+*** GVar Plugin v1.3 by Incognito loaded ***
+
+[10:04:56]   Loaded.
+[10:04:56]  Loading plugin: samp-compat
+[10:04:56]   -- samp-compat for 0.3.7-R2 initialized
+[10:04:56]   Loaded.
+[10:04:56]  Loading plugin: native-checker
+[10:04:56]   Failed.
+[10:04:56]  Loaded 9 plugins.
+
+[10:04:56] 
+[10:04:56] Ban list
+[10:04:56] --------
+[10:04:56]  Loaded: samp.ban
+[10:04:56] 
+[10:04:56] 
+[10:04:56] Filterscripts
+[10:04:56] ---------------
+[10:04:56]   Loading filterscript 'Lift.amx'...
+[10:04:56]   Loading filterscript 'Buttons.amx'...
+[10:04:56]   Loading filterscript 'progressbar.amx'...
+[10:04:56]  
+[10:04:56]  
+[10:04:56]  
+[10:04:56]  ======================================= 
+[10:04:56]  |                                     | 
+[10:04:56]  |        YSI version 4.00.0001        | 
+[10:04:56]  |        By Alex "Y_Less" Cole        | 
+[10:04:56]  |                                     | 
+[10:04:56]  ======================================= 
+[10:04:56]  
+[10:04:56] 
+Progress Bar Editor loaded!
+[10:04:56] Use the /bar command to begin editing.
+
+[10:04:56]   Loading filterscript 'AC_Black_Diamond.amx'...
+[10:04:56] AC-Black Diamond v2.1.0 has been loaded! Anticheat callbacks will now work properly
+[10:04:56]   Loaded 4 filterscripts.
+
+[10:04:56]  
+[10:04:56]  
+[10:04:56]  
+[10:04:56]  ======================================= 
+[10:04:56]  |                                     | 
+[10:04:56]  |        YSI version 4.00.0001        | 
+[10:04:56]  |        By Alex "Y_Less" Cole        | 
+[10:04:56]  |                                     | 
+[10:04:56]  ======================================= 
+[10:04:56]  
+[10:04:59] [Pawn.CMD] PC_RegAlias: Command name 'ex' is occupied
+[10:04:59] [Pawn.CMD] PC_RegAlias: invalid unordered_map<K, T> key
+[10:04:59] [Pawn.CMD] PC_RegAlias: invalid unordered_map<K, T> key
+[10:04:59] [ADM] Info: Load 3DTryg v4.8.5 for SA:MP 0.3.7 by Abyss Morgan
+[10:04:59] [ADM] Info: Load EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[10:04:59] MySQL connection is successful.
+[10:04:59] EnableTirePopping() function is removed.
+[10:04:59] Debug: Bagian ini berhasil dijalankan.
+[10:04:59] [debug] Run time error 4: "Array index out of bounds"
+[10:04:59] [debug]  Attempted to read/write array element at index 1860184 in array of size 75
+[10:04:59] [debug] AMX backtrace:
+[10:04:59] [debug] #0 005f9698 in public GEOLITE_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\gamemodes\GM.pwn:1623
+[10:04:59] [debug] #1 000665f8 in public SSCANF_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\geoiplite.inc:125
+[10:04:59] [debug] #2 0005f848 in public EVF_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\sscanf2.inc:211
+[10:04:59] [debug] #3 00058a04 in public T3DV4_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\EVF2.inc:3580
+[10:04:59] [debug] #4 00048664 in public SM_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\3DTryg.inc:4767
+[10:04:59] [debug] #5 00045928 in public PawnCmd_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\selection.inc:293
+[10:04:59] [debug] #6 000421f0 in public ScriptInit_OnGameModeInit ()  at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\Pawn.CMD.inc:127
+[10:04:59] [debug] #7 00000f08 in public OnPlayerDeath () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\YSI_Data\..\YSI_Internal\..\YSI_Core\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237
+[10:04:59] Number of vehicle models: 6
+[10:04:59] [Server] Loaded Data Server...
+[10:04:59] [Server] 1445237444 Server Money
+[10:04:59] [Doors]: 40 Loaded.
+[10:04:59] [Business]: 2 Loaded.
+[10:04:59] [Lockers]: 8 Loaded.
+[10:04:59] [Gas Station]: 7 Loaded.
+[10:04:59] [ATM]: 24 Loaded.
+[10:04:59] [Gate]: 16 Loaded.
+[10:04:59] [Trees]: 31 Loaded.
+[10:04:59] [Ore]: 49 Loaded.
+[10:04:59] [Farmer Plants]: 1 Loaded.
+[10:04:59] [Garkot]: 6 Loaded.
+[10:04:59] [SpeedCam]: 3 Loaded.
+[10:04:59] [Actor]: 3 Loaded.
+[10:05:36] [connection] 192.168.138.102:49959 requests connection cookie.
+[10:05:37] [connection] incoming connection: 192.168.138.102:49959 id: 0
+[10:05:37] [join] Alok has joined the server (0:192.168.138.102)
+[10:05:37] [DEBUG] Player 0 connected.
+[10:05:37] [DEBUG] OnPlayerDataLoaded dipanggil untuk Player 0
+[10:05:44] [OnDialogResponse]: Alok(0) has used dialog id: 4 Listitem: -1
+[10:05:44] [LOGIN] Alok(0) berhasil login dengan password(200814)
+[10:05:47] [OnDialogResponse]: Alok(0) has used dialog id: 1 Listitem: 0
+[10:05:47] [nick] Alok nick changed to Javier_Cooper
+[10:06:06] [nick] Javier_Cooper nick changed to Alok
+[10:06:06] [part] Alok has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:09:54] password = ""  (string)
+[10:09:54] 
+[10:09:54] Server Plugins
+[10:09:54] --------------
+[10:09:54]  Loading plugin: crashdetect
+[10:09:54]   CrashDetect plugin 4.19.4
+[10:09:54]   Loaded.
+[10:09:54]  Loading plugin: discord-connector
+[10:09:56]  >> plugin.dc-connector: v0.3.5 successfully loaded.
+[10:09:56]   Loaded.
+[10:09:56]  Loading plugin: sscanf
+[10:09:56] 
+
+[10:09:56]  ===============================
+
+[10:09:56]       sscanf plugin loaded.     
+
+[10:09:56]          Version:  2.8.3        
+
+[10:09:56]   (c) 2018 Alex "Y_Less" Cole  
+
+[10:09:56]  ===============================
+
+[10:09:56]   Loaded.
+[10:09:56]  Loading plugin: streamer
+[10:09:56] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[10:09:56]   Loaded.
+[10:09:56]  Loading plugin: CTime
+[10:09:56]   Failed.
+[10:09:56]  Loading plugin: pawncmd
+[10:09:56] [Pawn.CMD] plugin v3.3.3 by urShadow loaded
+[10:09:56]   Loaded.
+[10:09:56]  Loading plugin: pawn-memory
+[10:09:56] ========================
+[10:09:56] = Memory access plugin =
+[10:09:56] =       Made by BigETI =
+[10:09:56] = Loaded!              =
+[10:09:56] ========================
+[10:09:56]   Loaded.
+[10:09:56]  Loading plugin: mysql
+[10:09:56]  >> plugin.mysql: R41-4 successfully loaded.
+[10:09:56]   Loaded.
+[10:09:56]  Loading plugin: gvar
+[10:09:56] 
+
+*** GVar Plugin v1.3 by Incognito loaded ***
+
+[10:09:56]   Loaded.
+[10:09:56]  Loading plugin: samp-compat
+[10:09:56]   -- samp-compat for 0.3.7-R2 initialized
+[10:09:56]   Loaded.
+[10:09:56]  Loading plugin: native-checker
+[10:09:56]   Failed.
+[10:09:56]  Loaded 9 plugins.
+
+[10:09:56] 
+[10:09:56] Ban list
+[10:09:56] --------
+[10:09:56]  Loaded: samp.ban
+[10:09:56] 
+[10:09:56] 
+[10:09:56] Filterscripts
+[10:09:56] ---------------
+[10:09:56]   Loading filterscript 'Lift.amx'...
+[10:09:57]   Loading filterscript 'Buttons.amx'...
+[10:09:57]   Loading filterscript 'progressbar.amx'...
+[10:09:57]  
+[10:09:57]  
+[10:09:57]  
+[10:09:57]  ======================================= 
+[10:09:57]  |                                     | 
+[10:09:57]  |        YSI version 4.00.0001        | 
+[10:09:57]  |        By Alex "Y_Less" Cole        | 
+[10:09:57]  |                                     | 
+[10:09:57]  ======================================= 
+[10:09:57]  
+[10:09:57] 
+Progress Bar Editor loaded!
+[10:09:57] Use the /bar command to begin editing.
+
+[10:09:57]   Loading filterscript 'AC_Black_Diamond.amx'...
+[10:09:57] AC-Black Diamond v2.1.0 has been loaded! Anticheat callbacks will now work properly
+[10:09:57]   Loaded 4 filterscripts.
+
+[10:09:57]  
+[10:09:57]  
+[10:09:57]  
+[10:09:57]  ======================================= 
+[10:09:57]  |                                     | 
+[10:09:57]  |        YSI version 4.00.0001        | 
+[10:09:57]  |        By Alex "Y_Less" Cole        | 
+[10:09:57]  |                                     | 
+[10:09:57]  ======================================= 
+[10:09:57]  
+[10:09:59] [Pawn.CMD] PC_RegAlias: Command name 'ex' is occupied
+[10:09:59] [Pawn.CMD] PC_RegAlias: invalid unordered_map<K, T> key
+[10:09:59] [Pawn.CMD] PC_RegAlias: invalid unordered_map<K, T> key
+[10:09:59] [ADM] Info: Load 3DTryg v4.8.5 for SA:MP 0.3.7 by Abyss Morgan
+[10:09:59] [ADM] Info: Load EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[10:09:59] MySQL connection is successful.
+[10:09:59] EnableTirePopping() function is removed.
+[10:09:59] Debug: Bagian ini berhasil dijalankan.
+[10:09:59] [debug] Run time error 4: "Array index out of bounds"
+[10:09:59] [debug]  Attempted to read/write array element at index 1860184 in array of size 75
+[10:09:59] [debug] AMX backtrace:
+[10:09:59] [debug] #0 005f9698 in public GEOLITE_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\gamemodes\GM.pwn:1623
+[10:09:59] [debug] #1 000665f8 in public SSCANF_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\geoiplite.inc:125
+[10:09:59] [debug] #2 0005f848 in public EVF_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\sscanf2.inc:211
+[10:09:59] [debug] #3 00058a04 in public T3DV4_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\EVF2.inc:3580
+[10:09:59] [debug] #4 00048664 in public SM_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\3DTryg.inc:4767
+[10:09:59] [debug] #5 00045928 in public PawnCmd_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\selection.inc:293
+[10:09:59] [debug] #6 000421f0 in public ScriptInit_OnGameModeInit ()  at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\Pawn.CMD.inc:127
+[10:09:59] [debug] #7 00000f08 in public OnPlayerDeath () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\YSI_Data\..\YSI_Internal\..\YSI_Core\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237
+[10:09:59] Number of vehicle models: 6
+[10:09:59] [Server] Loaded Data Server...
+[10:09:59] [Server] 1445237444 Server Money
+[10:09:59] [Doors]: 40 Loaded.
+[10:09:59] [Business]: 2 Loaded.
+[10:09:59] [Lockers]: 8 Loaded.
+[10:09:59] [Gas Station]: 7 Loaded.
+[10:09:59] [ATM]: 24 Loaded.
+[10:09:59] [Gate]: 16 Loaded.
+[10:10:00] [Trees]: 31 Loaded.
+[10:10:00] [Ore]: 49 Loaded.
+[10:10:00] [Farmer Plants]: 1 Loaded.
+[10:10:00] [Garkot]: 6 Loaded.
+[10:10:00] [SpeedCam]: 3 Loaded.
+[10:10:00] [Actor]: 3 Loaded.
+[10:10:43] [connection] 192.168.138.102:50471 requests connection cookie.
+[10:10:44] [connection] incoming connection: 192.168.138.102:50471 id: 0
+[10:10:44] [join] Alok has joined the server (0:192.168.138.102)
+[10:10:44] [DEBUG] Player 0 connected.
+[10:10:44] [DEBUG] OnPlayerDataLoaded dipanggil untuk Player 0
+[10:10:51] [OnDialogResponse]: Alok(0) has used dialog id: 4 Listitem: -1
+[10:10:51] [LOGIN] Alok(0) berhasil login dengan password(200814)
+[10:10:54] [OnDialogResponse]: Alok(0) has used dialog id: 1 Listitem: 0
+[10:10:54] [nick] Alok nick changed to Javier_Cooper
+[10:11:25] [nick] Javier_Cooper nick changed to Alok
+[10:11:26] [part] Alok has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:14:44] password = ""  (string)
+[10:14:44] 
+[10:14:44] Server Plugins
+[10:14:44] --------------
+[10:14:44]  Loading plugin: crashdetect
+[10:14:44]   CrashDetect plugin 4.19.4
+[10:14:44]   Loaded.
+[10:14:44]  Loading plugin: discord-connector
+[10:14:46]  >> plugin.dc-connector: v0.3.5 successfully loaded.
+[10:14:46]   Loaded.
+[10:14:46]  Loading plugin: sscanf
+[10:14:46] 
+
+[10:14:46]  ===============================
+
+[10:14:46]       sscanf plugin loaded.     
+
+[10:14:46]          Version:  2.8.3        
+
+[10:14:46]   (c) 2018 Alex "Y_Less" Cole  
+
+[10:14:46]  ===============================
+
+[10:14:46]   Loaded.
+[10:14:46]  Loading plugin: streamer
+[10:14:46] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[10:14:46]   Loaded.
+[10:14:46]  Loading plugin: CTime
+[10:14:46]   Failed.
+[10:14:46]  Loading plugin: pawncmd
+[10:14:46] [Pawn.CMD] plugin v3.3.3 by urShadow loaded
+[10:14:46]   Loaded.
+[10:14:46]  Loading plugin: pawn-memory
+[10:14:46] ========================
+[10:14:46] = Memory access plugin =
+[10:14:46] =       Made by BigETI =
+[10:14:46] = Loaded!              =
+[10:14:46] ========================
+[10:14:46]   Loaded.
+[10:14:46]  Loading plugin: mysql
+[10:14:46]  >> plugin.mysql: R41-4 successfully loaded.
+[10:14:46]   Loaded.
+[10:14:46]  Loading plugin: gvar
+[10:14:46] 
+
+*** GVar Plugin v1.3 by Incognito loaded ***
+
+[10:14:46]   Loaded.
+[10:14:46]  Loading plugin: samp-compat
+[10:14:46]   -- samp-compat for 0.3.7-R2 initialized
+[10:14:46]   Loaded.
+[10:14:46]  Loading plugin: native-checker
+[10:14:46]   Failed.
+[10:14:46]  Loaded 9 plugins.
+
+[10:14:46] 
+[10:14:46] Ban list
+[10:14:46] --------
+[10:14:46]  Loaded: samp.ban
+[10:14:46] 
+[10:14:46] 
+[10:14:46] Filterscripts
+[10:14:46] ---------------
+[10:14:46]   Loading filterscript 'Lift.amx'...
+[10:14:46]   Loading filterscript 'Buttons.amx'...
+[10:14:46]   Loading filterscript 'progressbar.amx'...
+[10:14:46]  
+[10:14:46]  
+[10:14:46]  
+[10:14:46]  ======================================= 
+[10:14:46]  |                                     | 
+[10:14:46]  |        YSI version 4.00.0001        | 
+[10:14:46]  |        By Alex "Y_Less" Cole        | 
+[10:14:46]  |                                     | 
+[10:14:46]  ======================================= 
+[10:14:46]  
+[10:14:46] 
+Progress Bar Editor loaded!
+[10:14:46] Use the /bar command to begin editing.
+
+[10:14:46]   Loading filterscript 'AC_Black_Diamond.amx'...
+[10:14:46] AC-Black Diamond v2.1.0 has been loaded! Anticheat callbacks will now work properly
+[10:14:46]   Loaded 4 filterscripts.
+
+[10:14:46]  
+[10:14:46]  
+[10:14:46]  
+[10:14:46]  ======================================= 
+[10:14:46]  |                                     | 
+[10:14:46]  |        YSI version 4.00.0001        | 
+[10:14:46]  |        By Alex "Y_Less" Cole        | 
+[10:14:46]  |                                     | 
+[10:14:46]  ======================================= 
+[10:14:46]  
+[10:14:49] [Pawn.CMD] PC_RegAlias: Command name 'ex' is occupied
+[10:14:49] [Pawn.CMD] PC_RegAlias: invalid unordered_map<K, T> key
+[10:14:49] [Pawn.CMD] PC_RegAlias: invalid unordered_map<K, T> key
+[10:14:49] [ADM] Info: Load 3DTryg v4.8.5 for SA:MP 0.3.7 by Abyss Morgan
+[10:14:49] [ADM] Info: Load EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[10:14:49] MySQL connection is successful.
+[10:14:49] EnableTirePopping() function is removed.
+[10:14:49] Debug: Bagian ini berhasil dijalankan.
+[10:14:49] [debug] Run time error 4: "Array index out of bounds"
+[10:14:49] [debug]  Attempted to read/write array element at index 1860184 in array of size 75
+[10:14:49] [debug] AMX backtrace:
+[10:14:49] [debug] #0 005f9698 in public GEOLITE_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\gamemodes\GM.pwn:1623
+[10:14:49] [debug] #1 000665f8 in public SSCANF_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\geoiplite.inc:125
+[10:14:49] [debug] #2 0005f848 in public EVF_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\sscanf2.inc:211
+[10:14:49] [debug] #3 00058a04 in public T3DV4_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\EVF2.inc:3580
+[10:14:49] [debug] #4 00048664 in public SM_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\3DTryg.inc:4767
+[10:14:49] [debug] #5 00045928 in public PawnCmd_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\selection.inc:293
+[10:14:49] [debug] #6 000421f0 in public ScriptInit_OnGameModeInit ()  at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\Pawn.CMD.inc:127
+[10:14:49] [debug] #7 00000f08 in public OnPlayerDeath () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\YSI_Data\..\YSI_Internal\..\YSI_Core\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237
+[10:14:49] Number of vehicle models: 6
+[10:14:49] [Server] Loaded Data Server...
+[10:14:49] [Server] 1445237444 Server Money
+[10:14:49] [Doors]: 40 Loaded.
+[10:14:49] [Business]: 2 Loaded.
+[10:14:49] [Lockers]: 8 Loaded.
+[10:14:49] [Gas Station]: 7 Loaded.
+[10:14:49] [ATM]: 24 Loaded.
+[10:14:49] [Gate]: 16 Loaded.
+[10:14:49] [Trees]: 31 Loaded.
+[10:14:49] [Ore]: 49 Loaded.
+[10:14:49] [Farmer Plants]: 1 Loaded.
+[10:14:49] [Garkot]: 6 Loaded.
+[10:14:49] [SpeedCam]: 3 Loaded.
+[10:14:49] [Actor]: 3 Loaded.
+[10:15:18] [connection] 192.168.138.102:62872 requests connection cookie.
+[10:15:19] [connection] incoming connection: 192.168.138.102:62872 id: 0
+[10:15:20] [join] Alok has joined the server (0:192.168.138.102)
+[10:15:20] [DEBUG] Player 0 connected.
+[10:15:20] [DEBUG] OnPlayerDataLoaded dipanggil untuk Player 0
+[10:15:25] [OnDialogResponse]: Alok(0) has used dialog id: 4 Listitem: -1
+[10:15:25] [LOGIN] Alok(0) berhasil login dengan password(200814)
+[10:15:28] [OnDialogResponse]: Alok(0) has used dialog id: 1 Listitem: 0
+[10:15:28] [nick] Alok nick changed to Javier_Cooper
+[10:15:46] [nick] Javier_Cooper nick changed to Alok
+[10:15:46] [part] Alok has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:23:02] password = ""  (string)
+[10:23:02] 
+[10:23:02] Server Plugins
+[10:23:02] --------------
+[10:23:02]  Loading plugin: crashdetect
+[10:23:02]   CrashDetect plugin 4.19.4
+[10:23:02]   Loaded.
+[10:23:02]  Loading plugin: discord-connector
+[10:23:04]  >> plugin.dc-connector: v0.3.5 successfully loaded.
+[10:23:04]   Loaded.
+[10:23:04]  Loading plugin: sscanf
+[10:23:04] 
+
+[10:23:04]  ===============================
+
+[10:23:04]       sscanf plugin loaded.     
+
+[10:23:04]          Version:  2.8.3        
+
+[10:23:04]   (c) 2018 Alex "Y_Less" Cole  
+
+[10:23:04]  ===============================
+
+[10:23:04]   Loaded.
+[10:23:04]  Loading plugin: streamer
+[10:23:04] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[10:23:04]   Loaded.
+[10:23:04]  Loading plugin: CTime
+[10:23:04]   Failed.
+[10:23:04]  Loading plugin: pawncmd
+[10:23:04] [Pawn.CMD] plugin v3.3.3 by urShadow loaded
+[10:23:04]   Loaded.
+[10:23:04]  Loading plugin: pawn-memory
+[10:23:04] ========================
+[10:23:04] = Memory access plugin =
+[10:23:04] =       Made by BigETI =
+[10:23:04] = Loaded!              =
+[10:23:04] ========================
+[10:23:04]   Loaded.
+[10:23:04]  Loading plugin: mysql
+[10:23:04]  >> plugin.mysql: R41-4 successfully loaded.
+[10:23:04]   Loaded.
+[10:23:04]  Loading plugin: gvar
+[10:23:04] 
+
+*** GVar Plugin v1.3 by Incognito loaded ***
+
+[10:23:04]   Loaded.
+[10:23:04]  Loading plugin: samp-compat
+[10:23:04]   -- samp-compat for 0.3.7-R2 initialized
+[10:23:04]   Loaded.
+[10:23:04]  Loading plugin: native-checker
+[10:23:04]   Failed.
+[10:23:04]  Loaded 9 plugins.
+
+[10:23:04] 
+[10:23:04] Ban list
+[10:23:04] --------
+[10:23:04]  Loaded: samp.ban
+[10:23:04] 
+[10:23:04] 
+[10:23:04] Filterscripts
+[10:23:04] ---------------
+[10:23:04]   Loading filterscript 'Lift.amx'...
+[10:23:04]   Loading filterscript 'Buttons.amx'...
+[10:23:04]   Loading filterscript 'progressbar.amx'...
+[10:23:04]  
+[10:23:04]  
+[10:23:04]  
+[10:23:04]  ======================================= 
+[10:23:04]  |                                     | 
+[10:23:04]  |        YSI version 4.00.0001        | 
+[10:23:04]  |        By Alex "Y_Less" Cole        | 
+[10:23:04]  |                                     | 
+[10:23:04]  ======================================= 
+[10:23:04]  
+[10:23:04] 
+Progress Bar Editor loaded!
+[10:23:04] Use the /bar command to begin editing.
+
+[10:23:04]   Loading filterscript 'AC_Black_Diamond.amx'...
+[10:23:04] AC-Black Diamond v2.1.0 has been loaded! Anticheat callbacks will now work properly
+[10:23:04]   Loaded 4 filterscripts.
+
+[10:23:04]  
+[10:23:04]  
+[10:23:04]  
+[10:23:04]  ======================================= 
+[10:23:04]  |                                     | 
+[10:23:04]  |        YSI version 4.00.0001        | 
+[10:23:04]  |        By Alex "Y_Less" Cole        | 
+[10:23:04]  |                                     | 
+[10:23:04]  ======================================= 
+[10:23:04]  
+[10:23:07] [Pawn.CMD] PC_RegAlias: Command name 'ex' is occupied
+[10:23:07] [Pawn.CMD] PC_RegAlias: invalid unordered_map<K, T> key
+[10:23:07] [Pawn.CMD] PC_RegAlias: invalid unordered_map<K, T> key
+[10:23:07] [ADM] Info: Load 3DTryg v4.8.5 for SA:MP 0.3.7 by Abyss Morgan
+[10:23:07] [ADM] Info: Load EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[10:23:07] MySQL connection is successful.
+[10:23:07] EnableTirePopping() function is removed.
+[10:23:07] Debug: Bagian ini berhasil dijalankan.
+[10:23:07] [debug] Run time error 4: "Array index out of bounds"
+[10:23:07] [debug]  Attempted to read/write array element at index 1860184 in array of size 75
+[10:23:07] [debug] AMX backtrace:
+[10:23:07] [debug] #0 005f9698 in public GEOLITE_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\gamemodes\GM.pwn:1623
+[10:23:07] [debug] #1 000665f8 in public SSCANF_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\geoiplite.inc:125
+[10:23:07] [debug] #2 0005f848 in public EVF_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\sscanf2.inc:211
+[10:23:07] [debug] #3 00058a04 in public T3DV4_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\EVF2.inc:3580
+[10:23:07] [debug] #4 00048664 in public SM_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\3DTryg.inc:4767
+[10:23:07] [debug] #5 00045928 in public PawnCmd_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\selection.inc:293
+[10:23:07] [debug] #6 000421f0 in public ScriptInit_OnGameModeInit ()  at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\Pawn.CMD.inc:127
+[10:23:07] [debug] #7 00000f08 in public OnPlayerDeath () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\YSI_Data\..\YSI_Internal\..\YSI_Core\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237
+[10:23:07] Number of vehicle models: 6
+[10:23:07] [Server] Loaded Data Server...
+[10:23:07] [Server] 1445237444 Server Money
+[10:23:07] [Doors]: 40 Loaded.
+[10:23:07] [Business]: 2 Loaded.
+[10:23:07] [Lockers]: 8 Loaded.
+[10:23:07] [Gas Station]: 7 Loaded.
+[10:23:07] [ATM]: 24 Loaded.
+[10:23:07] [Gate]: 16 Loaded.
+[10:23:07] [Trees]: 31 Loaded.
+[10:23:07] [Ore]: 49 Loaded.
+[10:23:07] [Farmer Plants]: 1 Loaded.
+[10:23:07] [Garkot]: 6 Loaded.
+[10:23:07] [SpeedCam]: 3 Loaded.
+[10:23:07] [Actor]: 3 Loaded.
+[10:23:49] [connection] 192.168.138.102:55933 requests connection cookie.
+[10:23:50] [connection] incoming connection: 192.168.138.102:55933 id: 0
+[10:23:50] [join] Alok has joined the server (0:192.168.138.102)
+[10:23:50] [DEBUG] Player 0 connected.
+[10:23:50] [DEBUG] OnPlayerDataLoaded dipanggil untuk Player 0
+[10:24:00] [OnDialogResponse]: Alok(0) has used dialog id: 4 Listitem: -1
+[10:24:00] [LOGIN] Alok(0) berhasil login dengan password(200814)
+[10:24:01] [OnDialogResponse]: Alok(0) has used dialog id: 1 Listitem: 0
+[10:24:01] [nick] Alok nick changed to Javier_Cooper
+[10:24:11] [nick] Javier_Cooper nick changed to Alok
+[10:24:11] [part] Alok has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:25:19] password = ""  (string)
+[10:25:19] 
+[10:25:19] Server Plugins
+[10:25:19] --------------
+[10:25:19]  Loading plugin: crashdetect
+[10:25:19]   CrashDetect plugin 4.19.4
+[10:25:19]   Loaded.
+[10:25:19]  Loading plugin: discord-connector
+[10:25:21]  >> plugin.dc-connector: v0.3.5 successfully loaded.
+[10:25:21]   Loaded.
+[10:25:21]  Loading plugin: sscanf
+[10:25:21] 
+
+[10:25:21]  ===============================
+
+[10:25:21]       sscanf plugin loaded.     
+
+[10:25:21]          Version:  2.8.3        
+
+[10:25:21]   (c) 2018 Alex "Y_Less" Cole  
+
+[10:25:21]  ===============================
+
+[10:25:21]   Loaded.
+[10:25:21]  Loading plugin: streamer
+[10:25:21] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[10:25:21]   Loaded.
+[10:25:21]  Loading plugin: CTime
+[10:25:22]   Failed.
+[10:25:22]  Loading plugin: pawncmd
+[10:25:23] [Pawn.CMD] plugin v3.3.3 by urShadow loaded
+[10:25:23]   Loaded.
+[10:25:23]  Loading plugin: pawn-memory
+[10:25:23] ========================
+[10:25:23] = Memory access plugin =
+[10:25:23] =       Made by BigETI =
+[10:25:23] = Loaded!              =
+[10:25:23] ========================
+[10:25:23]   Loaded.
+[10:25:23]  Loading plugin: mysql
+[10:25:23]  >> plugin.mysql: R41-4 successfully loaded.
+[10:25:23]   Loaded.
+[10:25:23]  Loading plugin: gvar
+[10:25:23] 
+
+*** GVar Plugin v1.3 by Incognito loaded ***
+
+[10:25:23]   Loaded.
+[10:25:23]  Loading plugin: samp-compat
+[10:25:23]   -- samp-compat for 0.3.7-R2 initialized
+[10:25:23]   Loaded.
+[10:25:23]  Loading plugin: native-checker
+[10:25:23]   Failed.
+[10:25:23]  Loaded 9 plugins.
+
+[10:25:23] 
+[10:25:23] Ban list
+[10:25:23] --------
+[10:25:23]  Loaded: samp.ban
+[10:25:23] 
+[10:25:23] 
+[10:25:23] Filterscripts
+[10:25:23] ---------------
+[10:25:23]   Loading filterscript 'Lift.amx'...
+[10:25:23]   Loading filterscript 'Buttons.amx'...
+[10:25:23]   Loading filterscript 'progressbar.amx'...
+[10:25:23]  
+[10:25:23]  
+[10:25:23]  
+[10:25:23]  ======================================= 
+[10:25:23]  |                                     | 
+[10:25:23]  |        YSI version 4.00.0001        | 
+[10:25:23]  |        By Alex "Y_Less" Cole        | 
+[10:25:23]  |                                     | 
+[10:25:23]  ======================================= 
+[10:25:23]  
+[10:25:23] 
+Progress Bar Editor loaded!
+[10:25:23] Use the /bar command to begin editing.
+
+[10:25:23]   Loading filterscript 'AC_Black_Diamond.amx'...
+[10:25:23] AC-Black Diamond v2.1.0 has been loaded! Anticheat callbacks will now work properly
+[10:25:23]   Loaded 4 filterscripts.
+
+[10:25:23]  
+[10:25:23]  
+[10:25:23]  
+[10:25:23]  ======================================= 
+[10:25:23]  |                                     | 
+[10:25:23]  |        YSI version 4.00.0001        | 
+[10:25:23]  |        By Alex "Y_Less" Cole        | 
+[10:25:23]  |                                     | 
+[10:25:23]  ======================================= 
+[10:25:23]  
+[10:25:25] [Pawn.CMD] PC_RegAlias: Command name 'ex' is occupied
+[10:25:25] [Pawn.CMD] PC_RegAlias: invalid unordered_map<K, T> key
+[10:25:25] [Pawn.CMD] PC_RegAlias: invalid unordered_map<K, T> key
+[10:25:25] [ADM] Info: Load 3DTryg v4.8.5 for SA:MP 0.3.7 by Abyss Morgan
+[10:25:25] [ADM] Info: Load EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[10:25:25] MySQL connection is successful.
+[10:25:25] EnableTirePopping() function is removed.
+[10:25:25] Debug: Bagian ini berhasil dijalankan.
+[10:25:25] [debug] Run time error 4: "Array index out of bounds"
+[10:25:25] [debug]  Attempted to read/write array element at index 1860184 in array of size 75
+[10:25:25] [debug] AMX backtrace:
+[10:25:25] [debug] #0 005f9698 in public GEOLITE_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\gamemodes\GM.pwn:1623
+[10:25:25] [debug] #1 000665f8 in public SSCANF_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\geoiplite.inc:125
+[10:25:25] [debug] #2 0005f848 in public EVF_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\sscanf2.inc:211
+[10:25:25] [debug] #3 00058a04 in public T3DV4_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\EVF2.inc:3580
+[10:25:25] [debug] #4 00048664 in public SM_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\3DTryg.inc:4767
+[10:25:25] [debug] #5 00045928 in public PawnCmd_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\selection.inc:293
+[10:25:25] [debug] #6 000421f0 in public ScriptInit_OnGameModeInit ()  at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\Pawn.CMD.inc:127
+[10:25:25] [debug] #7 00000f08 in public OnPlayerDeath () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\YSI_Data\..\YSI_Internal\..\YSI_Core\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237
+[10:25:25] Number of vehicle models: 6
+[10:25:26] [Server] Loaded Data Server...
+[10:25:26] [Server] 1445237444 Server Money
+[10:25:26] [Doors]: 40 Loaded.
+[10:25:26] [Business]: 2 Loaded.
+[10:25:26] [Lockers]: 8 Loaded.
+[10:25:26] [Gas Station]: 7 Loaded.
+[10:25:26] [ATM]: 24 Loaded.
+[10:25:26] [Gate]: 16 Loaded.
+[10:25:26] [Trees]: 31 Loaded.
+[10:25:26] [Ore]: 49 Loaded.
+[10:25:26] [Farmer Plants]: 1 Loaded.
+[10:25:26] [Garkot]: 6 Loaded.
+[10:25:26] [SpeedCam]: 3 Loaded.
+[10:25:26] [Actor]: 3 Loaded.
+[10:26:05] [connection] 192.168.138.102:52640 requests connection cookie.
+[10:26:06] [connection] incoming connection: 192.168.138.102:52640 id: 0
+[10:26:06] [join] Alok has joined the server (0:192.168.138.102)
+[10:26:06] [DEBUG] Player 0 connected.
+[10:26:06] [DEBUG] OnPlayerDataLoaded dipanggil untuk Player 0
+[10:26:16] [OnDialogResponse]: Alok(0) has used dialog id: 4 Listitem: -1
+[10:26:16] [LOGIN] Alok(0) berhasil login dengan password(200814)
+[10:26:17] [OnDialogResponse]: Alok(0) has used dialog id: 1 Listitem: 0
+[10:26:17] [nick] Alok nick changed to Javier_Cooper
+[10:27:14] [nick] Javier_Cooper nick changed to Alok
+[10:27:14] [part] Alok has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:28:10] password = ""  (string)
+[10:28:10] 
+[10:28:10] Server Plugins
+[10:28:10] --------------
+[10:28:10]  Loading plugin: crashdetect
+[10:28:10]   CrashDetect plugin 4.19.4
+[10:28:10]   Loaded.
+[10:28:10]  Loading plugin: discord-connector
+[10:28:12]  >> plugin.dc-connector: v0.3.5 successfully loaded.
+[10:28:12]   Loaded.
+[10:28:12]  Loading plugin: sscanf
+[10:28:12] 
+
+[10:28:12]  ===============================
+
+[10:28:12]       sscanf plugin loaded.     
+
+[10:28:12]          Version:  2.8.3        
+
+[10:28:12]   (c) 2018 Alex "Y_Less" Cole  
+
+[10:28:12]  ===============================
+
+[10:28:12]   Loaded.
+[10:28:12]  Loading plugin: streamer
+[10:28:12] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[10:28:12]   Loaded.
+[10:28:12]  Loading plugin: CTime
+[10:28:12]   Failed.
+[10:28:12]  Loading plugin: pawncmd
+[10:28:12] [Pawn.CMD] plugin v3.3.3 by urShadow loaded
+[10:28:12]   Loaded.
+[10:28:12]  Loading plugin: pawn-memory
+[10:28:12] ========================
+[10:28:12] = Memory access plugin =
+[10:28:12] =       Made by BigETI =
+[10:28:12] = Loaded!              =
+[10:28:12] ========================
+[10:28:12]   Loaded.
+[10:28:12]  Loading plugin: mysql
+[10:28:12]  >> plugin.mysql: R41-4 successfully loaded.
+[10:28:12]   Loaded.
+[10:28:12]  Loading plugin: gvar
+[10:28:12] 
+
+*** GVar Plugin v1.3 by Incognito loaded ***
+
+[10:28:12]   Loaded.
+[10:28:12]  Loading plugin: samp-compat
+[10:28:12]   -- samp-compat for 0.3.7-R2 initialized
+[10:28:12]   Loaded.
+[10:28:12]  Loading plugin: native-checker
+[10:28:12]   Failed.
+[10:28:12]  Loaded 9 plugins.
+
+[10:28:12] 
+[10:28:12] Ban list
+[10:28:12] --------
+[10:28:12]  Loaded: samp.ban
+[10:28:12] 
+[10:28:12] 
+[10:28:12] Filterscripts
+[10:28:12] ---------------
+[10:28:12]   Loading filterscript 'Lift.amx'...
+[10:28:12]   Loading filterscript 'Buttons.amx'...
+[10:28:12]   Loading filterscript 'progressbar.amx'...
+[10:28:12]  
+[10:28:12]  
+[10:28:12]  
+[10:28:12]  ======================================= 
+[10:28:12]  |                                     | 
+[10:28:12]  |        YSI version 4.00.0001        | 
+[10:28:12]  |        By Alex "Y_Less" Cole        | 
+[10:28:12]  |                                     | 
+[10:28:12]  ======================================= 
+[10:28:12]  
+[10:28:12] 
+Progress Bar Editor loaded!
+[10:28:12] Use the /bar command to begin editing.
+
+[10:28:12]   Loading filterscript 'AC_Black_Diamond.amx'...
+[10:28:12] AC-Black Diamond v2.1.0 has been loaded! Anticheat callbacks will now work properly
+[10:28:12]   Loaded 4 filterscripts.
+
+[10:28:12]  
+[10:28:12]  
+[10:28:12]  
+[10:28:12]  ======================================= 
+[10:28:12]  |                                     | 
+[10:28:12]  |        YSI version 4.00.0001        | 
+[10:28:12]  |        By Alex "Y_Less" Cole        | 
+[10:28:12]  |                                     | 
+[10:28:12]  ======================================= 
+[10:28:12]  
+[10:28:15] [Pawn.CMD] PC_RegAlias: Command name 'ex' is occupied
+[10:28:15] [Pawn.CMD] PC_RegAlias: invalid unordered_map<K, T> key
+[10:28:15] [Pawn.CMD] PC_RegAlias: invalid unordered_map<K, T> key
+[10:28:15] [ADM] Info: Load 3DTryg v4.8.5 for SA:MP 0.3.7 by Abyss Morgan
+[10:28:15] [ADM] Info: Load EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[10:28:15] MySQL connection is successful.
+[10:28:15] EnableTirePopping() function is removed.
+[10:28:15] Debug: Bagian ini berhasil dijalankan.
+[10:28:15] [debug] Run time error 4: "Array index out of bounds"
+[10:28:15] [debug]  Attempted to read/write array element at index 1860184 in array of size 75
+[10:28:15] [debug] AMX backtrace:
+[10:28:15] [debug] #0 005f9698 in public GEOLITE_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\gamemodes\GM.pwn:1623
+[10:28:15] [debug] #1 000665f8 in public SSCANF_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\geoiplite.inc:125
+[10:28:15] [debug] #2 0005f848 in public EVF_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\sscanf2.inc:211
+[10:28:15] [debug] #3 00058a04 in public T3DV4_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\EVF2.inc:3580
+[10:28:15] [debug] #4 00048664 in public SM_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\3DTryg.inc:4767
+[10:28:15] [debug] #5 00045928 in public PawnCmd_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\selection.inc:293
+[10:28:15] [debug] #6 000421f0 in public ScriptInit_OnGameModeInit ()  at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\Pawn.CMD.inc:127
+[10:28:15] [debug] #7 00000f08 in public OnPlayerDeath () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\YSI_Data\..\YSI_Internal\..\YSI_Core\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237
+[10:28:15] Number of vehicle models: 6
+[10:28:15] [Server] Loaded Data Server...
+[10:28:15] [Server] 1445237444 Server Money
+[10:28:15] [Doors]: 40 Loaded.
+[10:28:15] [Business]: 2 Loaded.
+[10:28:15] [Lockers]: 8 Loaded.
+[10:28:15] [Gas Station]: 7 Loaded.
+[10:28:15] [ATM]: 24 Loaded.
+[10:28:15] [Gate]: 16 Loaded.
+[10:28:15] [Trees]: 31 Loaded.
+[10:28:15] [Ore]: 49 Loaded.
+[10:28:15] [Farmer Plants]: 1 Loaded.
+[10:28:15] [Garkot]: 6 Loaded.
+[10:28:15] [SpeedCam]: 3 Loaded.
+[10:28:15] [Actor]: 3 Loaded.
+[10:28:44] [connection] 192.168.138.102:57269 requests connection cookie.
+[10:28:45] [connection] incoming connection: 192.168.138.102:57269 id: 0
+[10:28:46] [join] Alok has joined the server (0:192.168.138.102)
+[10:28:46] [DEBUG] Player 0 connected.
+[10:28:46] [DEBUG] OnPlayerDataLoaded dipanggil untuk Player 0
+[10:28:54] [OnDialogResponse]: Alok(0) has used dialog id: 4 Listitem: -1
+[10:28:54] [LOGIN] Alok(0) berhasil login dengan password(200814)
+[10:28:55] [OnDialogResponse]: Alok(0) has used dialog id: 1 Listitem: 0
+[10:28:55] [nick] Alok nick changed to Javier_Cooper
+[10:29:06] [nick] Javier_Cooper nick changed to Alok
+[10:29:06] [part] Alok has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:30:52] password = ""  (string)
+[10:30:52] 
+[10:30:52] Server Plugins
+[10:30:52] --------------
+[10:30:52]  Loading plugin: crashdetect
+[10:30:53]   CrashDetect plugin 4.19.4
+[10:30:53]   Loaded.
+[10:30:53]  Loading plugin: discord-connector
+[10:30:54]  >> plugin.dc-connector: v0.3.5 successfully loaded.
+[10:30:54]   Loaded.
+[10:30:54]  Loading plugin: sscanf
+[10:30:54] 
+
+[10:30:54]  ===============================
+
+[10:30:54]       sscanf plugin loaded.     
+
+[10:30:54]          Version:  2.8.3        
+
+[10:30:54]   (c) 2018 Alex "Y_Less" Cole  
+
+[10:30:54]  ===============================
+
+[10:30:54]   Loaded.
+[10:30:54]  Loading plugin: streamer
+[10:30:54] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[10:30:54]   Loaded.
+[10:30:54]  Loading plugin: CTime
+[10:30:54]   Failed.
+[10:30:54]  Loading plugin: pawncmd
+[10:30:54] [Pawn.CMD] plugin v3.3.3 by urShadow loaded
+[10:30:54]   Loaded.
+[10:30:54]  Loading plugin: pawn-memory
+[10:30:54] ========================
+[10:30:54] = Memory access plugin =
+[10:30:54] =       Made by BigETI =
+[10:30:54] = Loaded!              =
+[10:30:54] ========================
+[10:30:54]   Loaded.
+[10:30:54]  Loading plugin: mysql
+[10:30:54]  >> plugin.mysql: R41-4 successfully loaded.
+[10:30:54]   Loaded.
+[10:30:54]  Loading plugin: gvar
+[10:30:54] 
+
+*** GVar Plugin v1.3 by Incognito loaded ***
+
+[10:30:54]   Loaded.
+[10:30:54]  Loading plugin: samp-compat
+[10:30:54]   -- samp-compat for 0.3.7-R2 initialized
+[10:30:54]   Loaded.
+[10:30:54]  Loading plugin: native-checker
+[10:30:54]   Failed.
+[10:30:54]  Loaded 9 plugins.
+
+[10:30:54] 
+[10:30:54] Ban list
+[10:30:54] --------
+[10:30:54]  Loaded: samp.ban
+[10:30:54] 
+[10:30:54] 
+[10:30:54] Filterscripts
+[10:30:54] ---------------
+[10:30:54]   Loading filterscript 'Lift.amx'...
+[10:30:55]   Loading filterscript 'Buttons.amx'...
+[10:30:55]   Loading filterscript 'progressbar.amx'...
+[10:30:55]  
+[10:30:55]  
+[10:30:55]  
+[10:30:55]  ======================================= 
+[10:30:55]  |                                     | 
+[10:30:55]  |        YSI version 4.00.0001        | 
+[10:30:55]  |        By Alex "Y_Less" Cole        | 
+[10:30:55]  |                                     | 
+[10:30:55]  ======================================= 
+[10:30:55]  
+[10:30:55] 
+Progress Bar Editor loaded!
+[10:30:55] Use the /bar command to begin editing.
+
+[10:30:55]   Loading filterscript 'AC_Black_Diamond.amx'...
+[10:30:55] AC-Black Diamond v2.1.0 has been loaded! Anticheat callbacks will now work properly
+[10:30:55]   Loaded 4 filterscripts.
+
+[10:30:55]  
+[10:30:55]  
+[10:30:55]  
+[10:30:55]  ======================================= 
+[10:30:55]  |                                     | 
+[10:30:55]  |        YSI version 4.00.0001        | 
+[10:30:55]  |        By Alex "Y_Less" Cole        | 
+[10:30:55]  |                                     | 
+[10:30:55]  ======================================= 
+[10:30:55]  
+[10:30:57] [Pawn.CMD] PC_RegAlias: Command name 'ex' is occupied
+[10:30:57] [Pawn.CMD] PC_RegAlias: invalid unordered_map<K, T> key
+[10:30:57] [Pawn.CMD] PC_RegAlias: invalid unordered_map<K, T> key
+[10:30:57] [ADM] Info: Load 3DTryg v4.8.5 for SA:MP 0.3.7 by Abyss Morgan
+[10:30:57] [ADM] Info: Load EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[10:30:57] MySQL connection is successful.
+[10:30:57] EnableTirePopping() function is removed.
+[10:30:57] Debug: Bagian ini berhasil dijalankan.
+[10:30:57] [debug] Run time error 4: "Array index out of bounds"
+[10:30:57] [debug]  Attempted to read/write array element at index 1860184 in array of size 75
+[10:30:57] [debug] AMX backtrace:
+[10:30:57] [debug] #0 005f9698 in public GEOLITE_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\gamemodes\GM.pwn:1623
+[10:30:57] [debug] #1 000665f8 in public SSCANF_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\geoiplite.inc:125
+[10:30:57] [debug] #2 0005f848 in public EVF_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\sscanf2.inc:211
+[10:30:57] [debug] #3 00058a04 in public T3DV4_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\EVF2.inc:3580
+[10:30:57] [debug] #4 00048664 in public SM_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\3DTryg.inc:4767
+[10:30:57] [debug] #5 00045928 in public PawnCmd_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\selection.inc:293
+[10:30:57] [debug] #6 000421f0 in public ScriptInit_OnGameModeInit ()  at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\Pawn.CMD.inc:127
+[10:30:57] [debug] #7 00000f08 in public OnPlayerDeath () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\YSI_Data\..\YSI_Internal\..\YSI_Core\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237
+[10:30:57] Number of vehicle models: 6
+[10:30:57] [Server] Loaded Data Server...
+[10:30:57] [Server] 1445237444 Server Money
+[10:30:58] [Doors]: 40 Loaded.
+[10:30:58] [Business]: 2 Loaded.
+[10:30:58] [Lockers]: 8 Loaded.
+[10:30:58] [Gas Station]: 7 Loaded.
+[10:30:58] [ATM]: 24 Loaded.
+[10:30:58] [Gate]: 16 Loaded.
+[10:30:58] [Trees]: 31 Loaded.
+[10:30:58] [Ore]: 49 Loaded.
+[10:30:58] [Farmer Plants]: 1 Loaded.
+[10:30:58] [Garkot]: 6 Loaded.
+[10:30:58] [SpeedCam]: 3 Loaded.
+[10:30:58] [Actor]: 3 Loaded.
+[10:31:48] [connection] 192.168.138.102:63765 requests connection cookie.
+[10:31:49] [connection] incoming connection: 192.168.138.102:63765 id: 0
+[10:31:49] [join] Alok has joined the server (0:192.168.138.102)
+[10:31:49] [DEBUG] Player 0 connected.
+[10:31:49] [DEBUG] OnPlayerDataLoaded dipanggil untuk Player 0
+[10:31:57] [OnDialogResponse]: Alok(0) has used dialog id: 4 Listitem: -1
+[10:31:57] [LOGIN] Alok(0) berhasil login dengan password(200814)
+[10:31:58] [OnDialogResponse]: Alok(0) has used dialog id: 1 Listitem: 0
+[10:31:58] [nick] Alok nick changed to Javier_Cooper
+[10:32:16] [nick] Javier_Cooper nick changed to Alok
+[10:32:16] [part] Alok has left the server (0:1)
+[10:33:22] [connection] 192.168.138.102:53376 requests connection cookie.
+[10:33:23] [connection] incoming connection: 192.168.138.102:53376 id: 0
+[10:33:23] [join] Alok has joined the server (0:192.168.138.102)
+[10:33:23] [DEBUG] Player 0 connected.
+[10:33:23] [DEBUG] OnPlayerDataLoaded dipanggil untuk Player 0
+[10:33:45] [OnDialogResponse]: Alok(0) has used dialog id: 4 Listitem: -1
+[10:33:45] [LOGIN] Alok(0) berhasil login dengan password(200814)
+[10:33:47] [OnDialogResponse]: Alok(0) has used dialog id: 1 Listitem: 0
+[10:33:47] [nick] Alok nick changed to Javier_Cooper
+[10:33:57] [nick] Javier_Cooper nick changed to Anjayaa
+[10:33:57] [CMD] Anjayaa: [aduty] []
+[10:34:01] [CMD] Anjayaa: [goto] []
+[10:34:19] [CMD] Anjayaa: [jetpack] []
+[10:34:51] [CMD] Anjayaa: [gotodoor] []
+[10:34:56] [CMD] Anjayaa: [gotodoor] [1]
+[10:35:01] [CMD] Anjayaa: [gotodoor] [24]
+[10:35:24] [CMD] Anjayaa: [gotodoor] [14]
+[10:35:35] [CMD] Anjayaa: [gotodoor] [34]
+[10:35:42] [CMD] Anjayaa: [gotodoor] [16]
+[10:35:47] [CMD] Anjayaa: [gotodoor] [19]
+[10:36:02] [CMD] Anjayaa: [gotodoor] [41]
+[10:36:10] [CMD] Anjayaa: [gotodoor] [40]
+[10:36:17] [CMD] Anjayaa: [gotodoor] [39]
+[10:36:25] [CMD] Anjayaa: [gotodoor] [36]
+[10:37:22] [CMD] Anjayaa: [gotodoor] [35]
+[10:37:28] [CMD] Anjayaa: [gotodoor] [34]
+[10:37:33] [CMD] Anjayaa: [gotodoor] [33]
+[10:37:39] [CMD] Anjayaa: [gotodoor] [32]
+[10:37:49] [CMD] Anjayaa: [gotodoor] [31]
+[10:38:04] [CMD] Anjayaa: [gotodoor] [30]
+[10:38:14] [CMD] Anjayaa: [gotodoor] [29]
+[10:38:22] [CMD] Anjayaa: [gotodoor] [28]
+[10:38:36] AdminCommandLog: logstr detected necessary, escaped from '1' to '1'
+[10:38:36] [CMD] Anjayaa: [setleader] [0 1]
+[10:38:46] [CMD] Anjayaa: [gate] []
+[10:39:07] [CMD] Anjayaa: [gate] []
+[10:39:11] [CMD] Anjayaa: [gate] []
+[10:41:41] [CMD] Anjayaa: [gotodoor] [3]
+[10:41:47] [CMD] Anjayaa: [jetpack] []
+[10:50:50] [CMD] Anjayaa: [goto] [0]
+[10:55:18] [CMD] Anjayaa: [goto] [0]
+[10:55:25] [CMD] Anjayaa: [goto] [0]
+[10:55:44] [CMD] Anjayaa: [goto] [0]
+[10:55:49] [CMD] Anjayaa: [gotodoor] [27]
+[10:56:32] [CMD] Anjayaa: [goto] [0]
+[10:57:39] [CMD] Anjayaa: [gotodoor] [27]
+[10:58:20] [CMD] Anjayaa: [goto] [0]
+[10:58:37] [CMD] Anjayaa: [gotodoor] [27]
+[10:59:09] [CMD] Anjayaa: [goto] [0]
+[11:02:14] [CMD] Anjayaa: [gotodoor] [27]
+[11:02:22] [CMD] Anjayaa: [gotodoor] [1]
+[11:02:47] [CMD] Anjayaa: [gotodoor] [27]
+[11:03:47] [CMD] Anjayaa: [createdoor] []
+[11:04:25] [CMD] Anjayaa: [createdoor] [[HELIPED]]
+[11:04:38] [CMD] Anjayaa: [editdoor] []
+[11:05:24] [CMD] Anjayaa: [jetpack] []
+[11:05:30] [CMD] Anjayaa: [goto] [0]
+[11:05:37] [CMD] Anjayaa: [slap] [0]
+[11:05:44] [CMD] Anjayaa: [unfreeze] [0]
+[11:06:10] [CMD] Anjayaa: [editdoor] [40 INTERIOR]
+[11:06:23] [CMD] Anjayaa: [editdoor] [40 FACTION]
+[11:06:31] [CMD] Anjayaa: [editdoor] [40 FACTION 1]
+[11:07:12] [CMD] Anjayaa: [createdoor] [[Halaman] Kepolisian]
+[11:07:20] [CMD] Anjayaa: [editdoor] [40 name]
+[11:07:35] [CMD] Anjayaa: [editdoor] [40 name [Rooftop] Kepolisian]
+[11:09:47] [CMD] Anjayaa: [veh] [560 ]
+[11:09:54] [CMD] Anjayaa: [inside] []
+[11:10:07] [OnDialogResponse]: Alok(0) has used dialog id: 1568 Listitem: 0
+[11:10:09] [OnDialogResponse]: Alok(0) has used dialog id: 1034 Listitem: 1
+[11:10:19] [CMD] Anjayaa: [unfreeze] [0]
+[11:13:16] [CMD] Anjayaa: [gotodoor] [28]
+[11:13:36] [CMD] Anjayaa: [jetpack] []
+[11:18:17] [CMD] Anjayaa: [gotodoor] [27]

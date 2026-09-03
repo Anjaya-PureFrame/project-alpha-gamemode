@@ -1,9 +1,9 @@
 // Server Define
-#define TEXT_GAMEMODE	"#CeritaKitaRoleplay v.1.0"
+#define TEXT_GAMEMODE	"#GarudakuRoleplay v.1.0"
 #define TEXT_WEBURL		"ck-rp.fun"
 #define TEXT_LANGUAGE	"Indonesia"
-#define SERVER_BOT      "Cerita Kita Assistance"
-#define SERVER_NAME     "Cerita Kita Roleplay"
+#define SERVER_BOT      "Garudaku Assistance"
+#define SERVER_NAME     "Garudaku Roleplay"
 
 // MySQL configuration
 #define		MYSQL_HOST 			"localhost"

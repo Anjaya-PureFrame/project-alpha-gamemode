@@ -737,11 +737,11 @@ CMD:arrest(playerid, params[])
     if(pData[playerid][pFaction] != 1)
         return Error(playerid, "Kamu harus menjadi anggota kepolisian");
 		
-	if(!IsPlayerInRangeOfPoint(playerid, 3.0, 226.2459, 114.4557, 999.0156))
+	if(!IsPlayerInRangeOfPoint(playerid, 3.0, 1570.1456,1602.3759,991.9402))
 		return Error(playerid, "Kamu harus berada di kantor polisi.");
 
     if(sscanf(params, "uddd", otherid, cellid, times, denda))
-        return Usage(playerid, "/arrest [id player] [cell id] [menit] [denda]");
+        return Usage(playerid, "/arrest [id player] [sel id] [menit] [denda]");
 
     if(otherid == INVALID_PLAYER_ID || !NearPlayer(playerid, otherid, 5.0))
         return Error(playerid, "The player is disconnected or not near you.");
@@ -1747,7 +1747,7 @@ CMD:siren(playerid, params[])
     return 1;
 }
 
-CMD:inside(playerid, params[])
+/*CMD:inside(playerid, params[])
 {
 	if(pData[playerid][pFaction] != 1)
     return Error(playerid, "Kamu harus menjadi police officer.");
@@ -1803,4 +1803,4 @@ CMD:ex(playerid, params[])
 
     SendClientMessage(playerid, -1, "Kamu telah berhasil teleport bersama kendaraan!");
     return 1;
-}
+}*/

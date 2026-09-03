@@ -1274,19 +1274,19 @@ SetPlayerArrest(playerid, cellid)
 {
 	if(cellid == 1)
 	{
-		SetPlayerPositionEx(playerid, 227.49, 109.84, 999.01, 3.70, 2000);
+		SetPlayerPositionEx(playerid, 1575.4998,1612.1906,991.9402, 3.70, 2000);
 	}
 	else if(cellid == 2)
 	{
-		SetPlayerPositionEx(playerid, 223.51, 109.61, 999.01, 0.25, 2000);
+		SetPlayerPositionEx(playerid, 1575.2134,1609.4124,991.9402, 0.25, 2000);
 	}
 	else if(cellid == 3)
 	{
-		SetPlayerPositionEx(playerid, 219.52, 109.52, 999.01, 150, 2000);
+		SetPlayerPositionEx(playerid, 1575.0510,1606.6035,991.9402, 150, 2000);
 	}
 	else if(cellid == 4)
 	{
-		SetPlayerPositionEx(playerid, 215.33, 109.62, 999.01, 357.05, 2000);
+		SetPlayerPositionEx(playerid, 1575.3671,1603.4796,991.9402, 357.05, 2000);
 	}
 	SetPlayerVirtualWorld(playerid, 0);
 	SetPlayerInterior(playerid, 10);
@@ -1487,7 +1487,7 @@ DisplayStats(playerid, p2)
 	}
 	else if(pData[p2][pFaction] == 4)
 	{
-		fac = "Liputan Cerita Kita";
+		fac = "Liputan Garudaku";
 	}
 	else
 	{
@@ -1529,33 +1529,33 @@ DisplayStats(playerid, p2)
 	format(mstr, sizeof(mstr), "{FF0000}Cerita Nusantara {ffffff}- %s(%d) - (%s)", pData[p2][pName], p2, pData[p2][pUCP]);
 	format(string, sizeof(string),
 	"Category\t\t\t\t- Detail(s)\n\
-Character ID\t\t\t\t: %d\n\
-UCP\t\t\t\t: %s\n\
-Fullname\t\t\t\t: %s\n\
-Birthdate\t\t\t\t: %s\n\
-Sex\t\t\t\t: %s\n\
-Phone Number\t\t\t\t: %d\n\
-Phone Status\t\t\t\t: %s\n\
-Job\t\t\t\t: %s\n\
-Job 2\t\t\t\t: %s\n\
-Faction\t\t\t\t: %s\n\
-Family\t\t\t\t: %s\n\
-Email\t\t\t\t: %s\n\
-Twitter\t\t\t\t: %s\n\
-{ffffff}Cash\t\t\t\t: "LG_E"$%s\n\
-{ffffff}Bank Money\t\t\t\t: "LG_E"$%s\n\
-{ffffff}Bank Account\t\t\t\t: %d\n\
-{ffffff}Total Warning\t\t\t\t: {FFFF00}%d/20\n\
-{ffffff}Level Character\t\t\t\t: %d/%d\n\
-Playtime\t\t\t\t: %dh %dm %ds\n\
-Gold Coin\t\t\t\t: %d\n\
-Admin Level\t\t\t\t: %s\n\
-VIP Level\t\t\t\t: %s\n\
-VIP Duration\t\t\t\t: %s\n\
-Interior ID\t\t\t\t: %d\n\
-World ID\t\t\t\t: %d\n\
-Last Login\t\t\t\t: %s\n\
-Char Register Date\t\t\t\t: %s",
+	Character ID\t\t\t\t: %d\n\
+	UCP\t\t\t\t: %s\n\
+	Fullname\t\t\t\t: %s\n\
+	Birthdate\t\t\t\t: %s\n\
+	Sex\t\t\t\t: %s\n\
+	Phone Number\t\t\t\t: %d\n\
+	Phone Status\t\t\t\t: %s\n\
+	Job\t\t\t\t: %s\n\
+	Job 2\t\t\t\t: %s\n\
+	Faction\t\t\t\t: %s\n\
+	Family\t\t\t\t: %s\n\
+	Email\t\t\t\t: %s\n\
+	Twitter\t\t\t\t: %s\n\
+	{ffffff}Cash\t\t\t\t: "LG_E"%s\n\
+	{ffffff}Bank Money\t\t\t\t: "LG_E"%s\n\
+	{ffffff}Bank Account\t\t\t\t: %d\n\
+	{ffffff}Total Warning\t\t\t\t: {FFFF00}%d/20\n\
+	{ffffff}Level Character\t\t\t\t: %d/%d\n\
+	Playtime\t\t\t\t: %dh %dm %ds\n\
+	Gold Coin\t\t\t\t: %d\n\
+	Admin Level\t\t\t\t: %s\n\
+	VIP Level\t\t\t\t: %s\n\
+	VIP Duration\t\t\t\t: %s\n\
+	Interior ID\t\t\t\t: %d\n\
+	World ID\t\t\t\t: %d\n\
+	Last Login\t\t\t\t: %s\n\
+	Char Register Date\t\t\t\t: %s",
 	pData[p2][pID],
 	pData[p2][pUCP],
 	pData[p2][pName],

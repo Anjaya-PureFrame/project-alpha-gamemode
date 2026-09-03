@@ -464,12 +464,12 @@ new up_days,
 new RandomMessages[][] = {
     "{FF0000}Asisten Kota : {FFFF00}Gunakan /starterpack Jika anda warga baru,itu akan sangat menolong anda.",
     "{FF0000}Asisten Kota : {FFFF00}Kota ini di desain mengikuti gaya klasik dengan sedikit textdraw.",
-    "{FF0000}Asisten Kota : {FFFF00}Nganggur? Ayo Kunjungi Pusnaker Kota Cerita Kita untuk mencari sesuatu yang bisa kamu kerjakan.",
+    "{FF0000}Asisten Kota : {FFFF00}Nganggur? Ayo Kunjungi Pusnaker Kota Garudaku untuk mencari sesuatu yang bisa kamu kerjakan.",
     "{FF0000}Asisten Kota : {FFFF00}Terkadang Pekerjaan dengan gaji besar biasanya menawarkan resiko yang besar juga, jangan terlena dengan kekayaan.",
     "{FF0000}Asisten Kota : {FFFF00}Kamu bisa sakit jika Telat makan dan minum, usahakan makan minum tepat waktu.",
 	"{FF0000}Asisten Kota : {FFFF00}Sesekali gunakan waktumu untuk sesuatu yang lebih berguna, Karena Waktumu bukan sesuatu yang bisa dibeli.",
 	"{FF0000}Asisten Kota : {FFFF00}Tidak menemukan teman? join klub legal di kota atau detail nya bisa kamu baca di web.",
-	"{FF0000}Asisten Kota : {FFFF00}Hunter Quarry dulunya tempat tambang terbesar di Cerita Kita, setelah mineral disana habis, mineral baru ditemukan di tempat lain.",
+	"{FF0000}Asisten Kota : {FFFF00}Hunter Quarry dulunya tempat tambang terbesar di Garudaku, setelah mineral disana habis, mineral baru ditemukan di tempat lain.",
 	"{FF0000}Asisten Kota : {FFFF00}Sempat berfikir apa kegiatan yang paling menyenangkan untuk dilakukan?, coba dakilah Mount Chilliad dan ungkap misteri besar disana."
 };
 new PlayerTimer[MAX_PLAYERS];
@@ -1468,21 +1468,21 @@ public OnGameModeInit()
 	format(strings, sizeof(strings), "[KEPOLISIAN]\n{FFFFFF}/newdrivelic - create new license");
 	CreateDynamic3DTextLabel(strings, COLOR_BLUE, -2578.5625, -1383.2179, 1500.7570, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1); // Driving Lic
 	
-	CreateDynamicPickup(1239, 23, 252.0301, 117.4755, 1003.2188, -1, -1, -1, 50);
+	CreateDynamicPickup(1239, 23, 1574.5521,1597.4587,1003.5000, -1, -1, -1, 50);
 	format(strings, sizeof(strings), "[Ticket]\n{FFFFFF}/payticket - Membayar tiket tilang anda\n{FFFFFF}/buyplate - Beli plat kendaraan anda");
-	CreateDynamic3DTextLabel(strings, COLOR_BLUE, 252.0301, 117.4755, 1003.2188, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1); // Ticket Kota Dilimore
+	CreateDynamic3DTextLabel(strings, COLOR_BLUE, 1574.5521,1597.4587,1003.5000, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1); // Ticket Kota Dilimore
 
-	CreateDynamicPickup(1239, 23, -1466.4567, 2600.2031, 19.6310, -1, -1, -1, 50);
-	format(strings, sizeof(strings), "[Plate]\n{FFFFFF}/buyplate - create new plate");
-	CreateDynamic3DTextLabel(strings, COLOR_BLUE, -1466.4567, 2600.2031, 19.6310, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1); // Plate Kota Dilimore
+	CreateDynamicPickup(1239, 23, 1571.3992,1593.5789,1003.5399, -1, -1, -1, 50);
+	format(strings, sizeof(strings), "[Plate]\n{FFFFFF}/buyplate - Buat plate baru kendaraan");
+	CreateDynamic3DTextLabel(strings, COLOR_BLUE, 1571.3992,1593.5789,1003.5399, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1); // Plate Kota Dilimore
 	
-	CreateDynamicPickup(1239, 23, -1469.6188, 2600.2039, 19.6310, -1, -1, -1, 50);
+	CreateDynamicPickup(1239, 23, 1574.5521,1597.4587,1003.5000, -1, -1, -1, 50);
 	format(strings, sizeof(strings), "[Pengurusan]\n{FFFFFF}/payticket - Membayar tiket tilang anda");
-	CreateDynamic3DTextLabel(strings, COLOR_BLUE, -1469.6188, 2600.2039, 19.6310, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1); // Ticket Kota Ls
+	CreateDynamic3DTextLabel(strings, COLOR_BLUE, 1574.5521,1597.4587,1003.5000, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1); // Ticket Kota Ls
 	
-	CreateDynamicPickup(1239, 23, 226.2459, 114.4557, 999.0156, -1, -1, -1, 50);
+	CreateDynamicPickup(1239, 23, 1570.1456,1602.3759,991.9402, -1, -1, -1, 50);
 	format(strings, sizeof(strings), "[Penjara Kepolisian]\n{FFFFFF}/arrest - untuk penjarakan tahanan");
-	CreateDynamic3DTextLabel(strings, COLOR_BLUE, 226.2459, 114.4557, 999.0156, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1); // arrest
+	CreateDynamic3DTextLabel(strings, COLOR_BLUE, 1570.1456,1602.3759,991.9402, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1); // arrest
 	
 	CreateDynamicPickup(1239, 23, 1142.38, -1330.74, 13.62, -1, -1, -1, 50);
 	format(strings, sizeof(strings), "[Hospital]\n{FFFFFF}/dropinjured");
@@ -1508,8 +1508,8 @@ public OnGameModeInit()
 	format(strings, sizeof(strings), "[Exchange Money]\n{FFFFFF}/washmoney");
 	CreateDynamic3DTextLabel(strings, COLOR_ORANGE2, -427.3773, -392.3799, 16.5802, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1); // pencucian uang haram
 	
-    format(strings, sizeof(strings), "[Garasi Faction]\n{FFFFFF}Gunakan "LG_E"'Alt' - {FFFFFF}Untuk Mengambil Kendaraan\n{FFFFFF}Tekan "LG_E"H {FFFFFF}Untuk menyimpan");
-	CreateDynamic3DTextLabel(strings, COLOR_YELLOW, -1577.2590,715.3805,-5.2422, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1); // SAPD / KEPOLISIAN
+    /*format(strings, sizeof(strings), "[Garasi Faction]\n{FFFFFF}Gunakan "LG_E"'Alt' - {FFFFFF}Untuk Mengambil Kendaraan\n{FFFFFF}Tekan "LG_E"H {FFFFFF}Untuk menyimpan");
+	CreateDynamic3DTextLabel(strings, COLOR_YELLOW, -1577.2590,715.3805,-5.2422, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1); // SAPD / KEPOLISIAN*/
 
 	format(strings, sizeof(strings), "[Garasi Faction]\n{FFFFFF}Gunakan "LG_E"'Alt' - {FFFFFF}Untuk Mengambil Kendaraan\n{FFFFFF}Tekan "LG_E"H {FFFFFF}Untuk menyimpan");
 	CreateDynamic3DTextLabel(strings, COLOR_YELLOW, 1780.0944,-1699.1757,13.5005, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1); // SAMD / MEDIS
@@ -1525,15 +1525,15 @@ public OnGameModeInit()
 	format(strings, sizeof(strings), "[Cari Kerja]\n{FFFFFF}Gunakan {3BBD44}'ALT'{FFFFFF} - Untuk mengambil pekerjaan ");
 	CreateDynamic3DTextLabel(strings, COLOR_ORANGE2, 2461.3101, 2270.4976, 91.6744, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1);
 
-	//------[Tempat masuk garasi kanpol]------------
+	//------[Tempat ambil kendaraan garasi kanpol]------------
 	CreateDynamicPickup(1239, 23, 1133.7168, -1678.1122, 13.7323, -1, -1, -1, 50);
-	format(strings, sizeof(strings), "[Garasi Kanpol]\n{FFFFFF}Gunakan {3BBD44}'/inside'{FFFFFF} - Untuk masuk ke garasi");
+	format(strings, sizeof(strings), "[Garasi Kanpol]\n{FFFFFF}Gunakan "LG_E"'Alt' - {FFFFFF}Untuk Mengambil Kendaraan\n{FFFFFF}Tekan "LG_E"H {FFFFFF}Untuk menyimpan");
 	CreateDynamic3DTextLabel(strings, COLOR_ORANGE2, 1133.7168, -1678.1122, 13.7323, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1);
 
-	//------[Tempat masuk garasi kanpol]------------
+	/*//------[Tempat masuk garasi kanpol]------------
 	CreateDynamicPickup(1239, 23, 1554.5159, 1626.0957, 990.9400, -1, -1, -1, 50);
 	format(strings, sizeof(strings), "[Garasi Kanpol]\n{FFFFFF}Gunakan {3BBD44}'/ex'{FFFFFF} - Untuk keluar ke garasi");
-	CreateDynamic3DTextLabel(strings, COLOR_ORANGE2, 1554.5159, 1626.0957, 990.9400, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1);
+	CreateDynamic3DTextLabel(strings, COLOR_ORANGE2, 1554.5159, 1626.0957, 990.9400, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1);*/
 	
 	//-----[Penyetoran Job Pabrik]------------
 	CreateDynamicPickup(1239, 23, 2574.8228, -1282.5386, 1044.1250, -1, -1, -1, 50);
@@ -1974,7 +1974,7 @@ public OnPlayerEnterVehicle(playerid, vehicleid, ispassenger)
 			    new Float:slx, Float:sly, Float:slz;
 				GetPlayerPos(playerid, slx, sly, slz);
 				SetPlayerPos(playerid, slx, sly, slz);
-			    Error(playerid, "Anda bukan Anggota Departemen Kepolisian Cerita Kita!");
+			    Error(playerid, "Anda bukan Anggota Departemen Kepolisian Garudaku!");
 			}
 		}
 		if(IsGovCar(vehicleid))
@@ -2007,7 +2007,7 @@ public OnPlayerEnterVehicle(playerid, vehicleid, ispassenger)
 			    new Float:slx, Float:sly, Float:slz;
 				GetPlayerPos(playerid, slx, sly, slz);
 				SetPlayerPos(playerid, slx, sly, slz);
-			    Error(playerid, "Anda bukan Anggota liputan Cerita Kita!");
+			    Error(playerid, "Anda bukan Anggota liputan Garudaku!");
 			}
 		}
 		if(IsABaggageVeh(vehicleid))
@@ -2445,12 +2445,6 @@ public OnPlayerConnect(playerid)
     SetTimerEx("BlinkingLight", 300, true, "i", playerid);
     SetTimerEx("ChangeServerEverySecond", 1000, true, "i", playerid);
     SetTimerEx("GantiWarna",  5000, true, "i", playerid);
-
-	//-------MENGECEK KONDISI APAKAH PLAYER INJURED--------//
-	if(pData[playerid][pInjured] == 1)
-	{
-		Info(playerid, "Kamu dalam kondisi pingsan, Gunakan otot 'Y' untuk koma, atau tunggu petugas medis datang.");
-	}
 	return 1;
 }
 
@@ -2786,6 +2780,11 @@ public OnPlayerSpawn(playerid)
 	SetPlayerSkillLevel(playerid, WEAPON_TEC9, 1);
 	SetPlayerSkillLevel(playerid, WEAPON_RIFLE, 1);
 	SetPlayerSkillLevel(playerid, WEAPON_SNIPER, 1);
+	//-------MENGECEK KONDISI APAKAH PLAYER INJURED--------//
+	if(pData[playerid][pInjured] == 1) 
+	{ 
+		Info(playerid, "Kamu dalam kondisi pingsan. Gunakan otot Y untuk koma, atau tunggu petugas medis datang."); 
+	}
 	//SPEC
 	if (GetPlayerState(playerid) != PLAYER_STATE_SPECTATING)
 	{
@@ -4850,7 +4849,7 @@ public OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
 		else if(IsPlayerInRangeOfPoint(playerid, 3.0, 768.55, -1349.45, 13.51)) // ganti kordinat letak garasi fraksi untuk news
 		{
 		    if(pData[playerid][pFaction] != 4)
-        	return Error(playerid, "Anda bukan anggota liputan Cerita Kita!");
+        	return Error(playerid, "Anda bukan anggota liputan Garudaku!");
 			if(IsValidVehicle(pData[playerid][pGarageFaction]))
    			DestroyVehicle(pData[playerid][pGarageFaction]);
 		}
@@ -4864,10 +4863,10 @@ public OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
 	}
 	if((newkeys & KEY_WALK))
 	{
-	    if(IsPlayerInRangeOfPoint(playerid, 3.0, -1577.2590,715.3805,-5.2422)) // Ini sama buat Sapd
+	    if(IsPlayerInRangeOfPoint(playerid, 3.0, 1133.7168, -1678.1122, 13.7323)) // Ini sama buat Sapd
 		{
 		    if(pData[playerid][pFaction] != 1)
-        	return Error(playerid, "Anda bukan anggota kepolisian!");
+        	return Error(playerid, "Anda bukan polisi!");
 			new str[1024];
 			format(str, sizeof(str), "Nama Kendaraan\nBullet\nFbi Rancher\nSanchez");
 			ShowPlayerDialog(playerid, DIALOG_SAPDVEH, DIALOG_STYLE_TABLIST_HEADERS, "Garasi - Kepolisian", str, "Pilih", "Tutup");
@@ -4883,10 +4882,10 @@ public OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
 		else if(IsPlayerInRangeOfPoint(playerid, 3.0, 768.55, -1349.45, 13.51))
 		{
 		    if(pData[playerid][pFaction] != 4)
-        	return Error(playerid, "Anda bukan anggota liputan Cerita Kita!");
+        	return Error(playerid, "Anda bukan anggota liputan Garudaku!");
 			new str[1024];
 			format(str, sizeof(str), "Nama Kendaraan\nPenyiar\nSanchez");
-			ShowPlayerDialog(playerid, DIALOG_SANAVEH, DIALOG_STYLE_TABLIST_HEADERS, "Garasi Liputan Cerita Kita", str, "Pilih", "Tutup");
+			ShowPlayerDialog(playerid, DIALOG_SANAVEH, DIALOG_STYLE_TABLIST_HEADERS, "Garasi Liputan Garudaku", str, "Pilih", "Tutup");
 		}
 	}
 	if(GetPlayerState(playerid) == PLAYER_STATE_ONFOOT && (newkeys & KEY_NO))
@@ -5690,7 +5689,7 @@ public OnPlayerStateChange(playerid, newstate, oldstate)
 		    if(pData[playerid][pFaction] != 4)
 			{
 			    RemovePlayerFromVehicle(playerid);
-			    Error(playerid, "Anda bukan Karyawan Liputan Cerita Kita!");
+			    Error(playerid, "Anda bukan Karyawan Liputan Garudaku!");
 			}
 		}
 		if(!IsEngineVehicle(vehicleid))
@@ -6418,7 +6417,7 @@ ptask PlayerUpdate[999](playerid)
 		{
 			pData[playerid][pArrestTime]--;
 			new mstr[128];
-			format(mstr, sizeof(mstr), "~b~~h~You will be released in ~w~%d ~b~~h~seconds.", pData[playerid][pArrestTime]);
+			format(mstr, sizeof(mstr), "~b~~h~Kamu akan bebas dalam ~w~%d ~b~~h~detik.", pData[playerid][pArrestTime]);
 			InfoTD_MSG(playerid, 1000, mstr);
 		}
 		else
@@ -6426,11 +6425,11 @@ ptask PlayerUpdate[999](playerid)
 			pData[playerid][pArrest] = 0;
 			pData[playerid][pArrestTime] = 0;
 			//SpawnPlayer(playerid);
-			SetPlayerPositionEx(playerid, 1526.69, -1678.05, 5.89, 267.76, 2000);
+			SetPlayerPositionEx(playerid, 1482.0356,-1724.5726,13.5469, 267.76, 2000);
 			SetPlayerInterior(playerid, 0);
 			SetPlayerVirtualWorld(playerid, 0);
 			SetPlayerSpecialAction(playerid, SPECIAL_ACTION_NONE);
-			Info(playerid, "You have been auto release. (times up)");
+			Info(playerid, "Kamu telah di bebaskan. (waktu berakhir)");
 		}
 	}
 }

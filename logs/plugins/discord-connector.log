@@ -6752,3 +6752,23 @@
 [08/30/26 00:03:38] [ERROR] Can't write to Discord websocket gateway: The I/O operation has been aborted because of either a thread exit or an application request (995)
 [09/01/26 13:16:05] [ERROR] Can't write to Discord websocket gateway: The I/O operation has been aborted because of either a thread exit or an application request (995)
 [09/01/26 13:16:32] [ERROR] Can't write to Discord websocket gateway: The I/O operation has been aborted because of either a thread exit or an application request (995)
+[09/01/26 17:27:26] [ERROR] Can't read from Discord websocket gateway: The network connection was aborted by the local system (1236)
+[09/01/26 17:27:26] [ERROR] Can't write to Discord websocket gateway: The I/O operation has been aborted because of either a thread exit or an application request (995)
+[09/01/26 17:29:16] [ERROR] Error while sending HTTP POST request to '/api/v8/channels/1542187539194978374/messages': An existing connection was forcibly closed by the remote host
+[09/01/26 17:29:16] [WARNING] Error while shutting down SSL on HTTP connection: An existing connection was forcibly closed by the remote host (10054)
+[09/01/26 17:55:24] [ERROR] Error while retrieving HTTP POST response from '/api/v8/channels/1542187539194978374/messages': end of stream
+[09/01/26 18:12:26] [ERROR] Error while retrieving HTTP POST response from '/api/v8/channels/1542187539194978374/messages': end of stream
+[09/01/26 18:15:08] [ERROR] Can't read from Discord websocket gateway: End of file (2)
+[09/01/26 18:15:08] [ERROR] Can't write to Discord websocket gateway: The I/O operation has been aborted because of either a thread exit or an application request (995)
+[09/01/26 20:12:22] [ERROR] Can't read from Discord websocket gateway: The semaphore timeout period has expired (121)
+[09/01/26 20:12:23] [ERROR] Can't write to Discord websocket gateway: The I/O operation has been aborted because of either a thread exit or an application request (995)
+[09/01/26 20:12:23] [ERROR] Can't resolve Discord gateway URL 'gateway.discord.gg': No such host is known (11001)
+[09/01/26 20:12:28] [ERROR] Can't resolve Discord gateway URL 'gateway.discord.gg': No such host is known (11001)
+[09/01/26 20:12:38] [ERROR] Can't resolve Discord gateway URL 'gateway.discord.gg': No such host is known (11001)
+[09/01/26 20:12:53] [ERROR] Can't resolve Discord gateway URL 'gateway.discord.gg': No such host is known (11001)
+[09/01/26 20:13:13] [ERROR] Can't resolve Discord gateway URL 'gateway.discord.gg': No such host is known (11001)
+[09/01/26 20:19:38] [WARNING] Unknown gateway event 'VOICE_CHANNEL_START_TIME_UPDATE'
+[09/01/26 20:19:50] [ERROR] Error while retrieving HTTP POST response from '/api/v8/channels/1542187539194978374/messages': end of stream
+[09/01/26 20:44:13] [WARNING] Unknown gateway event 'VOICE_CHANNEL_START_TIME_UPDATE'
+[09/01/26 20:44:13] [WARNING] Unknown gateway event 'VOICE_CHANNEL_STATUS_UPDATE'
+[09/01/26 20:51:49] [WARNING] Unknown gateway event 'GUILD_AUDIT_LOG_ENTRY_CREATE'

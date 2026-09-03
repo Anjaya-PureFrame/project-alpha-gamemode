@@ -93,7 +93,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 			{
 				new lstring[300];
 				format(lstring, sizeof lstring, "{ffffff}Selamat Datang Kembali di {ff0000}"SERVER_NAME"\n{ffffff}Nama Ucp: {ff0000}%s\n{ffffff}Kesalahan: {FF0000}0/3{ffffff}\nPassword: {3BBD44}(Masukan Disini)", pData[playerid][pUCP]);
-				ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "{ff0000}/{ffffff} Cerita Kita Roleplay Login" , lstring, "Masuk", "Keluar");
+				ShowPlayerDialog(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, "{ff0000}/{ffffff} Garudaku Roleplay Login" , lstring, "Masuk", "Keluar");
 			}
 		}
         return 1;
@@ -102,12 +102,12 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
     {
 		if (!response) return Kick(playerid);
 	
-		if (strlen(inputtext) <= 5) return ShowPlayerDialog(playerid, DIALOG_REGISTER, DIALOG_STYLE_PASSWORD, "{ff0000}/{ffffff} Cerita Kita Roleplay", "Kata sandi minimal 5 Karakter!\nMohon isi Password dibawah ini:", "Register", "Tolak");
+		if (strlen(inputtext) <= 5) return ShowPlayerDialog(playerid, DIALOG_REGISTER, DIALOG_STYLE_PASSWORD, "{ff0000}/{ffffff} Garudaku Roleplay", "Kata sandi minimal 5 Karakter!\nMohon isi Password dibawah ini:", "Register", "Tolak");
 		
 		if(!IsValidPassword(inputtext))
 		{
 			Error(playerid, "Sandi valid : A-Z, a-z, 0-9, _, [ ], ( )");
-			ShowPlayerDialog(playerid, DIALOG_REGISTER, DIALOG_STYLE_PASSWORD, "{ff0000}/{ffffff} Cerita Kita Roleplay", "Kata sandi yang anda gunakan mengandung karakter yang valid!\nMohon isi Password dibawah ini:", "Register", "Tolak");
+			ShowPlayerDialog(playerid, DIALOG_REGISTER, DIALOG_STYLE_PASSWORD, "{ff0000}/{ffffff} Garudaku Roleplay", "Kata sandi yang anda gunakan mengandung karakter yang valid!\nMohon isi Password dibawah ini:", "Register", "Tolak");
 			return 1;
 		}
 		
@@ -199,13 +199,19 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 				case 0: 
 				{
 					Info(playerid, "Selamat memulai cerita gunakan {FFFF00}'N'{'FFFFFF} untuk radial menu dan{FFFF00} '/help' untuk bantuan! Gunakan '/starterpack' untuk mendapat bansos.");
-					ShowPlayerDialog(playerid, DIALOG_SPAWN_1, DIALOG_STYLE_LIST, "Pilih Lokasi Mendarat", "Stasiun Market\nDermaga Santa Maria", "Pilih", "Batal");
+					ShowPlayerDialog(playerid, DIALOG_SPAWN_1, DIALOG_STYLE_LIST, "Pilih Lokasi Mendarat", "Stasiun Market\nDermaga Santa Maria\nLas Venturas", "Pilih", "Batal");
 					
 				}
 				case 1: 
 				{
 					Info(playerid, "Selamat memulai cerita gunakan {FFFF00}'N'{FFFFFF} untuk radial menu dan{FFFF00} '/help' untuk bantuan! Gunakan '/starterpack' untuk mendapat bansos.");
-					ShowPlayerDialog(playerid, DIALOG_SPAWN_1, DIALOG_STYLE_LIST, "Pilih Lokasi Mendarat", "Stasiun Market\nDermaga Santa Maria", "Pilih", "Batal");
+					ShowPlayerDialog(playerid, DIALOG_SPAWN_1, DIALOG_STYLE_LIST, "Pilih Lokasi Mendarat", "Stasiun Market\nDermaga Santa Maria\nLas Venturas", "Pilih", "Batal");
+					
+				}
+				case 2: 
+				{
+					Info(playerid, "Selamat memulai cerita gunakan {FFFF00}'N'{FFFFFF} untuk radial menu dan{FFFF00} '/help' untuk bantuan! Gunakan '/starterpack' untuk mendapat bansos.");
+					ShowPlayerDialog(playerid, DIALOG_SPAWN_1, DIALOG_STYLE_LIST, "Pilih Lokasi Mendarat", "Stasiun Market\nDermaga Santa Maria\nLas Venturas", "Pilih", "Batal");
 					
 				}
 				//pData[playerid][pSkin] = (listitem) ? (233) : (98);
@@ -14318,7 +14324,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 			{
 				new lstring[512];
 				format(lstring, sizeof lstring, "{ffffff}Selamat Datang Di {ff0000}"SERVER_NAME"\n{ffffff}NAMA UCP: {ff0000}%s\n{ffffff}Password: \nSilahkan buat password baru kamu,Dan Pastikan Kamu Mengingatnya!", pData[playerid][pUCP]);
-				ShowPlayerDialog(playerid, DIALOG_REGISTER, DIALOG_STYLE_PASSWORD, "Cerita Kita login System", lstring, "Verifikasi", "Keluar");	
+				ShowPlayerDialog(playerid, DIALOG_REGISTER, DIALOG_STYLE_PASSWORD, "Garudaku login System", lstring, "Verifikasi", "Keluar");	
 				return 1;
 			}
 
@@ -16245,7 +16251,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 			{
 				case 0:
 				{
-					pData[playerid][pGarageFaction] = CreateVehicle(541, -1577.2590,715.3805,-5.2422,265.453094,0,1,120000,0);
+					pData[playerid][pGarageFaction] = CreateVehicle(541, 1133.7168, -1678.1122, 13.7323,265.453094,0,1,120000,0);
 					PutPlayerInVehicle(playerid, pData[playerid][pGarageFaction], 0);
 				    SetVehicleNumberPlate(pData[playerid][pGarageFaction], "KEPOLISIAN");
 				    AddVehicleComponent(pData[playerid][pGarageFaction], 1082);
@@ -16258,7 +16264,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 				}
 				case 1:
 				{
-					pData[playerid][pGarageFaction] = CreateVehicle(490, -1577.2590,715.3805,-5.2422,265.453094,25,6,-1,0);
+					pData[playerid][pGarageFaction] = CreateVehicle(490, 1133.7168, -1678.1122, 13.7323,265.453094,25,6,-1,0);
 					PutPlayerInVehicle(playerid, pData[playerid][pGarageFaction], 0);
 				    SetVehicleNumberPlate(pData[playerid][pGarageFaction], "KEPOLISIAN");
 					new tmpobjid;
@@ -16276,11 +16282,11 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 					AttachDynamicObjectToVehicle(tmpobjid, pData[playerid][pGarageFaction], 1.209, -1.480, 0.251, 0.000, -3.800, 0.000);
 					tmpobjid = CreateDynamicObject(19483,0.0,0.0,-1000.0,0.0,0.0,0.0,-1,-1,-1,300.0,300.0);
 					SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0);
-					SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFF00}DEPT CERITA KITA", 100, "Calibri", 15, 0, 0, 0, 1);
+					SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFF00}DEPT GARUDAKU", 100, "Calibri", 15, 0, 0, 0, 1);
 					AttachDynamicObjectToVehicle(tmpobjid, pData[playerid][pGarageFaction], 1.209, -2.370, 0.251, 0.000, 0.000, 0.000);
 					tmpobjid = CreateDynamicObject(19483,0.0,0.0,-1000.0,0.0,0.0,0.0,-1,-1,-1,300.0,300.0);
 					SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0);
-					SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFF00}DEPT CERITA KITA", 100, "Calibri", 15, 0, 0, 0, 1);
+					SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFF00}DEPT GARUDAKU", 100, "Calibri", 15, 0, 0, 0, 1);
 					AttachDynamicObjectToVehicle(tmpobjid, pData[playerid][pGarageFaction], -1.209, -2.370, 0.251, 0.000, 0.000, 180.000);
 					tmpobjid = CreateDynamicObject(19483,0.0,0.0,-1000.0,0.0,0.0,0.0,-1,-1,-1,300.0,300.0);
 					SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0);
@@ -16307,7 +16313,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 				}
 				case 2:
 				{
-					pData[playerid][pGarageFaction] = CreateVehicle(468, -1577.2590,715.3805,-5.2422,265.453094,0,0,-1,0);
+					pData[playerid][pGarageFaction] = CreateVehicle(468, 1133.7168, -1678.1122, 13.7323,265.453094,0,0,-1,0);
 					PutPlayerInVehicle(playerid, pData[playerid][pGarageFaction], 0);
 				    SetVehicleNumberPlate(pData[playerid][pGarageFaction], "KEPOLISIAN");
 					new tmpobjid;

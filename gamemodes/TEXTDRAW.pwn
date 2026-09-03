@@ -113,7 +113,7 @@ CreatePlayerTextDraws(playerid)
 	TextDrawSetProportional(PublicTD[2], 1);
 	TextDrawSetSelectable(PublicTD[2], 0);*/
 
-	PublicTD[0] = TextDrawCreate(486.000000, 5.000000, "CeritaKita");
+	PublicTD[0] = TextDrawCreate(486.000000, 5.000000, "Garudaku");
 	TextDrawFont(PublicTD[0], 2);
 	TextDrawLetterSize(PublicTD[0], 0.170833, 1.000000);
 	TextDrawTextSize(PublicTD[0], 394.500000, 12.000000);
@@ -141,7 +141,7 @@ CreatePlayerTextDraws(playerid)
 	TextDrawSetProportional(PublicTD[1], 1);
 	TextDrawSetSelectable(PublicTD[1], 0);
 
-	PublicTD[2] = TextDrawCreate(530.000000, 5.000000, "\\");
+	PublicTD[2] = TextDrawCreate(528.000000, 5.000000, "//");
 	TextDrawFont(PublicTD[2], 2);
 	TextDrawLetterSize(PublicTD[2], 0.170833, 1.000000);
 	TextDrawTextSize(PublicTD[2], 394.500000, 12.000000);
@@ -155,7 +155,7 @@ CreatePlayerTextDraws(playerid)
 	TextDrawSetProportional(PublicTD[2], 1);
 	TextDrawSetSelectable(PublicTD[2], 0);
 
-	PublicTD[3] = TextDrawCreate(532.000000, 5.000000, "\\");
+	PublicTD[3] = TextDrawCreate(534.000000, 5.000000, "//");
 	TextDrawFont(PublicTD[3], 2);
 	TextDrawLetterSize(PublicTD[3], 0.170833, 1.000000);
 	TextDrawTextSize(PublicTD[3], 394.500000, 12.000000);

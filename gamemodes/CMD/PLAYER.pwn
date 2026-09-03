@@ -446,7 +446,7 @@ CMD:newsim(playerid, params[])
 
 CMD:payticket(playerid, params[])
 {
-	if(!IsPlayerInRangeOfPoint(playerid, 3.0, 252.0301, 117.4755, 1003.2188) && !IsPlayerInRangeOfPoint(playerid, 3.0, 252.0301, 117.4755, 1003.2188)) return Error(playerid, "Anda harus berada di kantor kepolisian Nusantara!");
+	if(!IsPlayerInRangeOfPoint(playerid, 3.0, 1574.5521,1597.4587,1003.5000) && !IsPlayerInRangeOfPoint(playerid, 3.0, 1574.5521,1597.4587,1003.5000)) return Error(playerid, "Anda harus berada di kantor kepolisian!");
 	
 	new vehid;
 	if(sscanf(params, "d", vehid))
@@ -482,7 +482,7 @@ CMD:payticket(playerid, params[])
 
 CMD:buyplate(playerid, params[])
 {
-	if(!IsPlayerInRangeOfPoint(playerid, 3.0, 252.0301, 117.4755, 1003.2188) && !IsPlayerInRangeOfPoint(playerid, 3.0, 252.0301, 117.4755, 1003.2188)) return Error(playerid, "Anda harus berada di kantor kepolisian Nusantara!");
+	if(!IsPlayerInRangeOfPoint(playerid, 3.0, 1571.3992,1593.5789,1003.5399) && !IsPlayerInRangeOfPoint(playerid, 3.0, 1571.3992,1593.5789,1003.5399)) return Error(playerid, "Anda harus berada di kantor kepolisian Nusantara!");
 		
 	new vehid;
 	if(sscanf(params, "d", vehid)) return Usage(playerid, "/buyplate [vehid] | /mypv - untuk cek id");

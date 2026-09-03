@@ -1070,7 +1070,7 @@ function CheckPlayerSpawn3Titik(playerid)
 {
 	if(pData[playerid][pSpawnList] == 1)
 	{
-		SetPlayerPos(playerid, 1743.0264, -1863.7509, 13.5747);
+		SetPlayerPos(playerid, 1744.7776,-1950.8995,14.1172);
 		SetPlayerFacingAngle(playerid, 357.0346);
 		SetPlayerInterior(playerid, 0);
 		SetPlayerVirtualWorld(playerid, 0);
@@ -1079,7 +1079,7 @@ function CheckPlayerSpawn3Titik(playerid)
 	}
 	else if(pData[playerid][pSpawnList] == 2)
 	{
-		SetPlayerPos(playerid, 825.4360, -1347.4673, 13.5252);
+		SetPlayerPos(playerid, 115.8635,-1890.7046,2.4141);
 		SetPlayerFacingAngle(playerid, 90.8201);
 		SetPlayerInterior(playerid, 0);
 		SetPlayerVirtualWorld(playerid, 0);
@@ -1088,7 +1088,7 @@ function CheckPlayerSpawn3Titik(playerid)
 	}
 	else if(pData[playerid][pSpawnList] == 3)
 	{
-		SetPlayerPos(playerid, 1685.6510, -2333.6399, 13.5469);
+		SetPlayerPos(playerid, 1372.8101,713.1799,10.8203);
 		SetPlayerFacingAngle(playerid, 0.5442);
 		SetPlayerInterior(playerid, 0);
 		SetPlayerVirtualWorld(playerid, 0);	
