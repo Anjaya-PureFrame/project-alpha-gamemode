@@ -1471,10 +1471,8 @@ GetID(const name[])
 
 DisplayStats(playerid, p2)
 {
-	new gstr[1024], header[512], scoremath = ((pData[p2][pLevel])*8), fac[24], fid = pData[p2][pFamily];
-	header = "";
-	gstr = "";
-	
+	new scoremath = ((pData[p2][pLevel])*8), fac[24], fid = pData[p2][pFamily];
+
 	if(pData[p2][pFaction] == 1)
 	{
 		fac = "Kepolisian";
@@ -1495,7 +1493,7 @@ DisplayStats(playerid, p2)
 	{
 		fac = "Tidak ada";
 	}
-	
+
 	new pstatus[36];
 	if(pData[p2][pPhoneStatus] == 1)
 	{
@@ -1515,26 +1513,80 @@ DisplayStats(playerid, p2)
 	{
 		format(fname, 128, "Tidak ada");
 	}
-	
-	format(header,sizeof(header),"Statistik Character");
-	format(gstr,sizeof(gstr),""RED_E"DATA IC"WHITE_E"\n");
-	format(gstr,sizeof(gstr),"%sKelamin: [%s] | Uang di Tangan: ["LG_E"%s"WHITE_E"] | Di Rekening: ["LG_E"%s"WHITE_E"] | Rekening Bank: [%d]\n", gstr,(pData[p2][pGender] == 2) ? ("Perempuan") : ("Laki-Laki") , FormatMoney(pData[p2][pMoney]), FormatMoney(pData[p2][pBankMoney]), pData[p2][pBankRek]);
-	format(gstr,sizeof(gstr),"%sNo HP: [%d] | Tanggal lahir: [%s] | Pekerjaan: [%s]\n", gstr, pData[p2][pPhone], pData[p2][pAge], GetJobName(pData[p2][pJob]), GetJobName(pData[p2][pJob2]));
-	format(gstr,sizeof(gstr),"%sFaction: [%s] | Keluarga: [%s] | Status HP : [%s] | Twitter : [{0099ff}%s{ffffff}]\n\n", gstr, fac, fname, pstatus, pData[p2][pTwittername]);
-	format(gstr,sizeof(gstr),"%s"RED_E"DATA OOC"WHITE_E"\n", gstr);
-	format(gstr,sizeof(gstr),"%sNama UCP: [{15D4ED}%s{ffffff}] | Nama: [{15D4ED}%s{ffffff}] | UID: [%d] | Level Character: [%d/%d]\n", gstr, pData[p2][pUCP], pData[p2][pName], pData[p2][pID], pData[p2][pLevelUp], scoremath);
-	format(gstr,sizeof(gstr),"%sEmail: [%s] | Warning:[{ff0000}%d/20{ffffff}] | Terakhir Login: [%s]\n", gstr, pData[p2][pEmail], pData[p2][pWarn], pData[p2][pLastLogin]);
-	format(gstr,sizeof(gstr),"%sStaff: [%s{FFFFFF}] | Waktu Bermain: [%d jam %d menit %02d detik] | Gold Coin: [{ffff00}%d{ffffff}]\n", gstr, GetStaffRank(p2), pData[p2][pHours], pData[p2][pMinutes], pData[p2][pSeconds], pData[p2][pGold]);
+
+	new vipdur[64];
 	if(pData[p2][pVipTime] != 0)
 	{
-		format(gstr,sizeof(gstr),"%sVIP Level: [%s{FFFFFF}] | Durasi VIP: [%s]\n", gstr, GetVipRank(p2), pData[p2][pVipTime]);
+		format(vipdur, sizeof(vipdur), "%d", pData[p2][pVipTime]);
 	}
 	else
 	{
-		format(gstr,sizeof(gstr),"%sVIP Level: [%s{FFFFFF}] | Durasi VIP: [None]\n", gstr, GetVipRank(p2));
+		format(vipdur, sizeof(vipdur), "None");
 	}
-	format(gstr,sizeof(gstr),"%sInterior: [%d] | Virtual World: [%d] | Tanggal Registerasi: [%s]", gstr, GetPlayerInterior(p2), GetPlayerVirtualWorld(p2), pData[p2][pRegDate]);
-	ShowPlayerDialog(playerid, DIALOG_STATS, DIALOG_STYLE_MSGBOX, header, gstr, "Edit", "Tutup");
+
+	new string[1200];
+	new mstr[512];
+	format(mstr, sizeof(mstr), "{FF0000}Cerita Nusantara {ffffff}- %s(%d) - (%s)", pData[p2][pName], p2, pData[p2][pUCP]);
+	format(string, sizeof(string),
+	"Category\t\t\t\t- Detail(s)\n\
+Character ID\t\t\t\t: %d\n\
+UCP\t\t\t\t: %s\n\
+Fullname\t\t\t\t: %s\n\
+Birthdate\t\t\t\t: %s\n\
+Sex\t\t\t\t: %s\n\
+Phone Number\t\t\t\t: %d\n\
+Phone Status\t\t\t\t: %s\n\
+Job\t\t\t\t: %s\n\
+Job 2\t\t\t\t: %s\n\
+Faction\t\t\t\t: %s\n\
+Family\t\t\t\t: %s\n\
+Email\t\t\t\t: %s\n\
+Twitter\t\t\t\t: %s\n\
+{ffffff}Cash\t\t\t\t: "LG_E"$%s\n\
+{ffffff}Bank Money\t\t\t\t: "LG_E"$%s\n\
+{ffffff}Bank Account\t\t\t\t: %d\n\
+{ffffff}Total Warning\t\t\t\t: {FFFF00}%d/20\n\
+{ffffff}Level Character\t\t\t\t: %d/%d\n\
+Playtime\t\t\t\t: %dh %dm %ds\n\
+Gold Coin\t\t\t\t: %d\n\
+Admin Level\t\t\t\t: %s\n\
+VIP Level\t\t\t\t: %s\n\
+VIP Duration\t\t\t\t: %s\n\
+Interior ID\t\t\t\t: %d\n\
+World ID\t\t\t\t: %d\n\
+Last Login\t\t\t\t: %s\n\
+Char Register Date\t\t\t\t: %s",
+	pData[p2][pID],
+	pData[p2][pUCP],
+	pData[p2][pName],
+	pData[p2][pAge],
+	(pData[p2][pGender] == 2) ? ("Perempuan") : ("Laki-Laki"),
+	pData[p2][pPhone],
+	pstatus,
+	GetJobName(pData[p2][pJob]),
+	GetJobName(pData[p2][pJob2]),
+	fac,
+	fname,
+	pData[p2][pEmail],
+	pData[p2][pTwittername],
+	FormatMoney(pData[p2][pMoney]),
+	FormatMoney(pData[p2][pBankMoney]),
+	pData[p2][pBankRek],
+	pData[p2][pWarn],
+	pData[p2][pLevelUp], scoremath,
+	pData[p2][pHours],
+	pData[p2][pMinutes],
+	pData[p2][pSeconds],
+	pData[p2][pGold],
+	GetStaffRank(p2),
+	GetVipRank(p2),
+	vipdur,
+	GetPlayerInterior(p2),
+	GetPlayerVirtualWorld(p2),
+	pData[p2][pLastLogin],
+	pData[p2][pRegDate]
+	);
+	ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_TABLIST_HEADERS, mstr, string, "Tutup", "");
 	return 1;
 }
 
