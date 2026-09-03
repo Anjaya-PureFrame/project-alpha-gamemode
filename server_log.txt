@@ -153691,3 +153691,8 @@ Progress Bar Editor loaded!
 [03:42:28] [OnDialogResponse]: Alok(0) has used dialog id: 1568 Listitem: 0
 [03:42:30] [OnDialogResponse]: Alok(0) has used dialog id: 1034 Listitem: 1
 [03:42:33] [CMD] Javier Cooper: [fill] []
+[03:49:36] [CMD] Javier Cooper: [setprice] []
+[03:49:54] [CMD] Javier Cooper: [setprice] [gsprice 50]
+[03:55:06] [CMD] Javier Cooper: [setprice] [gsprice 45]
+[04:03:15] [nick] Javier_Cooper nick changed to Alok
+[04:03:16] [part] Alok has left the server (0:1)
