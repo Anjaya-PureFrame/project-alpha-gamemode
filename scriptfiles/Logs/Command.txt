@@ -4012,3 +4012,5 @@
 [04/09/2026 - 03:49:36] - [CMD] Javier Cooper: [setprice] []
 [04/09/2026 - 03:49:54] - [CMD] Javier Cooper: [setprice] [gsprice 50]
 [04/09/2026 - 03:55:06] - [CMD] Javier Cooper: [setprice] [gsprice 45]
+[04/09/2026 - 19:57:35] - [CMD] Javier Cooper: [removeatm] [7]
+[04/09/2026 - 20:01:51] - [CMD] Jancok Puki: [give] []

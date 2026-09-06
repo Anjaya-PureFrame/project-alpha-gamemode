@@ -153696,3 +153696,479 @@ Progress Bar Editor loaded!
 [03:55:06] [CMD] Javier Cooper: [setprice] [gsprice 45]
 [04:03:15] [nick] Javier_Cooper nick changed to Alok
 [04:03:16] [part] Alok has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:53:11] password = ""  (string)
+[19:53:11] 
+[19:53:11] Server Plugins
+[19:53:11] --------------
+[19:53:11]  Loading plugin: crashdetect
+[19:53:11]   CrashDetect plugin 4.19.4
+[19:53:11]   Loaded.
+[19:53:11]  Loading plugin: discord-connector
+[19:53:14]  >> plugin.dc-connector: v0.3.5 successfully loaded.
+[19:53:14]   Loaded.
+[19:53:14]  Loading plugin: sscanf
+[19:53:14] 
+
+[19:53:14]  ===============================
+
+[19:53:14]       sscanf plugin loaded.     
+
+[19:53:14]          Version:  2.8.3        
+
+[19:53:14]   (c) 2018 Alex "Y_Less" Cole  
+
+[19:53:14]  ===============================
+
+[19:53:14]   Loaded.
+[19:53:14]  Loading plugin: streamer
+[19:53:14] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[19:53:14]   Loaded.
+[19:53:14]  Loading plugin: CTime
+[19:53:14]   Failed.
+[19:53:14]  Loading plugin: pawncmd
+[19:53:14] [Pawn.CMD] plugin v3.3.3 by urShadow loaded
+[19:53:14]   Loaded.
+[19:53:14]  Loading plugin: pawn-memory
+[19:53:14] ========================
+[19:53:14] = Memory access plugin =
+[19:53:14] =       Made by BigETI =
+[19:53:14] = Loaded!              =
+[19:53:14] ========================
+[19:53:14]   Loaded.
+[19:53:14]  Loading plugin: mysql
+[19:53:15]  >> plugin.mysql: R41-4 successfully loaded.
+[19:53:15]   Loaded.
+[19:53:15]  Loading plugin: gvar
+[19:53:15] 
+
+*** GVar Plugin v1.3 by Incognito loaded ***
+
+[19:53:15]   Loaded.
+[19:53:15]  Loading plugin: samp-compat
+[19:53:15]   -- samp-compat for 0.3.7-R2 initialized
+[19:53:15]   Loaded.
+[19:53:15]  Loading plugin: native-checker
+[19:53:15]   Failed.
+[19:53:15]  Loaded 9 plugins.
+
+[19:53:15] 
+[19:53:15] Ban list
+[19:53:15] --------
+[19:53:15]  Loaded: samp.ban
+[19:53:15] 
+[19:53:16] 
+[19:53:16] Filterscripts
+[19:53:16] ---------------
+[19:53:16]   Loading filterscript 'Lift.amx'...
+[19:53:16]   Loading filterscript 'Buttons.amx'...
+[19:53:16]   Loading filterscript 'progressbar.amx'...
+[19:53:16]  
+[19:53:16]  
+[19:53:16]  
+[19:53:16]  ======================================= 
+[19:53:16]  |                                     | 
+[19:53:16]  |        YSI version 4.00.0001        | 
+[19:53:16]  |        By Alex "Y_Less" Cole        | 
+[19:53:16]  |                                     | 
+[19:53:16]  ======================================= 
+[19:53:16]  
+[19:53:16] 
+Progress Bar Editor loaded!
+[19:53:16] Use the /bar command to begin editing.
+
+[19:53:16]   Loading filterscript 'AC_Black_Diamond.amx'...
+[19:53:16] AC-Black Diamond v2.1.0 has been loaded! Anticheat callbacks will now work properly
+[19:53:16]   Loaded 4 filterscripts.
+
+[19:53:16]  
+[19:53:16]  
+[19:53:16]  
+[19:53:16]  ======================================= 
+[19:53:16]  |                                     | 
+[19:53:16]  |        YSI version 4.00.0001        | 
+[19:53:16]  |        By Alex "Y_Less" Cole        | 
+[19:53:16]  |                                     | 
+[19:53:16]  ======================================= 
+[19:53:16]  
+[19:53:18] [Pawn.CMD] PC_RegAlias: invalid unordered_map<K, T> key
+[19:53:18] [Pawn.CMD] PC_RegAlias: invalid unordered_map<K, T> key
+[19:53:18] [ADM] Info: Load 3DTryg v4.8.5 for SA:MP 0.3.7 by Abyss Morgan
+[19:53:18] [ADM] Info: Load EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[19:53:35] MySQL connection failed. Server is shutting down.
+[19:53:35] Number of vehicle models: 0
+[19:53:35] --- Server Shutting Down.
+[19:53:35] [ADM] Info: Unload 3DTryg v4.8.5 for SA:MP 0.3.7 by Abyss Morgan
+[19:53:35] [ADM] Info: Unload EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[19:53:35] [Gas Station]: 0 Saved.
+[19:53:35] [Farmer Plants]: 0 Saved.
+[19:53:35] Progress Bar Editor unloaded!
+[19:53:35] AC-Black Diamond has been unloaded! Anticheat callbacks will not work
+[19:53:35] plugin.dc-connector: Unloading plugin...
+[19:53:36] plugin.dc-connector: Plugin unloaded.
+[19:53:36] 
+
+[19:53:36]  ===============================
+
+[19:53:36]      sscanf plugin unloaded.    
+
+[19:53:36]  ===============================
+
+[19:53:36] 
+
+*** Streamer Plugin v2.9.5 by Incognito unloaded ***
+
+[19:53:36] [Pawn.CMD] plugin v3.3.3 by urShadow unloaded
+[19:53:36] ========================
+[19:53:36] = Memory access plugin =
+[19:53:36] =       Made by BigETI =
+[19:53:36] = Unloaded!            =
+[19:53:36] ========================
+[19:53:36] plugin.mysql: Unloading plugin...
+[19:53:36] plugin.mysql: Plugin unloaded.
+[19:53:36] 
+
+*** GVar Plugin v1.3 by Incognito unloaded ***
+
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:53:49] password = ""  (string)
+[19:53:49] 
+[19:53:49] Server Plugins
+[19:53:49] --------------
+[19:53:49]  Loading plugin: crashdetect
+[19:53:49]   CrashDetect plugin 4.19.4
+[19:53:49]   Loaded.
+[19:53:49]  Loading plugin: discord-connector
+[19:53:51]  >> plugin.dc-connector: v0.3.5 successfully loaded.
+[19:53:51]   Loaded.
+[19:53:51]  Loading plugin: sscanf
+[19:53:51] 
+
+[19:53:51]  ===============================
+
+[19:53:51]       sscanf plugin loaded.     
+
+[19:53:51]          Version:  2.8.3        
+
+[19:53:51]   (c) 2018 Alex "Y_Less" Cole  
+
+[19:53:51]  ===============================
+
+[19:53:51]   Loaded.
+[19:53:51]  Loading plugin: streamer
+[19:53:51] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[19:53:51]   Loaded.
+[19:53:51]  Loading plugin: CTime
+[19:53:51]   Failed.
+[19:53:51]  Loading plugin: pawncmd
+[19:53:51] [Pawn.CMD] plugin v3.3.3 by urShadow loaded
+[19:53:51]   Loaded.
+[19:53:51]  Loading plugin: pawn-memory
+[19:53:51] ========================
+[19:53:51] = Memory access plugin =
+[19:53:51] =       Made by BigETI =
+[19:53:51] = Loaded!              =
+[19:53:51] ========================
+[19:53:51]   Loaded.
+[19:53:51]  Loading plugin: mysql
+[19:53:51]  >> plugin.mysql: R41-4 successfully loaded.
+[19:53:51]   Loaded.
+[19:53:51]  Loading plugin: gvar
+[19:53:51] 
+
+*** GVar Plugin v1.3 by Incognito loaded ***
+
+[19:53:51]   Loaded.
+[19:53:51]  Loading plugin: samp-compat
+[19:53:51]   -- samp-compat for 0.3.7-R2 initialized
+[19:53:51]   Loaded.
+[19:53:51]  Loading plugin: native-checker
+[19:53:51]   Failed.
+[19:53:51]  Loaded 9 plugins.
+
+[19:53:51] 
+[19:53:51] Ban list
+[19:53:51] --------
+[19:53:51]  Loaded: samp.ban
+[19:53:51] 
+[19:53:51] 
+[19:53:51] Filterscripts
+[19:53:51] ---------------
+[19:53:51]   Loading filterscript 'Lift.amx'...
+[19:53:51]   Loading filterscript 'Buttons.amx'...
+[19:53:51]   Loading filterscript 'progressbar.amx'...
+[19:53:51]  
+[19:53:51]  
+[19:53:51]  
+[19:53:51]  ======================================= 
+[19:53:51]  |                                     | 
+[19:53:51]  |        YSI version 4.00.0001        | 
+[19:53:51]  |        By Alex "Y_Less" Cole        | 
+[19:53:51]  |                                     | 
+[19:53:51]  ======================================= 
+[19:53:51]  
+[19:53:51] 
+Progress Bar Editor loaded!
+[19:53:51] Use the /bar command to begin editing.
+
+[19:53:51]   Loading filterscript 'AC_Black_Diamond.amx'...
+[19:53:51] AC-Black Diamond v2.1.0 has been loaded! Anticheat callbacks will now work properly
+[19:53:51]   Loaded 4 filterscripts.
+
+[19:53:51]  
+[19:53:51]  
+[19:53:51]  
+[19:53:51]  ======================================= 
+[19:53:51]  |                                     | 
+[19:53:51]  |        YSI version 4.00.0001        | 
+[19:53:51]  |        By Alex "Y_Less" Cole        | 
+[19:53:51]  |                                     | 
+[19:53:51]  ======================================= 
+[19:53:51]  
+[19:53:54] [Pawn.CMD] PC_RegAlias: invalid unordered_map<K, T> key
+[19:53:54] [Pawn.CMD] PC_RegAlias: invalid unordered_map<K, T> key
+[19:53:54] [ADM] Info: Load 3DTryg v4.8.5 for SA:MP 0.3.7 by Abyss Morgan
+[19:53:54] [ADM] Info: Load EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[19:54:08] MySQL connection failed. Server is shutting down.
+[19:54:08] Number of vehicle models: 0
+[19:54:08] --- Server Shutting Down.
+[19:54:08] [ADM] Info: Unload 3DTryg v4.8.5 for SA:MP 0.3.7 by Abyss Morgan
+[19:54:08] [ADM] Info: Unload EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[19:54:08] [Gas Station]: 0 Saved.
+[19:54:08] [Farmer Plants]: 0 Saved.
+[19:54:08] Progress Bar Editor unloaded!
+[19:54:08] AC-Black Diamond has been unloaded! Anticheat callbacks will not work
+[19:54:08] plugin.dc-connector: Unloading plugin...
+[19:54:08] plugin.dc-connector: Plugin unloaded.
+[19:54:08] 
+
+[19:54:08]  ===============================
+
+[19:54:08]      sscanf plugin unloaded.    
+
+[19:54:08]  ===============================
+
+[19:54:08] 
+
+*** Streamer Plugin v2.9.5 by Incognito unloaded ***
+
+[19:54:08] [Pawn.CMD] plugin v3.3.3 by urShadow unloaded
+[19:54:08] ========================
+[19:54:08] = Memory access plugin =
+[19:54:08] =       Made by BigETI =
+[19:54:08] = Unloaded!            =
+[19:54:08] ========================
+[19:54:08] plugin.mysql: Unloading plugin...
+[19:54:08] plugin.mysql: Plugin unloaded.
+[19:54:08] 
+
+*** GVar Plugin v1.3 by Incognito unloaded ***
+
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:54:30] password = ""  (string)
+[19:54:30] 
+[19:54:30] Server Plugins
+[19:54:30] --------------
+[19:54:30]  Loading plugin: crashdetect
+[19:54:30]   CrashDetect plugin 4.19.4
+[19:54:30]   Loaded.
+[19:54:30]  Loading plugin: discord-connector
+[19:54:32]  >> plugin.dc-connector: v0.3.5 successfully loaded.
+[19:54:32]   Loaded.
+[19:54:32]  Loading plugin: sscanf
+[19:54:32] 
+
+[19:54:32]  ===============================
+
+[19:54:32]       sscanf plugin loaded.     
+
+[19:54:32]          Version:  2.8.3        
+
+[19:54:32]   (c) 2018 Alex "Y_Less" Cole  
+
+[19:54:32]  ===============================
+
+[19:54:32]   Loaded.
+[19:54:32]  Loading plugin: streamer
+[19:54:32] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[19:54:32]   Loaded.
+[19:54:32]  Loading plugin: CTime
+[19:54:32]   Failed.
+[19:54:32]  Loading plugin: pawncmd
+[19:54:32] [Pawn.CMD] plugin v3.3.3 by urShadow loaded
+[19:54:32]   Loaded.
+[19:54:32]  Loading plugin: pawn-memory
+[19:54:32] ========================
+[19:54:32] = Memory access plugin =
+[19:54:32] =       Made by BigETI =
+[19:54:32] = Loaded!              =
+[19:54:32] ========================
+[19:54:32]   Loaded.
+[19:54:32]  Loading plugin: mysql
+[19:54:32]  >> plugin.mysql: R41-4 successfully loaded.
+[19:54:32]   Loaded.
+[19:54:32]  Loading plugin: gvar
+[19:54:32] 
+
+*** GVar Plugin v1.3 by Incognito loaded ***
+
+[19:54:32]   Loaded.
+[19:54:32]  Loading plugin: samp-compat
+[19:54:32]   -- samp-compat for 0.3.7-R2 initialized
+[19:54:32]   Loaded.
+[19:54:32]  Loading plugin: native-checker
+[19:54:32]   Failed.
+[19:54:32]  Loaded 9 plugins.
+
+[19:54:32] 
+[19:54:32] Ban list
+[19:54:32] --------
+[19:54:32]  Loaded: samp.ban
+[19:54:32] 
+[19:54:32] 
+[19:54:32] Filterscripts
+[19:54:32] ---------------
+[19:54:32]   Loading filterscript 'Lift.amx'...
+[19:54:32]   Loading filterscript 'Buttons.amx'...
+[19:54:32]   Loading filterscript 'progressbar.amx'...
+[19:54:32]  
+[19:54:32]  
+[19:54:32]  
+[19:54:32]  ======================================= 
+[19:54:32]  |                                     | 
+[19:54:32]  |        YSI version 4.00.0001        | 
+[19:54:32]  |        By Alex "Y_Less" Cole        | 
+[19:54:32]  |                                     | 
+[19:54:32]  ======================================= 
+[19:54:32]  
+[19:54:32] 
+Progress Bar Editor loaded!
+[19:54:32] Use the /bar command to begin editing.
+
+[19:54:32]   Loading filterscript 'AC_Black_Diamond.amx'...
+[19:54:32] AC-Black Diamond v2.1.0 has been loaded! Anticheat callbacks will now work properly
+[19:54:32]   Loaded 4 filterscripts.
+
+[19:54:32]  
+[19:54:32]  
+[19:54:32]  
+[19:54:32]  ======================================= 
+[19:54:32]  |                                     | 
+[19:54:32]  |        YSI version 4.00.0001        | 
+[19:54:32]  |        By Alex "Y_Less" Cole        | 
+[19:54:32]  |                                     | 
+[19:54:32]  ======================================= 
+[19:54:32]  
+[19:54:35] [Pawn.CMD] PC_RegAlias: invalid unordered_map<K, T> key
+[19:54:35] [Pawn.CMD] PC_RegAlias: invalid unordered_map<K, T> key
+[19:54:35] [ADM] Info: Load 3DTryg v4.8.5 for SA:MP 0.3.7 by Abyss Morgan
+[19:54:35] [ADM] Info: Load EVF v3.3.3 for SA:MP 0.3.7 by Abyss Morgan
+[19:54:35] MySQL connection is successful.
+[19:54:35] EnableTirePopping() function is removed.
+[19:54:35] Debug: Bagian ini berhasil dijalankan.
+[19:54:35] [debug] Run time error 4: "Array index out of bounds"
+[19:54:35] [debug]  Attempted to read/write array element at index 1860096 in array of size 75
+[19:54:35] [debug] AMX backtrace:
+[19:54:35] [debug] #0 0060cb4c in public GEOLITE_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\gamemodes\GM.pwn:1623
+[19:54:35] [debug] #1 000665f8 in public SSCANF_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\geoiplite.inc:125
+[19:54:35] [debug] #2 0005f848 in public EVF_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\sscanf2.inc:211
+[19:54:35] [debug] #3 00058a04 in public T3DV4_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\EVF2.inc:3580
+[19:54:35] [debug] #4 00048664 in public SM_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\3DTryg.inc:4767
+[19:54:35] [debug] #5 00045928 in public PawnCmd_OnGameModeInit () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\selection.inc:293
+[19:54:35] [debug] #6 000421f0 in public ScriptInit_OnGameModeInit ()  at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\Pawn.CMD.inc:127
+[19:54:35] [debug] #7 00000f08 in public OnPlayerDeath () at E:\A KERJAAN\SERVER CERITA KITA (BY JAVA KEYMOND DEVELOP)\GAMEMODE OPERATING\NEGERIKU ORIGINAL\pawno\include\YSI_Data\..\YSI_Internal\..\YSI_Core\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237
+[19:54:35] Number of vehicle models: 6
+[19:54:37] [Server] Loaded Data Server...
+[19:54:37] [Server] 1445237668 Server Money
+[19:54:37] [Doors]: 42 Loaded.
+[19:54:37] [Business]: 4 Loaded.
+[19:54:37] [Lockers]: 8 Loaded.
+[19:54:37] [Gas Station]: 8 Loaded.
+[19:54:37] [ATM]: 24 Loaded.
+[19:54:37] [Gate]: 16 Loaded.
+[19:54:37] [Trees]: 31 Loaded.
+[19:54:37] [Ore]: 49 Loaded.
+[19:54:37] [Farmer Plants]: 1 Loaded.
+[19:54:37] [Garkot]: 6 Loaded.
+[19:54:37] [SpeedCam]: 3 Loaded.
+[19:54:37] [Actor]: 4 Loaded.
+[19:56:24] [connection] 192.168.138.102:62733 requests connection cookie.
+[19:56:25] [connection] incoming connection: 192.168.138.102:62733 id: 0
+[19:56:25] [join] Alok has joined the server (0:192.168.138.102)
+[19:56:25] [DEBUG] Player 0 connected.
+[19:56:25] [DEBUG] OnPlayerDataLoaded dipanggil untuk Player 0
+[19:56:38] [OnDialogResponse]: Alok(0) has used dialog id: 4 Listitem: -1
+[19:56:38] [LOGIN] Alok(0) berhasil login dengan password(200814)
+[19:56:39] [OnDialogResponse]: Alok(0) has used dialog id: 1 Listitem: 0
+[19:56:39] [nick] Alok nick changed to Javier_Cooper
+[19:56:39] Kendaraan Loaded: Javier_Cooper(0)
+[19:57:07] [OnDialogResponse]: Alok(0) has used dialog id: 1568 Listitem: 0
+[19:57:09] [OnDialogResponse]: Alok(0) has used dialog id: 1034 Listitem: 1
+[19:57:10] [connection] 192.168.138.117:47087 requests connection cookie.
+[19:57:10] [connection] incoming connection: 192.168.138.117:47087 id: 1
+[19:57:11] [join] Alok has joined the server (1:192.168.138.117)
+[19:57:11] [DEBUG] Player 1 connected.
+[19:57:11] [DEBUG] OnPlayerDataLoaded dipanggil untuk Player 1
+[19:57:35] [CMD] Javier Cooper: [removeatm] [7]
+[19:57:45] [OnDialogResponse]: Alok(1) has used dialog id: 4 Listitem: -1
+[19:57:45] [LOGIN] Alok(1) berhasil login dengan password(200814)
+[19:57:45] [part] Alok has left the server (1:2)
+[19:58:33] [nick] Javier_Cooper nick changed to Alok
+[19:58:33] [part] Alok has left the server (0:1)
+[19:59:18] [connection] 192.168.138.117:34577 requests connection cookie.
+[19:59:18] [connection] incoming connection: 192.168.138.117:34577 id: 0
+[19:59:19] [join] Alok has joined the server (0:192.168.138.117)
+[19:59:19] [DEBUG] Player 0 connected.
+[19:59:19] [DEBUG] OnPlayerDataLoaded dipanggil untuk Player 0
+[19:59:40] [OnDialogResponse]: Alok(0) has used dialog id: 4 Listitem: -1
+[19:59:40] [LOGIN] Alok(0) berhasil login dengan password(200814)
+[19:59:42] [OnDialogResponse]: Alok(0) has used dialog id: 1 Listitem: 1
+[19:59:42] [nick] Alok nick changed to Jancok_Puki
+[20:01:29] [OnDialogResponse]: Alok(0) has used dialog id: 1568 Listitem: 1
+[20:01:32] [OnDialogResponse]: Alok(0) has used dialog id: 3 Listitem: 0
+[20:01:51] [CMD] Jancok Puki: [give] []
+[20:01:58] [connection] 192.168.138.102:55519 requests connection cookie.
+[20:01:59] [connection] incoming connection: 192.168.138.102:55519 id: 1
+[20:01:59] [join] Alok has joined the server (1:192.168.138.102)
+[20:01:59] [DEBUG] Player 1 connected.
+[20:01:59] [DEBUG] OnPlayerDataLoaded dipanggil untuk Player 1
+[20:02:17] [OnDialogResponse]: Alok(1) has used dialog id: 4 Listitem: -1
+[20:02:17] [LOGIN] Alok(1) berhasil login dengan password(200814)
+[20:02:17] [part] Alok has left the server (1:2)
+[20:03:29] [chat] [Jancok_Puki]: wkkw
+[20:03:29] [CHAT] Jancok Puki: wkkw
+[20:03:47] [nick] Jancok_Puki nick changed to Alok
+[20:03:47] [part] Alok has left the server (0:0)

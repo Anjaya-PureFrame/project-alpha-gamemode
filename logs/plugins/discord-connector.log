@@ -6782,3 +6782,19 @@
 [09/04/26 02:34:15] [ERROR] Error while retrieving HTTP POST response from '/api/v8/channels/1542187539194978374/messages': end of stream
 [09/04/26 03:06:58] [ERROR] Error while retrieving HTTP POST response from '/api/v8/channels/1542187539194978374/messages': end of stream
 [09/04/26 04:03:16] [ERROR] Error while retrieving HTTP POST response from '/api/v8/channels/1542187539194978374/messages': end of stream
+[09/04/26 04:07:42] [ERROR] DCC_IsUserBot: invalid user id '0'
+[09/04/26 19:53:35] [ERROR] Can't write to Discord websocket gateway: The I/O operation has been aborted because of either a thread exit or an application request (995)
+[09/04/26 19:54:08] [ERROR] Can't write to Discord websocket gateway: The I/O operation has been aborted because of either a thread exit or an application request (995)
+[09/04/26 19:55:02] [WARNING] Unknown gateway event 'GUILD_AUDIT_LOG_ENTRY_CREATE'
+[09/04/26 19:55:12] [WARNING] Unknown gateway event 'GUILD_AUDIT_LOG_ENTRY_CREATE'
+[09/04/26 19:56:26] [WARNING] Unknown gateway event 'GUILD_AUDIT_LOG_ENTRY_CREATE'
+[09/04/26 20:00:26] [WARNING] Unknown gateway event 'GUILD_AUDIT_LOG_ENTRY_CREATE'
+[09/04/26 20:00:47] [WARNING] Unknown gateway event 'GUILD_AUDIT_LOG_ENTRY_CREATE'
+[09/04/26 20:16:50] [WARNING] Unknown gateway event 'INTERACTION_CREATE'
+[09/04/26 20:18:07] [WARNING] Unknown gateway event 'INTERACTION_CREATE'
+[09/04/26 20:18:13] [WARNING] Unknown gateway event 'INTERACTION_CREATE'
+[09/04/26 20:18:13] [WARNING] Unknown gateway event 'GUILD_AUDIT_LOG_ENTRY_CREATE'
+[09/04/26 20:19:15] [WARNING] Unknown gateway event 'INTERACTION_CREATE'
+[09/04/26 20:19:20] [WARNING] Unknown gateway event 'INTERACTION_CREATE'
+[09/04/26 20:36:57] [WARNING] Unknown gateway event 'INTERACTION_CREATE'
+[09/04/26 20:37:00] [WARNING] Unknown gateway event 'INTERACTION_CREATE'

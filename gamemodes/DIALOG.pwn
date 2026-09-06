@@ -79,6 +79,11 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 
 			SetSpawnInfo(playerid, NO_TEAM, pData[playerid][pSkin], pData[playerid][pPosX], pData[playerid][pPosY], pData[playerid][pPosZ], pData[playerid][pPosA], 0, 0, 0, 0, 0, 0);
 			SpawnPlayer(playerid);*/
+			if(IsUCPLoggedInElsewhere(playerid))
+			{
+				ShowPlayerDialog(playerid, DIALOG_UNUSED, DIALOG_STYLE_MSGBOX, "Login", "Akun UCP ini sedang digunakan oleh player lain.\nSilahkan coba beberapa saat lagi atau hubungi admin.", "Tutup", "");
+				return KickEx(playerid);
+			}
 		}
 		else
 		{

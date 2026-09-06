@@ -423,11 +423,8 @@ function CekNamaDobelJing(playerid, name[])
 	}
 }
 
-
 function OnPlayerRegister(playerid)
 {
-	// di CekNamaDobelJing, sebelum insert
-	printf("DEBUG: mau insert nama=%s ucp=%s", GetName(playerid));
 	if(pData[playerid][IsLoggedIn] == true)
 		return Error(playerid, "You already logged in!");
 		
@@ -459,17 +456,14 @@ function OnPlayerRegister(playerid)
 	pData[playerid][pLFoot] = 100;
 	pData[playerid][pRFoot] = 100;
 
-	/*new rand = RandomEx(111111, 999999);
-	new rek = rand+pData[playerid][pID];
-	pData[playerid][pBankRek] = rek;*/
-	
 	new query[128], rand = RandomEx(111111, 999999);
 	new rek = rand+pData[playerid][pID];
 	mysql_format(g_SQL, query, sizeof(query), "SELECT brek FROM players WHERE brek='%d'", rek);
 	mysql_tquery(g_SQL, query, "BankRek", "id", playerid, rek);
-	
+
 	SetSpawnInfo(playerid, NO_TEAM, 0, pData[playerid][pPosX], pData[playerid][pPosY], pData[playerid][pPosZ], pData[playerid][pPosA], 0, 0, 0, 0, 0, 0);
 	SpawnPlayer(playerid);
+
 	return 1;
 }
 

@@ -463,12 +463,12 @@ new up_days,
 #define INVALID_TIMER -1
 new RandomMessages[][] = {
     "{FF0000}Asisten Kota : {FFFF00}Gunakan /starterpack Jika anda warga baru,itu akan sangat menolong anda.",
-    "{FF0000}Asisten Kota : {FFFF00}Kota ini di desain mengikuti gaya klasik dengan sedikit textdraw.",
+    "{FF0000}Asisten Kota : {FFFF00}Kota ini di desain mengikuti gaya klasik dengan sedikit nuansa lokal.",
     "{FF0000}Asisten Kota : {FFFF00}Nganggur? Ayo Kunjungi Pusnaker Kota Garudaku untuk mencari sesuatu yang bisa kamu kerjakan.",
     "{FF0000}Asisten Kota : {FFFF00}Terkadang Pekerjaan dengan gaji besar biasanya menawarkan resiko yang besar juga, jangan terlena dengan kekayaan.",
     "{FF0000}Asisten Kota : {FFFF00}Kamu bisa sakit jika Telat makan dan minum, usahakan makan minum tepat waktu.",
 	"{FF0000}Asisten Kota : {FFFF00}Sesekali gunakan waktumu untuk sesuatu yang lebih berguna, Karena Waktumu bukan sesuatu yang bisa dibeli.",
-	"{FF0000}Asisten Kota : {FFFF00}Tidak menemukan teman? join klub legal di kota atau detail nya bisa kamu baca di web.",
+	"{FF0000}Asisten Kota : {FFFF00}Tidak menemukan teman? join klub di kota dan temukan teman.",
 	"{FF0000}Asisten Kota : {FFFF00}Hunter Quarry dulunya tempat tambang terbesar di Garudaku, setelah mineral disana habis, mineral baru ditemukan di tempat lain.",
 	"{FF0000}Asisten Kota : {FFFF00}Sempat berfikir apa kegiatan yang paling menyenangkan untuk dilakukan?, coba dakilah Mount Chilliad dan ungkap misteri besar disana."
 };
@@ -2511,6 +2511,7 @@ public OnPlayerDisconnect(playerid, reason)
 	pData[playerid][pDriveLicApp] = 0;
 	pData[playerid][pSpawnList] = 0;
 	takingselfie[playerid] = 0;
+	pData[playerid][IsLoggedIn] = false;
 	//KillTimer(Unload_Timer[playerid]);
 	
 	if(IsPlayerInAnyVehicle(playerid))
@@ -7040,6 +7041,30 @@ stock RefreshPSkin(playerid)
 	PlayerTextDrawSetPreviewModel(playerid, PSkinStats[playerid], GetPlayerSkin(playerid));
 	PlayerTextDrawShow(playerid, PSkinStats[playerid]);
     return 1;
+}
+
+//-----------[PENGECEKAN UCP]---------------//
+stock IsUCPLoggedInElsewhere(playerid)
+{
+    for(new i = 0; i < MAX_PLAYERS; i++)
+    {
+        if(i == playerid) continue;
+        if(!IsPlayerConnected(i)) continue;
+        if(!pData[i][IsLoggedIn]) continue;
+		printf("[DEBUG] cek slot %d - IsLoggedIn: %d - UCP: %s", i, pData[i][IsLoggedIn], pData[i][pUCP]);
+
+        if(strcmp(pData[i][pUCP], pData[playerid][pUCP], true) == 0)
+        {
+            return 1; // UCP yang sama lagi dipake orang lain
+        }
+    }
+    return 0;
+}
+
+public OnQueryError(errorid, const error[], const callback[], const query[], MySQL:handle)
+{
+	printf("[MYSQL ERROR] id: %d | error: %s | callback: %s | query: %s", errorid, error, callback, query);
+	return 1;
 }
 
 public OnPlayerSelectionMenuResponse(playerid, extraid, response, listitem, modelid)
